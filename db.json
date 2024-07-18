@@ -1,0 +1,82 @@
+[
+  {
+    "ref": "bf24beeb-fb34-403a-bfed-6997eee1a880",
+    "keyword": "fcc466eb20e8fcebec13b6704972cbe3",
+    "answer": "que clinicas tengo disponible en 9 de Julio",
+    "options": {},
+    "from": "5493487612943",
+    "refSerialize": "7aa4c206ea8fe44b08318fdb463372c9"
+  },
+  {
+    "ref": "ans_9cca5371-0f21-4020-b2c9-3e092a1c00ed",
+    "keyword": "key_92fc7c20-a2b5-4afa-bf4a-380d2442df05",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "793b5c8b3eac4321034fcc62f2a3ad7d",
+    "from": "543487612943"
+  },
+  {
+    "ref": "97d1a7bc-3e4b-435c-bac1-220326f091fe",
+    "keyword": null,
+    "answer": "¡Hola! Para poder ayudarte a encontrar las clínicas disponibles en 9 de Julio, necesito algunos datos adicionales:\n\n1. ¿Cuál es tu plan de salud? (Por ejemplo, SC50, SC100, SC150, etc.)\n2. ¿Estás buscando algún tipo de especialista en particular o cualquier clínica?\n\nPor favor, proporcióname esta información para poder darte una respuesta precisa.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "543487612943",
+    "refSerialize": "416df36b5386c4c8fb78a334215cae70"
+  },
+  {
+    "ref": "ddf15457-dd5b-4a64-ae36-67a87e215b55",
+    "keyword": "7aa4c206ea8fe44b08318fdb463372c9",
+    "answer": "SC250 una clinica",
+    "options": {},
+    "from": "5493487612943",
+    "refSerialize": "2edde80fb57942d1fa259d7e8d262da2"
+  },
+  {
+    "ref": "ans_9cca5371-0f21-4020-b2c9-3e092a1c00ed",
+    "keyword": "key_92fc7c20-a2b5-4afa-bf4a-380d2442df05",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "793b5c8b3eac4321034fcc62f2a3ad7d",
+    "from": "543487612943"
+  },
+  {
+    "ref": "889bfd81-ef80-4855-8737-4434feaee7da",
+    "keyword": null,
+    "answer": "En 9 de Julio, tienes disponible la siguiente clínica con tu plan SC250:\n\n*Clínica Independencia*\n- *Dirección:* Irigoyen 1068, 9 de Julio\n- *Teléfono:* 02317-431038\n- *Mapa:* [Ver en Google Maps](https://www.google.com/maps?q=-34.6098292,-58.3816629&hl=es&z=15)\n\nSi necesitas más información o alguna otra clínica, no dudes en decírmelo. ¡Estoy aquí para ayudarte!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "543487612943",
+    "refSerialize": "99176bd3364b8720cc66453f4ab77d19"
+  }
+]
