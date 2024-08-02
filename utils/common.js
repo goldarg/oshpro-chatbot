@@ -22,6 +22,13 @@ const dateIsValid = (dateStr) => {
   return date.toISOString().startsWith(isoFormattedStr);
 };
 
+const transformDateToIso = (dateStr) => {
+  if (dateIsValid(dateStr) === false) return null;
+  const [day, month, year] = dateStr.split("/");
+  const isoFormattedStr = `${year}-${month}-${day}`;
+  return isoFormattedStr;
+};
+
 const afiliadoIsValid = (n) => n.length === 13;
 
 const fileSizeIsValid = (size) => size <= 5 * 1024 * 1024;
@@ -35,6 +42,7 @@ const extractMediaIdFromUrl = (url) => {
   if (match === null) return null;
   return match[0];
 };
+
 module.exports = {
   delay,
   dateIsValid,
@@ -42,4 +50,5 @@ module.exports = {
   fileSizeIsValid,
   fileTypeIsValid,
   extractMediaIdFromUrl,
+  transformDateToIso,
 };
