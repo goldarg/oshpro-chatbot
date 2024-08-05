@@ -91,7 +91,7 @@ const replaceAll = (str, find, replace) => {
   return str.replace(new RegExp(escapeRegExp(find), "g"), replace);
 };
 
-const Assistant = new AssistantChat("asst_0VVKUI4GnoBG1ayaLNIhEt0n", functions);
+const Assistant = new AssistantChat(process.env.ASSISTANT_ID, functions);
 
 const flowGPT = addKeyword(EVENTS.WELCOME).addAction(async (ctx, ctxFn) => {
   console.log(ctx);
