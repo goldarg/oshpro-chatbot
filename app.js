@@ -119,7 +119,7 @@ const main = async () => {
   const adapterFlow = createFlow([flowGPT, flowImages]);
   const adapterProvider = createProvider(MetaProvider, {
     jwtToken: process.env.META_TOKEN,
-    numberId: "400724729783276",
+    numberId: process.env.TEST_NUMBER_ID,
     verifyToken: "holamundo",
     version: process.env.META_VERSION,
   });
