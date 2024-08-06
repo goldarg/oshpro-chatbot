@@ -91,7 +91,7 @@ const replaceAll = (str, find, replace) => {
   return str.replace(new RegExp(escapeRegExp(find), "g"), replace);
 };
 
-const Assistant = new AssistantChat("asst_heB4gZqYuxO307YdFXYY2jmL", functions);
+const Assistant = new AssistantChat(process.env.ASSISTANT_ID, functions);
 
 const flowGPT = addKeyword(EVENTS.WELCOME).addAction(async (ctx, ctxFn) => {
   console.log(ctx);
@@ -119,7 +119,7 @@ const main = async () => {
   const adapterFlow = createFlow([flowGPT, flowImages]);
   const adapterProvider = createProvider(MetaProvider, {
     jwtToken: process.env.META_TOKEN,
-    numberId: "125442100644585",
+    numberId: process.env.TEST_NUMBER_ID,
     verifyToken: "holamundo",
     version: process.env.META_VERSION,
   });

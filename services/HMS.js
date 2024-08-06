@@ -1,43 +1,21 @@
 const { delay } = require("../utils/common");
 const axios = require("axios");
 const https = require("https");
-const forge = require("node-forge");
-const { sha3_512 } = require("js-sha3");
+const { encryptRSA, decryptRSA, encryptSHA3 } = require("../utils/crypto");
+const { transformDateToIso } = require("../utils/common");
+const { socialPlans } = require("../utils/constants");
 
-const encryptSHA3 = async (data) => {
-  // Encriptar los datos usando SHA3-512
-  const hashHex = sha3_512(data);
-
-  return hashHex;
-};
-
-const encryptRSA = async (publicKeyPem, data) => {
-  // Convertir la clave pública PEM a un objeto de clave pública
-  const publicKey = forge.pki.publicKeyFromPem(publicKeyPem);
-
-  // Encriptar los datos usando OAEP con SHA-1 y MGF1
-  const encryptedData = publicKey.encrypt(data, "RSA-OAEP", {
-    md: forge.md.sha1.create(),
-    mgf1: {
-      md: forge.md.sha1.create(),
-    },
-  });
-
-  // Convertir los datos encriptados a una cadena en base64
-  const encryptedBase64 = forge.util.encode64(encryptedData);
-
-  return encryptedBase64;
-};
+const publicKey = `-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwFt0gwidIq1VL0f4KOMZghS0Nq6a4leajz7AQjNK/J3ILdf0k840afihFami0qXQ90W3qZ3qnxbHwb6ugXSMT4iMxMjHTwmBMGteK46Hr/4J3CR6npSV8sFNHr5Cbc3s95SVBNJB0O4uv6Nrl4nMJ5gjX6DlO0bojAvqB6TZ4l40SZiSLJ+ZPEGlyqzf/5utMZIBwxgBSd/5GgtfwlSnBA49zZeLoetktNVWYKAczFm3ThYZZVBUg5iyYJRjh+VfzkOPt50bF2TxXGv73eoHJ9nLPCtRxef1h4x5aJkWgfisrvvtOyigVDVrgaDgADdr0XAJAsEbTcHDxURvO9v1RwIDAQAB
+-----END PUBLIC KEY-----`; //your public key
 
 const login = async (params) => {
   const { email, password } = params;
-  var publicKey = `-----BEGIN PUBLIC KEY-----
-MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwFt0gwidIq1VL0f4KOMZghS0Nq6a4leajz7AQjNK/J3ILdf0k840afihFami0qXQ90W3qZ3qnxbHwb6ugXSMT4iMxMjHTwmBMGteK46Hr/4J3CR6npSV8sFNHr5Cbc3s95SVBNJB0O4uv6Nrl4nMJ5gjX6DlO0bojAvqB6TZ4l40SZiSLJ+ZPEGlyqzf/5utMZIBwxgBSd/5GgtfwlSnBA49zZeLoetktNVWYKAczFm3ThYZZVBUg5iyYJRjh+VfzkOPt50bF2TxXGv73eoHJ9nLPCtRxef1h4x5aJkWgfisrvvtOyigVDVrgaDgADdr0XAJAsEbTcHDxURvO9v1RwIDAQAB
------END PUBLIC KEY-----`; //your public key
   const encryptedEmail = await encryptRSA(publicKey, email);
   const encryptedPassword = await encryptSHA3(password);
   console.debug(encryptedEmail);
   console.debug(encryptedPassword);
+
   try {
     const baseUrl = `http://osiris.hms-tech.com:10100`;
 
@@ -67,17 +45,12 @@ MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwFt0gwidIq1VL0f4KOMZghS0Nq6a4leajz7A
       `/api/auth2/domain/hms/environment/test/authenticate/identifier?apikey=kO2Ntii7I7d8SzxnYZGsckNmTUZAdZ1b`,
       data
     );
-    //console.log("REQUEST:", response.request);
-    //console.log("Datos recibidos:", response.data);
-    console.debug(response.data);
-    return response.data;
+
+    return await transformApiResponse(response);
   } catch (error) {
     console.error("Error al realizar la solicitud:", error);
     return error;
   }
-
-  console.debug(encrypted);
-  return encrypted.toString("base64");
 };
 
 const Consulta_Cartilla = async (params) => {
@@ -115,6 +88,57 @@ const Consulta_Cartilla = async (params) => {
     console.error("Error al realizar la solicitud:", error);
     return error;
   }
+};
+
+const transformApiResponse = async (response) => {
+  const {
+    data: { person },
+  } = response;
+
+  const dniEncrypted = person.document_ids.find((x) => x.type === "DNI").value;
+  const dni = (await decryptRSA(publicKey, dniEncrypted)).toString("utf8");
+  const fechaDeCumpleanios = person.birth_date;
+  const fechaDeCumpleaniosValida = transformDateToIso(fechaDeCumpleanios);
+  const nombre = person.first_name;
+  const apellido = person.last_name;
+  const emailsEncrypted = person.emails.map((x) => x.value);
+  const emails = await Promise.all(
+    emailsEncrypted.map((email) =>
+      decryptRSA(publicKey, email).then((x) => x.toString("utf8"))
+    )
+  );
+
+  const cuilEncrypted = person.document_ids.find(
+    (x) => x.type === "CUIT/CUIL"
+  ).value;
+
+  const cuil = (await decryptRSA(publicKey, cuilEncrypted)).toString("utf8");
+
+  const perfiles = person.profiles.map((x) => x.name);
+
+  const planes = perfiles
+    .map((x) => x.match(/^([^@]+)/)?.[0])
+    .filter((x) =>
+      socialPlans.map((x) => x.toLowerCase()).includes(x.toLowerCase())
+    )
+    .map((x) => x.toUpperCase());
+
+  // hay mas de uno ... con cual me quedo ? por ahora me quedo con el primero
+  const idAfiliadoEncrypted = person.external_ids[0].value;
+  const idAfiliado = (
+    await decryptRSA(publicKey, idAfiliadoEncrypted)
+  ).toString("utf8");
+
+  return {
+    dni,
+    fechaDeCumpleanios: fechaDeCumpleaniosValida,
+    nombre,
+    apellido,
+    emails,
+    cuil,
+    planes,
+    idAfiliado,
+  };
 };
 
 module.exports = {
