@@ -1,4 +1,4 @@
-const { addKeyword, EVENTS } = require("@bot-whatsapp/bot");
+const { addKeyword, EVENTS } = require("@bot-whatsapp-custom/bot");
 const { Integrantes } = require("../services/Vtiger");
 const { delay } = require("../utils/common");
 const emoticones = {

@@ -5,7 +5,7 @@ const afiliados = {
   },
 };
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-const { addKeyword } = require("@bot-whatsapp/bot");
+const { addKeyword } = require("@bot-whatsapp-custom/bot");
 module.exports = (initFlow) =>
   addKeyword("autorizaciones")
     .addAction((ctx, { state }) => {

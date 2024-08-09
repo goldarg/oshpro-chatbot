@@ -1,6 +1,10 @@
 require("dotenv").config();
 const { delay } = require("./utils/common");
 const OpenAI = require("openai");
+const fs = require("fs");
+const path = require("path");
+const { URL, URLSearchParams } = require('url');
+
 class AssistantChat {
   chatPool = {};
   assistant_id = "";
@@ -26,6 +30,17 @@ class AssistantChat {
     }
   };
 
+  convertImageToBase64 = async (filePath) => {
+    return new Promise((resolve, reject) => {
+      fs.readFile(filePath, { encoding: "base64" }, (err, data) => {
+        if (err) {
+          return reject(err);
+        }
+        resolve(data);
+      });
+    });
+  };
+
   sendMessage = async (phoneNumber, msg, filename = "") => {
     const isImage = filename == "" ? false : true;
     if (this.running) return;
@@ -34,15 +49,27 @@ class AssistantChat {
     try {
       thread = await this.getThread(phoneNumber);
       //console.log(thread);
-      const message = await this.openai.beta.threads.messages.create(
-        thread.id,
-        {
+
+      let message = undefined;
+      if (isImage) {
+        const urlDownloads = new URL(process.env.SERVER_URL + "/downloads/" + filename);
+
+        const urlStr = urlDownloads.toString();
+
+        message = await this.openai.beta.threads.messages.create(thread.id, {
+          role: "user",
+          content: [
+            { type: "image_url", image_url: { url: urlStr, detail: "auto" } },
+          ],
+        });
+      } else {
+        message = await this.openai.beta.threads.messages.create(thread.id, {
           role: "user",
           content: isImage
-            ? `Informacion solicidatada ${msg} \n {imagen: "${filename}"}`
+            ? `Informacion solicitada ${msg} \n {imagen: "${filename}"}`
             : msg,
-        }
-      );
+        });
+      }
 
       let run = await this.openai.beta.threads.runs.create(thread.id, {
         assistant_id: this.assistant_id,

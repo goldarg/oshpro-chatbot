@@ -1,8 +1,8 @@
-const { addKeyword, EVENTS } = require("@bot-whatsapp/bot");
+const { addKeyword, EVENTS } = require("@bot-whatsapp-custom/bot");
 const ChatGPTClass = require("../chatgpt.class");
 const { delay } = require("../utils/common");
 
-let prompt = `Actúa como una agente que trabaja en para SCIS medicina prepaga tu nombre es Matias es importante que te presentes y menciones tu nombre. {saludo}. 
+let prompt = `Actúa como una agente que trabaja en para SCIS medicina prepaga tu nombre es Matias es importante que te presentes y menciones tu nombre. {saludo}.
 El problema del usuario es: {problema}. Debes decirle amablemente que lo ayudaras y para ello necesitas algunos datos para consultar la cartilla. Ve paso a paso garantizando que el usuario te toda la informacion.
 Necesitas solicitar:
 La provincia, la ciudad, la Seccion (profesionales, hospitales, clinicas, farmacias, Servicio de guardia 24hs). En caso que te haya especificado profesionales debes solicitar la especialidad.
