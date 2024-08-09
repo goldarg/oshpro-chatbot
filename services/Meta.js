@@ -38,10 +38,13 @@ const downloadMedia = async (url, filename) => {
   });
   const fileExtension = mime.extension(response.headers.get("content-type"));
   const buffer = await response.buffer();
+  const pathFile = filename + "." + fileExtension;
   await writeFile(
-    path.join("downloads/", filename + "." + fileExtension),
+    path.join("downloads/", pathFile),
     buffer
   );
+
+  return pathFile;
 };
 
 module.exports = {

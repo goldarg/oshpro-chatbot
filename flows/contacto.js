@@ -1,8 +1,8 @@
-const { addKeyword, EVENTS } = require("@bot-whatsapp/bot");
+const { addKeyword, EVENTS } = require("@bot-whatsapp-custom/bot");
 const ChatGPTClass = require("../chatgpt.class");
 const { delay } = require("../utils/common");
 
-let prompt = `Actúa como una agente que trabaja en para SCIS medicina prepaga tu nombre es Matias es importante que te presentes y menciones tu nombre. {saludo}. 
+let prompt = `Actúa como una agente que trabaja en para SCIS medicina prepaga tu nombre es Matias es importante que te presentes y menciones tu nombre. {saludo}.
 El problema del usuario es: {problema}. Debes decirle amablemente que lo ayudaras con su consulta.
 **Datos de Contacto de la empresa** : URGENCIAS Y EMERGENCIAS 0810-345-SCIS (7247) || Atención al Socio (11) 5246-1600 || info@scis.com.ar`;
 

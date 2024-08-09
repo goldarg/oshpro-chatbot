@@ -4,16 +4,23 @@ const {
   createFlow,
   addKeyword,
   EVENTS,
-} = require("@bot-whatsapp/bot");
+} = require("@bot-whatsapp-custom/bot");
 
 const { downloadMedia } = require("./services/Meta");
 const medicamentos = require("./Archivos/Medicamentos.json");
 const { init } = require("bot-ws-plugin-openai");
-const MetaProvider = require("@bot-whatsapp/provider/meta");
 const JsonFileAdapter = require("@bot-whatsapp/database/json");
 const ChatGPTClass = require("./chatgpt.class");
 const AssistantChat = require("./openai.class");
 const { Consulta_Cartilla, login } = require("./services/HMS");
+const {
+  solicitarAutorizacionPlanMaternoInfantil,
+  solicitarAutorizacionEstudiosYPracticas,
+  solicitarAutorizacionMedicacionEspecial,
+  solicitarAutorizacionInternacionesYCirugias,
+  solicitarAutorizacionTrasladosMedicos,
+} = require("./services/Vtiger");
+const MetaProvider = require("@bot-whatsapp-custom/provider/meta");
 const normalizeString = (str) => {
   return str
     .normalize("NFD")
@@ -61,7 +68,14 @@ const consulta_medicamentos = async (params) => {
 
 const functions = {
   Identidad_Informacion_Usuario: login,
-  Autorizar_Plan_Materno_Infantil: async () => "Autorizado nro 123456",
+  Solicitar_Autorizacion_Plan_Materno_Infantil:
+    solicitarAutorizacionPlanMaternoInfantil,
+  Solicitar_Autorizacion_Estudios_Y_Practicas_en_Ambulatorio:
+    solicitarAutorizacionEstudiosYPracticas,
+  Solicitar_Autorizacion_Medicacion_Especial:
+    solicitarAutorizacionMedicacionEspecial,
+  Solicitar_Autorizacion_Internaciones_Y_O_Cirugias_Programadas: solicitarAutorizacionInternacionesYCirugias,
+  Solicitar_Autorizacion_Traslados_Medicos: solicitarAutorizacionTrasladosMedicos,
   get_list_grupo_familiar: list_familiar_group,
   list_sales_plans: async () => {
     return {
@@ -102,13 +116,12 @@ const flowGPT = addKeyword(EVENTS.WELCOME).addAction(async (ctx, ctxFn) => {
 const flowImages = addKeyword(EVENTS.MEDIA, EVENTS.DOCUMENT).addAction(
   async (ctx, ctxFn) => {
     console.log(JSON.stringify(ctx));
-    await downloadMedia(ctx.url, ctx.body);
+    const pathFile = await downloadMedia(ctx.url, ctx.body);
     const response = await Assistant.sendMessage(
       ctx.from,
       ctx.caption,
-      ctx.body
+      pathFile
     );
-    await ctxFn.flowDynamic("gracias por la receta");
     await ctxFn.flowDynamic(response);
   }
 );
@@ -117,10 +130,11 @@ const main = async () => {
   const adapterDB = new JsonFileAdapter();
 
   const adapterFlow = createFlow([flowGPT, flowImages]);
+
   const adapterProvider = createProvider(MetaProvider, {
     jwtToken: process.env.META_TOKEN,
     numberId: process.env.TEST_NUMBER_ID,
-    verifyToken: "holamundo",
+    verifyToken: process.env.VERIFY_TOKEN,
     version: process.env.META_VERSION,
   });
 

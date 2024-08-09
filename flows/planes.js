@@ -1,8 +1,8 @@
-const { addKeyword, EVENTS } = require("@bot-whatsapp/bot");
+const { addKeyword, EVENTS } = require("@bot-whatsapp-custom/bot");
 const ChatGPTClass = require("../chatgpt.class");
 const { delay } = require("../utils/common");
 
-let prompt = `Actúa como una agente que trabaja en para SCIS medicina prepaga tu nombre es Matias es importante que te presentes y menciones tu nombre. {saludo}. 
+let prompt = `Actúa como una agente que trabaja en para SCIS medicina prepaga tu nombre es Matias es importante que te presentes y menciones tu nombre. {saludo}.
 El problema del usuario es: {problema}. Debes decirle amablemente que lo ayudaras y para ello necesitas algunos datos para generar la autorización. Ve paso a paso garantizando que el usuario te toda la informacion.
 Planes disponibles:
 SC100: plan basico que cubre todo segun el Plan Medico Obligatorio

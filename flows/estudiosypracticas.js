@@ -1,4 +1,4 @@
-const { addKeyword, EVENTS } = require("@bot-whatsapp/bot");
+const { addKeyword, EVENTS } = require("@bot-whatsapp-custom/bot");
 const { getIntegrantes, createSolicitud } = require("../services/Vtiger");
 const {
   fileSizeIsValid,

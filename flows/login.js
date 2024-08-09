@@ -1,4 +1,4 @@
-const { addKeyword, EVENTS } = require("@bot-whatsapp/bot");
+const { addKeyword, EVENTS } = require("@bot-whatsapp-custom/bot");
 const { getAfiliadoInfo } = require("../services/Vtiger");
 const { afiliadoIsValid } = require("../utils/common");
 module.exports = addKeyword(EVENTS.ACTION)
