@@ -3,7 +3,7 @@ const { delay } = require("./utils/common");
 const OpenAI = require("openai");
 const fs = require("fs");
 const path = require("path");
-const { URL, URLSearchParams } = require('url');
+const { URL, URLSearchParams } = require("url");
 
 class AssistantChat {
   chatPool = {};
@@ -30,17 +30,6 @@ class AssistantChat {
     }
   };
 
-  convertImageToBase64 = async (filePath) => {
-    return new Promise((resolve, reject) => {
-      fs.readFile(filePath, { encoding: "base64" }, (err, data) => {
-        if (err) {
-          return reject(err);
-        }
-        resolve(data);
-      });
-    });
-  };
-
   sendMessage = async (phoneNumber, msg, filename = "") => {
     const isImage = filename == "" ? false : true;
     if (this.running) return;
@@ -52,7 +41,9 @@ class AssistantChat {
 
       let message = undefined;
       if (isImage) {
-        const urlDownloads = new URL(process.env.SERVER_URL + "/downloads/" + filename);
+        const urlDownloads = new URL(
+          process.env.SERVER_URL + "/downloads/" + filename
+        );
 
         const urlStr = urlDownloads.toString();
 
@@ -65,9 +56,7 @@ class AssistantChat {
       } else {
         message = await this.openai.beta.threads.messages.create(thread.id, {
           role: "user",
-          content: isImage
-            ? `Informacion solicitada ${msg} \n {imagen: "${filename}"}`
-            : msg,
+          content: msg,
         });
       }
 
