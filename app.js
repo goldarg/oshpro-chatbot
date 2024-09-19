@@ -12,7 +12,11 @@ const { init } = require("bot-ws-plugin-openai");
 const JsonFileAdapter = require("@bot-whatsapp/database/json");
 const ChatGPTClass = require("./chatgpt.class");
 const AssistantChat = require("./openai.class");
-const { Consulta_Cartilla, login } = require("./services/HMS");
+const {
+  Consulta_Cartilla,
+  Consulta_Coseguros,
+  login,
+} = require("./services/HMS");
 const {
   solicitarAutorizacionPlanMaternoInfantil,
   solicitarAutorizacionEstudiosYPracticas,
@@ -74,8 +78,10 @@ const functions = {
     solicitarAutorizacionEstudiosYPracticas,
   Solicitar_Autorizacion_Medicacion_Especial:
     solicitarAutorizacionMedicacionEspecial,
-  Solicitar_Autorizacion_Internaciones_Y_O_Cirugias_Programadas: solicitarAutorizacionInternacionesYCirugias,
-  Solicitar_Autorizacion_Traslados_Medicos: solicitarAutorizacionTrasladosMedicos,
+  Solicitar_Autorizacion_Internaciones_Y_O_Cirugias_Programadas:
+    solicitarAutorizacionInternacionesYCirugias,
+  Solicitar_Autorizacion_Traslados_Medicos:
+    solicitarAutorizacionTrasladosMedicos,
   get_list_grupo_familiar: list_familiar_group,
   list_sales_plans: async () => {
     return {
@@ -94,15 +100,145 @@ const functions = {
   },
   get_medicamentos: consulta_medicamentos,
   Consulta_Cartilla: Consulta_Cartilla,
+  Consulta_Coseguros: Consulta_Coseguros,
 };
+
+function formatMessageForWhatsApp(markdownMessage) {
+  // Manejar primero los patrones combinados de negrita y cursiva (***texto***)
+
+  if (!markdownMessage) return "";
+  let formattedMessage = markdownMessage.replace(
+    /\*\*\*(.*?)\*\*\*/g,
+    "*_$1_*"
+  );
+
+  // Manejar negrita (**texto**) evitando conflictos con cursiva
+  formattedMessage = formattedMessage.replace(/\*\*(.*?)\*\*/g, "__$1__");
+
+  // Manejar cursiva (*texto*) pero omitiendo los casos de negrita que ya hemos convertido
+  formattedMessage = formattedMessage.replace(
+    /(^|[^_*])\*(.*?)\*(?!_)/g,
+    "_$2_"
+  );
+
+  // Convertir negrita (__texto__) a negrita en WhatsApp (*texto*)
+  formattedMessage = formattedMessage.replace(/__(.*?)__/g, "*$1*");
+
+  // Reemplazar tachado (~~texto~~) por WhatsApp (~texto~)
+  formattedMessage = formattedMessage.replace(/~~(.*?)~~/g, "~$1~");
+
+  // Reemplazar monoespaciado (`texto`) por WhatsApp (```texto```)
+  formattedMessage = formattedMessage.replace(/`(.*?)`/g, "```$1```");
+
+  // Manejar listas (reemplazar guiones o asteriscos al inicio de la línea)
+  formattedMessage = formattedMessage.replace(/^\s*-\s/gm, "• "); // Convertir "- " al inicio de la línea en "• "
+  formattedMessage = formattedMessage.replace(/^\s*\*\s/gm, "• "); // Convertir "* " al inicio de la línea en "• "
+
+  // Manejar saltos de línea dobles (Markdown usa dos espacios al final de la línea para indicar un salto)
+  formattedMessage = formattedMessage.replace(/\n{2,}/g, "\n\n"); // Asegurar que haya un doble salto de línea
+
+  // Eliminar encabezados, enlaces y otros elementos que WhatsApp no soporta
+  formattedMessage = formattedMessage.replace(/#+\s/g, ""); // Elimina encabezados
+  formattedMessage = formattedMessage.replace(/\[(.*?)\]\((.*?)\)/g, "$1 $2"); // Reemplaza enlaces por texto simple
+
+  return formattedMessage;
+}
+
+function formatWppMarkdown(format) {
+  format = whatsappStyles(format, "_", "<i>", "</i>");
+  format = whatsappStyles(format, "*", "<b>", "</b>");
+  format = whatsappStyles(format, "~", "<s>", "</s>");
+
+  if (format !== undefined) {
+    format = format.replace(/\n/gi, "<br>");
+  }
+
+  return whatsappLinkStyle(format);
+}
 
 const escapeRegExp = (string) => {
   return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); // $& means the whole matched string
 };
 
+function is_aplhanumeric(c) {
+  let x = c.charCodeAt(0);
+  return (x >= 65 && x <= 90) || (x >= 97 && x <= 122) || (x >= 48 && x <= 57);
+}
+
+function whatsappStyles(format, wildcard, opTag, clTag) {
+  let indices = [];
+
+  if (format !== undefined) {
+    for (let i = 0; i < format.length; i++) {
+      if (format[i] === wildcard) {
+        if (indices.length % 2)
+          format[i - 1] === " "
+            ? null
+            : typeof format[i + 1] == "undefined"
+            ? indices.push(i)
+            : is_aplhanumeric(format[i + 1])
+            ? null
+            : indices.push(i);
+        else
+          typeof format[i + 1] == "undefined"
+            ? null
+            : format[i + 1] === " "
+            ? null
+            : typeof format[i - 1] == "undefined"
+            ? indices.push(i)
+            : is_aplhanumeric(format[i - 1])
+            ? null
+            : indices.push(i);
+      } else {
+        format[i].charCodeAt() === 10 && indices.length % 2
+          ? indices.pop()
+          : null;
+      }
+    }
+  }
+
+  indices.length % 2 ? indices.pop() : null;
+
+  let e = 0;
+  indices.forEach(function (v, i) {
+    let t = i % 2 ? clTag : opTag;
+    v += e;
+    format = format.substr(0, v) + t + format.substr(v + 1);
+    e += t.length - 1;
+  });
+  return format;
+}
+
+function whatsappLinkStyle(text) {
+  let pattern = new RegExp(
+    "^(https?:\\/\\/)?" +
+      "((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|" +
+      "((\\d{1,3}\\.){3}\\d{1,3}))" +
+      "(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*" +
+      "(\\?[;&a-z\\d%_.~+=-]*)?" +
+      "(\\#[-a-z\\d_]*)?$",
+    "i"
+  );
+
+  if (pattern.test(text)) {
+    return `<a href="${text}" target="_blank" rel="noreferrer">${text}</a>`;
+  }
+
+  return text;
+}
+
 const replaceAll = (str, find, replace) => {
   if (str === "") return;
-  return str.replace(new RegExp(escapeRegExp(find), "g"), replace);
+
+  let test = str;
+
+  try {
+    test = str.replace(new RegExp(escapeRegExp(find), "g"), replace);
+  } catch (error) {
+    console.error(error);
+  }
+
+  return test;
 };
 
 const Assistant = new AssistantChat(process.env.ASSISTANT_ID, functions);
@@ -110,7 +246,7 @@ const Assistant = new AssistantChat(process.env.ASSISTANT_ID, functions);
 const flowGPT = addKeyword(EVENTS.WELCOME).addAction(async (ctx, ctxFn) => {
   console.log(ctx);
   const response = await Assistant.sendMessage(ctx.from, ctx.body);
-  await ctxFn.flowDynamic(replaceAll(response, "**", "*"));
+  await ctxFn.flowDynamic(formatMessageForWhatsApp(response));
 });
 
 const flowImages = addKeyword(EVENTS.MEDIA, EVENTS.DOCUMENT).addAction(

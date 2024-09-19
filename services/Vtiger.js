@@ -27,6 +27,15 @@ const solicitarAutorizacionPlanMaternoInfantil = async (params) => {
 
 const solicitarAutorizacionEstudiosYPracticas = async (params) => {
     await delay(1500);
+
+    const estaEnBuenosAires = params.estaEnBuenosAires;
+
+    if (estaEnBuenosAires) {
+        return {
+            mensaje: "No necesita autorizacion para ordenes de laboratorio"
+        };
+    }
+
     return {
         gestionAutorizacionId: generateRandomNumber(100000, 999999),
     };
