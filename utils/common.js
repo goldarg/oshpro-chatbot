@@ -32,6 +32,7 @@ const transformDateToIso = (dateStr) => {
 const afiliadoIsValid = (n) => n.length === 13;
 
 const fileSizeIsValid = (size) => size <= 5 * 1024 * 1024;
+
 const fileTypeIsValid = (mimeType) => {
   const validMimeTypes = ["image/jpeg", "image/png", "application/pdf"];
   return validMimeTypes.includes(mimeType);
@@ -43,6 +44,10 @@ const extractMediaIdFromUrl = (url) => {
   return match[0];
 };
 
+function generateRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 module.exports = {
   delay,
   dateIsValid,
@@ -51,4 +56,5 @@ module.exports = {
   fileTypeIsValid,
   extractMediaIdFromUrl,
   transformDateToIso,
+  generateRandomNumber
 };

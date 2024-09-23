@@ -1,6 +1,7 @@
 const { delay } = require("../utils/common");
 const axios = require("axios");
 const https = require("https");
+const fs = require("fs").promises;
 const { encryptRSA, decryptRSA, encryptSHA3 } = require("../utils/crypto");
 const { transformDateToIso } = require("../utils/common");
 const { socialPlans } = require("../utils/constants");
@@ -90,6 +91,41 @@ const Consulta_Cartilla = async (params) => {
   }
 };
 
+const Consulta_Coseguros = async (params) => {
+  console.log("PARAMS", params);
+
+  const { plan } = params;
+
+  try {
+    // Leer el archivo JSON de manera asíncrona
+    const data = await fs.readFile("./Archivos/Coseguros.json", {
+      encoding: "utf-8",
+    });
+
+    // Parsear el contenido JSON
+    const jsonData = JSON.parse(data);
+
+    // Filtrar registros donde "SC100" exista y su valor no sea vacío
+    const filteredData = jsonData.filter(
+      (item) => item[plan] && item[plan].trim() !== ""
+    );
+
+    // Mapear los resultados a un nuevo array con las columnas deseadas
+    const result = filteredData.map((item) => ({
+      seccion: item.Seccion,
+      subseccion: item.Subseccion,
+      titulo: item.Titulo,
+      coseguro: item[plan],
+    }));
+
+    // Retornar el array resultante
+    return result;
+  } catch (err) {
+    console.error("Error:", err);
+    throw err; // Lanza el error para que pueda ser manejado por quien llama a la función
+  }
+};
+
 const transformApiResponse = async (response) => {
   const {
     data: { person },
@@ -143,5 +179,6 @@ const transformApiResponse = async (response) => {
 
 module.exports = {
   Consulta_Cartilla,
+  Consulta_Coseguros,
   login,
 };

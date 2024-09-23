@@ -1,4 +1,4 @@
-const { delay } = require("../utils/common");
+const { delay, generateRandomNumber } = require("../utils/common");
 const axios = require("axios");
 const https = require("https");
 
@@ -17,6 +17,53 @@ const getAfiliadoInfo = async (number) => {
 
   return afiliado;
 };
+
+const solicitarAutorizacionPlanMaternoInfantil = async (params) => {
+  await delay(1500);
+  return {
+    gestionAutorizacionId: generateRandomNumber(100000, 999999),
+  };
+};
+
+const solicitarAutorizacionEstudiosYPracticas = async (params) => {
+    await delay(1500);
+
+    const estaEnBuenosAires = params.estaEnBuenosAires;
+
+    if (estaEnBuenosAires) {
+        return {
+            mensaje: "No necesita autorizacion para ordenes de laboratorio"
+        };
+    }
+
+    return {
+        gestionAutorizacionId: generateRandomNumber(100000, 999999),
+    };
+};
+
+const solicitarAutorizacionMedicacionEspecial = async (params) => {
+    await delay(1500);
+
+    return {
+        gestionAutorizacionId: generateRandomNumber(100000, 999999),
+    };
+}
+
+const solicitarAutorizacionInternacionesYCirugias = async (params) => {
+    await delay(1500);
+
+    return {
+        gestionAutorizacionId: generateRandomNumber(100000, 999999),
+    };
+}
+
+const solicitarAutorizacionTrasladosMedicos = async (params) => {
+    await delay(1500);
+
+    return {
+        gestionAutorizacionId: generateRandomNumber(100000, 999999),
+    };
+}
 
 const getIntegrantes = async (afiliado) => {
   await setTimeout(() => {}, 1500);
@@ -50,4 +97,9 @@ module.exports = {
   getIntegrantes,
   createSolicitud,
   getPlanes,
+  solicitarAutorizacionPlanMaternoInfantil,
+  solicitarAutorizacionEstudiosYPracticas,
+  solicitarAutorizacionMedicacionEspecial,
+  solicitarAutorizacionInternacionesYCirugias,
+  solicitarAutorizacionTrasladosMedicos
 };

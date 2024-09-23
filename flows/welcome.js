@@ -1,4 +1,4 @@
-const { addKeyword, EVENTS } = require("@bot-whatsapp/bot");
+const { addKeyword, EVENTS } = require("@bot-whatsapp-custom/bot");
 const flowLogin = require("./login");
 const flowEstudiosyPracticas = require("./estudiosypracticas");
 const flowMedicacionEspecial = require("./medicacionespecial");
