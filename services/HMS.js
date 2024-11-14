@@ -147,8 +147,11 @@ const Consulta_Ciudades_en_Region = async (params) => {
 
 const Consulta_Cartilla = async (params) => {
   console.log("PARAMS", params);
-  const { plan, region, speciality, city } = params;
+  let { plan, region, speciality, city, continuationToken } = params;
   const baseUrl = `https://servicios.scisonline.com.ar:10100`;
+  let skip = 0;
+  const take = 6;
+  let page = 1;
 
   console.log("Consultando Cartilla");
   const instance = axios.create({
@@ -157,6 +160,16 @@ const Consulta_Cartilla = async (params) => {
   instance.defaults.httpsAgent = new https.Agent({
     rejectUnauthorized: false,
   });
+
+  if (continuationToken) {
+    const tokenParams = decodificarContinuationToken(continuationToken);
+    region = tokenParams.region;
+    speciality = tokenParams.speciality;
+    plan = tokenParams.plan;
+    city = tokenParams.city;
+    skip = tokenParams.skip;
+    page = tokenParams.page;
+  }
 
   if (city !== undefined && city !== null && city !== "") {
     const responseCity2 = await instance.get(
@@ -198,15 +211,15 @@ const Consulta_Cartilla = async (params) => {
     const response =
       city === undefined || city === null || city === ""
         ? await instance.get(
-            `/api/cartilla/domain/scis/plan/${plan}/specialty/${especialidad}/region/${region}?apikey=zOD9sW2OCOeFriPMuhnbVawzh63qDc08`
+            `/api/cartilla/domain/scis/plan/${plan}/specialty/${especialidad}/region/${region.replace("CIUDAD AUTONOMA DE BUENOS AIRES", "CAPITAL FEDERAL")}?apikey=zOD9sW2OCOeFriPMuhnbVawzh63qDc08`
           )
         : await instance.get(
-            `/api/cartilla/domain/scis/plan/${plan}/specialty/${especialidad}/region/${region}/city/${city.toUpperCase()}?apikey=zOD9sW2OCOeFriPMuhnbVawzh63qDc08`
+            `/api/cartilla/domain/scis/plan/${plan}/specialty/${especialidad}/region/${region.replace("CIUDAD AUTONOMA DE BUENOS AIRES", "CAPITAL FEDERAL")}/city/${city.toUpperCase()}?apikey=zOD9sW2OCOeFriPMuhnbVawzh63qDc08`
           );
     //console.log("REQUEST:", response.request);
     //console.log("Datos recibidos:", response.data);
 
-    let result = response.data.map((item) => {
+    let result = response.data.map((item, index) => {
       return {
         name: item.name,
         email: item.email,
@@ -214,22 +227,54 @@ const Consulta_Cartilla = async (params) => {
         direccion: `${item.street} ${item.number_street} ${item.number_street}, ${item.city}`,
         mapa: `https://www.google.com/maps?q=${item.latitude},${item.longitude}&hl=es&z=15`,
         telefonos: `${item.tel1} ${item.tel2} ${item.tel3}`,
+        index,
       };
     });
 
-    if (result.length > 30) {
+    if (
+      result.length > 30 &&
+      (city === undefined || city === null || city === "")
+    ) {
       const responseCity = await instance.get(
         `/api/places/country/ARGENTINA/region/${region}?apikey=zOD9sW2OCOeFriPMuhnbVawzh63qDc08`
       );
 
       let resultCity = responseCity.data.map((item) => item.city_ascii);
 
-      return `Hay mas resultados de los que puedo mostrar, por favor volve a llamar a esta funcion sabiendo que las ciudades disponibles para la region ${region} son: ${JSON.stringify(
-        resultCity
-      )}`;
+      if (resultCity.length > 0)
+        return `Hay mas resultados de los que puedo mostrar, por favor volve a llamar a esta funcion sabiendo que las ciudades disponibles para la region ${region} son: ${JSON.stringify(
+          resultCity
+        )}`;
     }
 
-    return `En la region ${region} se encontraron: ${JSON.stringify(result)}`;
+    const cantidadRegistros = result.length;
+
+    result = result.slice(skip, skip + take);
+
+    let nuevoContinuationToken = null;
+
+    if (skip + take < cantidadRegistros) {
+      nuevoContinuationToken = generarContinuationToken({
+        region,
+        speciality,
+        plan,
+        city,
+        skip: skip + take,
+        page: page + 1,
+      });
+    }
+
+    return {
+      registros: result,
+      continuationToken: nuevoContinuationToken,
+      paginaActual: page,
+      totalPaginas: Math.ceil(cantidadRegistros / take),
+      cantidadRegistros,
+    };
+
+    // return `En la region ${region} se encontraron (si vas a truncar la respuesta al darla al usuario siempre aclarale que hay mas): ${JSON.stringify(
+    //   result
+    // )}`;
   } catch (error) {
     console.error("Error al realizar la solicitud:", error);
     return error;
@@ -341,6 +386,16 @@ const transformApiResponse = async (response, grupoFamiliar) => {
     ...(grupoFamiliar && { grupoFamiliar }),
   };
 };
+
+function decodificarContinuationToken(token) {
+  const params = JSON.parse(Buffer.from(token, "base64").toString("ascii"));
+  return params;
+}
+
+function generarContinuationToken(params) {
+  const token = Buffer.from(JSON.stringify(params)).toString("base64");
+  return token;
+}
 
 module.exports = {
   Consulta_Cartilla,

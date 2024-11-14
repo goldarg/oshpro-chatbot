@@ -137,7 +137,7 @@ const consulta_medicamentos = async (params) => {
     );
   }
 
-  return filtered || {};
+  return filtered?.slice(6) || {};
 };
 
 const functions = {

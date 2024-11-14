@@ -1,15 +1,15 @@
 [
   {
-    "ref": "5ad16cb3-7f60-455c-9419-42f6a7d943c7",
-    "keyword": "d943587015338cf2f493f3947369c6ef",
+    "ref": "a69dee05-655e-4175-8e56-7361c7c7f4fb",
+    "keyword": "8392a2f436ae84fe6c685909d1bf2c29",
     "answer": "Hola",
     "options": {},
     "from": "5491158777626",
     "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
   },
   {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -23,13 +23,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
     "from": "541158777626"
   },
   {
-    "ref": "f050bb73-dcb2-48c2-8854-fc5edf0c4615",
+    "ref": "579b4630-46ba-4049-ba55-4b627f94d909",
     "keyword": null,
-    "answer": "¡Hola! Soy Matías de SCIS Medicina Privada. Antes de continuar, necesito validar tu identidad. Por favor, indícame tu DNI y tu contraseña para el inicio de sesión en SCIS.",
+    "answer": "¡Hola! Soy Matías de SCIS Medicina Privada. Para poder ayudarte, primero necesito validar tu identidad. Por favor, proporciona tu DNI y contraseña para iniciar sesión en SCIS.",
     "options": {
       "media": null,
       "buttons": [],
@@ -37,59 +37,19 @@
       "delay": 0
     },
     "from": "541158777626",
-    "refSerialize": "e756b632608b46809c5490318fcffb2a"
+    "refSerialize": "2ffa4e003fac422ef15fd6c7ccebacf9"
   },
   {
-    "ref": "99b5a729-b51a-40c3-a201-92869843fbe8",
+    "ref": "0e656716-506c-4713-9e12-fd00be8e2f25",
     "keyword": "c22e4066d61d81721def9b25d8a397e8",
-    "answer": "H",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "ff1074a08d544026a56e516f49298f06"
-  },
-  {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
-    "from": "541158777626"
-  },
-  {
-    "ref": "5b13f2b5-a461-44be-8561-d9ae1ce4e9b6",
-    "keyword": null,
-    "answer": "Para poder ayudarte mejor, necesito que me proporciones tu DNI y la contraseña que usas para el inicio de sesión en SCIS. Esto es para validar tu identidad de manera segura.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "532310650dbdf7bf0b8aedacc4ce46c7"
-  },
-  {
-    "ref": "9c9b5e71-ab2f-4153-8f25-a73840ee1ef9",
-    "keyword": "ff1074a08d544026a56e516f49298f06",
     "answer": "30473360 SCISelbio-0",
     "options": {},
     "from": "5491158777626",
     "refSerialize": "9a15824a33b34e1ca43bf2a9937ae3a5"
   },
   {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -103,20 +63,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
     "from": "541158777626"
   },
   {
-    "ref": "d06a13c2-378f-4002-b1c6-8fccd0d4ce10",
+    "ref": "aeab44d8-172a-41bf-b9a3-a12b355d8a84",
     "keyword": "9a15824a33b34e1ca43bf2a9937ae3a5",
-    "answer": "Hola",
+    "answer": "B",
     "options": {},
     "from": "5491158777626",
-    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+    "refSerialize": "7d1f4c73fe1e92b549bdacd1e4381e5f"
   },
   {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -130,12 +90,12 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
     "from": "5491158777626"
   },
   {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -149,11 +109,150 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
     "from": "541158777626"
   },
   {
-    "ref": "a564abc8-8b4c-4c02-9a72-fa6676e43dbe",
+    "ref": "5a57be6c-cd74-4e97-91dd-e46707502ddc",
+    "keyword": null,
+    "answer": "B",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541158777626",
+    "refSerialize": "e70b10d87b8bd2ed64a1cdb4bfeab9b8"
+  },
+  {
+    "ref": "2560bc3c-8a6b-4b30-9f34-11f7f462c48e",
+    "keyword": null,
+    "answer": "Para poder ayudarte con los medicamentos, necesitaría saber qué medicamento estás buscando y si hay alguna condición especial que deba tener en cuenta, como si se trata de un medicamento para el plan materno infantil o para una enfermedad crónica. ¿Podrías darme más detalles?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541158777626",
+    "refSerialize": "0aa8a69e718a7cac22bc830c9463deb9"
+  },
+  {
+    "ref": "13e319d2-0617-4978-ab7b-7e697c71ba5a",
+    "keyword": "3a4720db8599ef2e97cb96a8c9c1db7d",
+    "answer": "O",
+    "options": {},
+    "from": "5491158777626",
+    "refSerialize": "c11b658a7b72ff7987496e36a4d39a99"
+  },
+  {
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
+    "from": "541158777626"
+  },
+  {
+    "ref": "af63d285-59f3-4edf-82ff-1163e4b9752a",
+    "keyword": null,
+    "answer": "Para poder ayudarte con una solicitud de autorizaciones, necesito saber qué tipo de autorización estás buscando. Aquí tienes algunas opciones:\n\n1. Solicitud de autorización de plan materno infantil\n2. Solicitud de autorización de estudios y prácticas en ambulatorio\n3. Solicitud de autorización de medicación especial\n4. Solicitud de autorización de internaciones y/o cirugías programadas\n5. Solicitud de autorización de traslados médicos\n6. Mostrar opciones anteriores\n\nPor favor, indícame qué opción necesitas o si tienes otra consulta específica.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541158777626",
+    "refSerialize": "b2e69e0d910bce9645de86208e289042"
+  },
+  {
+    "ref": "bca7d9c2-d46a-49b7-a533-05e0fdf505f8",
+    "keyword": "c11b658a7b72ff7987496e36a4d39a99",
+    "answer": "2",
+    "options": {},
+    "from": "5491158777626",
+    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
+  },
+  {
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
+    "from": "541158777626"
+  },
+  {
+    "ref": "71798588-ec40-4aef-a266-ca611295faf7",
+    "keyword": "2294c3d08b53a6effa5df696a15b9d30",
+    "answer": "2",
+    "options": {},
+    "from": "5491158777626",
+    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
+  },
+  {
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
+    "from": "5491158777626"
+  },
+  {
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
+    "from": "541158777626"
+  },
+  {
+    "ref": "13aa2445-b329-4126-9ba6-90acf0b0845f",
     "keyword": null,
     "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
     "options": {
@@ -166,9 +265,9 @@
     "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
   },
   {
-    "ref": "531e53c2-42a6-456b-824e-5d037a501cbb",
+    "ref": "8e084ca4-8c70-4cf3-b43c-f8e85f475a21",
     "keyword": null,
-    "answer": "¡Gracias, Elbio! Tu identidad ha sido validada correctamente. ¿En qué puedo ayudarte hoy? Aquí tienes algunas opciones para comenzar, pero si tienes una consulta específica, no dudes en mencionarla:\n\n1. Cartilla médica\n2. Medicamentos\n3. Solicitud de Autorizaciones\n\n¿En qué te gustaría que te asista?",
+    "answer": "Para proceder con la solicitud de autorización de estudios y prácticas en ambulatorio, necesito algunos detalles más:\n\n1. *Número de afiliado de la persona que se va a realizar la autorización:* Puede ser el mismo o puede ser el número de otro integrante del grupo familiar.\n2. *Fecha de la orden médica:* Formato dd/MM/yyyy.\n3. *Imagen de la orden médica:* Debe ser un archivo en formato jpeg, png, o jpg, y no debe superar los 10MB. Asegúrate de que se trata realmente de la imagen de una orden médica.\n\nSi tienes estos datos, por favor proporciónalos para que pueda continuar con la solicitud.",
     "options": {
       "media": null,
       "buttons": [],
@@ -176,19 +275,19 @@
       "delay": 0
     },
     "from": "541158777626",
-    "refSerialize": "5b6cb5596a425dd108e229a57db89e8d"
+    "refSerialize": "7a8ebb846ccb8bd01918f8cc14189f82"
   },
   {
-    "ref": "5b964a87-eec5-41f7-b830-ef5a8c56d2f4",
-    "keyword": "7a6f7a2484bc10c2d50691fff91d5cd4",
-    "answer": "1",
+    "ref": "06cce811-2f98-410c-b416-559af1737c1b",
+    "keyword": "3a4720db8599ef2e97cb96a8c9c1db7d",
+    "answer": "U",
     "options": {},
     "from": "5491158777626",
-    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+    "refSerialize": "dffb1fcde4018325d51403f12fd29332"
   },
   {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -202,13 +301,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
     "from": "541158777626"
   },
   {
-    "ref": "3de9bcf1-d42a-47d3-a7a0-e9f126214bdf",
+    "ref": "2c9d3b35-62cf-4c43-9054-311da5f300e2",
     "keyword": null,
-    "answer": "Perfecto, puedo ayudarte con la consulta de la cartilla médica. Para brindarte la información correcta, necesito saber:\n\n1. La región donde deseas hacer la consulta.\n2. La especialidad médica que buscas.\n3. El plan que tienes, aunque ya sé que es el SC250.\n\n¿Podrías proporcionarme estos detalles, por favor?",
+    "answer": "Para la solicitud de autorización de estudios y prácticas en ambulatorio, necesito los siguientes detalles:\n\n1. *Número de afiliado de la persona que se va a realizar la autorización:* Puede ser el tuyo o el de otro integrante del grupo familiar.\n2. *Fecha de la orden médica:* Formato dd/MM/yyyy.\n3. *Imagen de la orden médica:* Debe ser un archivo en formato jpeg, png, o jpg, y no debe superar los 10MB. Asegúrate de que se trata realmente de la imagen de una orden médica.\n\nPor favor facilita estos detalles para que pueda proceder con la solicitud. Si lo que necesitas es otra cosa, por favor no dudes en decírmelo.",
     "options": {
       "media": null,
       "buttons": [],
@@ -216,19 +315,19 @@
       "delay": 0
     },
     "from": "541158777626",
-    "refSerialize": "ed679978e0ba9bdf87a8083d16086a66"
+    "refSerialize": "156b67740a8c0088f99252ef1f031528"
   },
   {
-    "ref": "9be2b93a-4536-4566-8ec6-9a5d45c310a0",
-    "keyword": "290236b1d481a790a200ea6e94b2122a",
-    "answer": "Quiero en buenos aires, Guardia adultos",
+    "ref": "523ab25a-0cb4-4947-bf18-95727dce9f65",
+    "keyword": "dffb1fcde4018325d51403f12fd29332",
+    "answer": "Nono, quiero consultar por acemuk",
     "options": {},
     "from": "5491158777626",
-    "refSerialize": "533d04470709f597b0f7a9c714efffcc"
+    "refSerialize": "76b7377e22d96857b7ea779f4b6b5b50"
   },
   {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -242,20 +341,33 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
     "from": "541158777626"
   },
   {
-    "ref": "c5870e58-ba86-4054-a3fa-200099e5bd6f",
-    "keyword": "533d04470709f597b0f7a9c714efffcc",
-    "answer": "Hika",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "c2a811cee44ad8f6faa2383bcb77b8d8"
+    "ref": "9f6a35cf-4f05-472c-950c-1e9498957e22",
+    "keyword": null,
+    "answer": "Perfecto, para consultar sobre el medicamento Acemuk, necesito saber tu plan. Según la información que tengo, tu plan es SC250. ¿Es correcto? Si es así, procedo a buscar la información. Si no, por favor indícame el plan correcto.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541158777626",
+    "refSerialize": "d9a853af92d18935c15e5d514ae3f704"
   },
   {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
+    "ref": "12784bcd-0412-45fd-a439-f9f8166eded2",
+    "keyword": "76b7377e22d96857b7ea779f4b6b5b50",
+    "answer": "Si",
+    "options": {},
+    "from": "5491158777626",
+    "refSerialize": "611b2bffc5c8bf7a02f45d2060b32e20"
+  },
+  {
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -269,12 +381,39 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
+    "from": "541158777626"
+  },
+  {
+    "ref": "31b9c04b-696a-4f8c-a69e-0dc81f9c233e",
+    "keyword": "611b2bffc5c8bf7a02f45d2060b32e20",
+    "answer": "K",
+    "options": {},
+    "from": "5491158777626",
+    "refSerialize": "2e5ab872d3e8a64c12881eddfb4050e8"
+  },
+  {
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
     "from": "5491158777626"
   },
   {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -288,11 +427,11 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
     "from": "541158777626"
   },
   {
-    "ref": "eda5117c-ca1a-4d1d-8a23-dac6f2e57187",
+    "ref": "72556262-b60c-4644-b032-0179e4751c41",
     "keyword": null,
     "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
     "options": {
@@ -305,29 +444,16 @@
     "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
   },
   {
-    "ref": "4c684158-44be-4451-b90d-b439d8ec68df",
-    "keyword": null,
-    "answer": "Para brindarte la información precisa sobre la guardia de adultos en Buenos Aires, necesito que me indiques la ciudad específica entre las disponibles en la región. Aquí tienes las opciones:\n• 25 DE MAYO\n• 9 DE JULIO\n• ADOLFO ALSINA\n• ADOLFO GONZALES CHAVES\n• ADROGUE\n• ALBERTI\n• ALDO BONZI\n• ALMIRANTE BROWN\n• ARRECIFES\n• AVELLANEDA\n• AYACUCHO\n• AZUL\n• BAHIA BLANCA\n• BALCARCE\n• BARADERO\n• BENITO JUAREZ\n• BERAZATEGUI\n• BERISSO\n• BERNAL\n• BOLIVAR\n• BRAGADO\n• BRANDSEN\n• BURZACO\n• CAMPANA\n• CAÑUELAS\n• CAPITAN SARMIENTO\n• CARLOS CASARES\n• CARLOS TEJEDOR\n• CARMEN DE ARECO\n• CARMEN DE PATAGONES\n• CASEROS\n• CASTELAR\n• CASTELLI\n• CHACABUCO\n• CHASCOMUS\n• CHIVILCOY\n• CIUDADELA\n• COLON\n• CORONEL DORREGO\n• CORONEL PRINGLES\n• CORONEL ROSALES\n• CORONEL SUAREZ\n• DAIREAUX\n• DOCK SUR\n• DOLORES\n• ENSENADA\n• ESCOBAR\n• ESTEBAN ECHEVERRIA\n• EXALTACIÓN DE LA CRUZ\n• EZEIZA\n• FLORENCIO VARELA\n• FLORENTINO AMEGHINO\n• GENERAL ALVARADO\n• GENERAL ALVEAR\n• GENERAL ARENALES\n• GENERAL BELGRANO\n• GENERAL GUIDO\n• GENERAL LA MADRID\n• GENERAL LAS HERAS\n• GENERAL LAVALLE\n• GENERAL MADARIAGA\n• GENERAL PINTO\n• GENERAL PUEYRREDON\n• GENERAL RODRIGUEZ\n• GENERAL SAN MARTIN\n• GENERAL VIAMONTE\n• GENERAL VILLEGAS\n• GONZALEZ CATAN\n• GUAMINI\n• HAEDO\n• HIPÓLITO YRIGOYEN\n• HURLINGHAM\n• ISIDRO CASANOVA\n• ITUZAINGO\n• JOSE C. PAZ\n• JUNIN\n• LA MATANZA\n• LA PLATA\n• LANUS\n• LAPRIDA\n• LAS FLORES\n• LAS TONINAS\n• LEANDRO N. ALEM\n• LEZAMA\n• LINCOLN\n• LOBERÍA\n• LOBOS\n• LOMAS DE ZAMORA\n• LOMAS DEL MIRADOR\n• LONGCHAMPS\n• LOS POLVORINES\n• LUJAN\n• MAGDALENA\n• MAIPU\n• MALVINAS ARGENTINAS\n• MAR CHIQUITA\n• MAR DE AJO\n• MAR DEL PLATA\n• MARCOS PAZ\n• MERCEDES\n• MERLO\n• MIRAMAR\n• MONTE HERMOSO\n• MORENO\n• MORON\n• MUNRO\n• NAVARRO\n• NECOCHEA\n• OLAVARRIA\n• PEHUAJO\n• PELLEGRINI\n• PERGAMINO\n• PILA\n• PILAR\n• PINAMAR\n• PRESIDENTE PERON\n• PUAN\n• PUNTA INDIO\n• QUILMES\n• RAMALLO\n• RAMOS MEJIA\n• RAUCH\n• REMEDIOS DE ESCALADA\n• RIVADAVIA\n• ROJAS\n• ROQUE PEREZ\n• SAAVEDRA\n• S ALADILLO\n• SALLIQUELÓ\n• SALTO\n• SAN ANDRES DE GILES\n• SAN ANTONIO DE ARECO\n• SAN BERNARDO\n• SAN BERNARDO DEL TUYU\n• SAN CAYETANO\n• SAN CLEMENTE DEL TUYU\n• SAN FERNANDO\n• SAN ISIDRO\n• SAN JUSTO\n• SAN MIGUEL\n• SAN MIGUEL DEL MONTE\n• SAN NICOLAS DE LOS ARROYOS\n• SAN PEDRO\n• SAN VICENTE\n• SANTA CLARA DEL MAR\n• SANTA TERESITA\n• SARANDI\n• SUIPACHA\n• TANDIL\n• TAPALQUE\n• TAPIALES\n• TEMPERLEY\n• TIGRE\n• TORDILLO\n• TORNQUIST\n• TRENQUE LAUQUEN\n• TRES ARROYOS\n• TRES DE FEBRERO\n• TRES LOMAS\n• VALERIA DEL MAR\n• VICENTE LOPEZ\n• VILLA DOMINICO\n• VILLA GESELL\n• VILLARINO\n• WILDE\n• ZARATE\n\nPor favor, indícame cuál ciudad prefieres para continuar.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "a700dd1d74d419783da2cd7323e7cca4"
-  },
-  {
-    "ref": "f5884102-3cb1-446d-89c9-ecd51426eea8",
-    "keyword": "7a6f7a2484bc10c2d50691fff91d5cd4",
-    "answer": "Castelar",
+    "ref": "ab68d441-4970-4a06-8ec5-32d477d0f9ed",
+    "keyword": "3a4720db8599ef2e97cb96a8c9c1db7d",
+    "answer": "B",
     "options": {},
     "from": "5491158777626",
-    "refSerialize": "61b80fa662198c371c61bdb1787f4410"
+    "refSerialize": "7d1f4c73fe1e92b549bdacd1e4381e5f"
   },
   {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -341,177 +467,11 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
     "from": "541158777626"
   },
   {
-    "ref": "a3ca07ca-2e9f-4346-a38b-8f8541bdb453",
-    "keyword": null,
-    "answer": "No se encontraron resultados para guardias de adultos en la ciudad de Castelar bajo tu plan SC250. \n\nSi necesitas más información o deseas explorar otras opciones, no dudes en decírmelo. ¿Hay algo más en lo que pueda ayudarte? Aquí tienes algunas opciones nuevamente:\n\n1. Cartilla médica\n2. Medicamentos\n3. Solicitud de Autorizaciones",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "0371e5379eb5101192d017f2acc6cdaf"
-  },
-  {
-    "ref": "6eb20185-9f8d-4adb-80c9-ec9060187248",
-    "keyword": "61b80fa662198c371c61bdb1787f4410",
-    "answer": "1",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
-  },
-  {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
-    "from": "541158777626"
-  },
-  {
-    "ref": "a01ff03e-9ab6-4cbe-9720-2afcc21ba91c",
-    "keyword": null,
-    "answer": "Para continuar con la consulta de la cartilla médica, ¿podrías indicarme nuevamente la región y la especialidad que buscas? Ya tengo que tu plan es SC250. Si prefieres explorar otras ciudades en Buenos Aires, también podemos hacerlo. ¿Cómo te gustaría proceder?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "171ee24baf3c79b72a874ab630db9fa2"
-  },
-  {
-    "ref": "7ed1cb09-cd94-4dd3-9ece-3b61d30b4c4a",
-    "keyword": "290236b1d481a790a200ea6e94b2122a",
-    "answer": "En buenos aires",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "7674d74f869b3c6d531bb514cb83f5cb"
-  },
-  {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
-    "from": "541158777626"
-  },
-  {
-    "ref": "728d9109-dd29-4e0e-a53a-13c7f67233e0",
-    "keyword": null,
-    "answer": "Perfecto, para consultar la cartilla médica en Buenos Aires, por favor indícame la especialidad médica que estás buscando. Aquí tienes algunas opciones para elegir:\n\n1. Adolescencia y Pubertad\n2. Cirugía General\n3. Farmacias\n4. Farmacias 24 Horas\n5. Ópticas\n6. Ortopedias\n7. Guardia Adultos\n8. Guardia Traumatológica\n9. Guardia Pediátrica\n10. Guardia Salud Mental\n11. Guardia Oftalmológica\n12. Guardia Otorrinolaringológica\n\nY muchas más. Por favor, dime cuál especialidad te interesa y continuaremos desde allí.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "9399a9810228cdcab677a0de0f7bef76"
-  },
-  {
-    "ref": "0a2a0ade-1513-42a7-a0a1-224283fd015c",
-    "keyword": "7674d74f869b3c6d531bb514cb83f5cb",
-    "answer": "3",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "7af65864494b12f0f7ef00589f4d3979"
-  },
-  {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
-    "from": "541158777626"
-  },
-  {
-    "ref": "d3344888-6d18-4ecd-a61b-c0088e889c2a",
-    "keyword": "7af65864494b12f0f7ef00589f4d3979",
-    "answer": "Hola",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
-  },
-  {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
-    "from": "5491158777626"
-  },
-  {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
-    "from": "541158777626"
-  },
-  {
-    "ref": "f3c987fa-d24a-4cd3-8182-233695499f53",
+    "ref": "0498cc50-ec4d-4b76-b748-c3d37ce98c50",
     "keyword": null,
     "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
     "options": {
@@ -524,29 +484,16 @@
     "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
   },
   {
-    "ref": "d5429cb6-9708-444c-9c0c-c059e06fde72",
-    "keyword": null,
-    "answer": "Para obtener información específica sobre farmacias en Buenos Aires, necesito que me indiques la ciudad específica dentro de la provincia. Aquí tienes las opciones disponibles:\n• 25 DE MAYO\n• 9 DE JULIO\n• ADOLFO ALSINA\n• ADOLFO GONZALES CHAVES\n• ADROGUE\n• ALBERTI\n• ALDO BONZI\n• ALMIRANTE BROWN\n• ARRECIFES\n• AVELLANEDA\n• AYACUCHO\n• AZUL\n• BAHIA BLANCA\n• BALCARCE\n• BARADERO\n• BENITO JUAREZ\n• BERAZATEGUI\n• BERISSO\n• BERNAL\n• BOLIVAR\n• BRAGADO\n• BRANDSEN\n• BURZACO\n• CAMPANA\n• CAÑUELAS\n• CAPITAN SARMIENTO\n• CARLOS CASARES\n• CARLOS TEJEDOR\n• CARMEN DE ARECO\n• CARMEN DE PATAGONES\n• CASEROS\n• CASTELAR\n• CASTELLI\n• CHACABUCO\n• CHASCOMUS\n• CHIVILCOY\n• CIUDADELA\n• COLON\n• CORONEL DORREGO\n• CORONEL PRINGLES\n• CORONEL ROSALES\n• CORONEL SUAREZ\n• DAIREAUX\n• DOCK SUR\n• DOLORES\n• ENSENADA\n• ESCOBAR\n• ESTEBAN ECHEVERRIA\n• EXALTACIÓN DE LA CRUZ\n• EZEIZA\n• FLORENCIO VARELA\n• FLORENTINO AMEGHINO\n• GENERAL ALVARADO\n• GENERAL ALVEAR\n• GENERAL ARENALES\n• GENERAL BELGRANO\n• GENERAL GUIDO\n• GENERAL LA MADRID\n• GENERAL LAS HERAS\n• GENERAL LAVALLE\n• GENERAL MADARIAGA\n• GENERAL PINTO\n• GENERAL PUEYRREDON\n• GENERAL RODRIGUEZ\n• GENERAL SAN MARTIN\n• GENERAL VIAMONTE\n• GENERAL VILLEGAS\n• GONZALEZ CATAN\n• GUAMINI\n• HAEDO\n• HIPÓLITO YRIGOYEN\n• HURLINGHAM\n• ISIDRO CASANOVA\n• ITUZAINGO\n• JOSE C. PAZ\n• JUNIN\n• LA MATANZA\n• LA PLATA\n• LANUS\n• LAPRIDA\n• LAS FLORES\n• LAS TONINAS\n• LEANDRO N. ALEM\n• LEZAMA\n• LINCOLN\n• LOBERÍA\n• LOBOS\n• LOMAS DE ZAMORA\n• LOMAS DEL MIRADOR\n• LONGCHAMPS\n• LOS POLVORINES\n• LUJAN\n• MAGDALENA\n• MAIPU\n• MALVINAS ARGENTINAS\n• MAR CHIQUITA\n• MAR DE AJO\n• MAR DEL PLATA\n• MARCOS PAZ\n• MERCEDES\n• MERLO\n• MIRAMAR\n• MONTE HERMOSO\n• MORENO\n• MORON\n• MUNRO\n• NAVARRO\n• NECOCHEA\n• OLAVARRIA\n• PEHUAJO\n• PELLEGRINI\n• PERGAMINO\n• PILA\n• PILAR\n• PINAMAR\n• PRESIDENTE PERON\n• PUAN\n• PUNTA INDIO\n• QUILMES\n• RAMALLO\n• RAMOS MEJIA\n• RAUCH\n• REMEDIOS DE ESCALADA\n• RIVADAVIA\n• ROJAS\n• ROQUE PEREZ\n• SAAVEDRA\n• S ALADILLO\n• SALLIQUELÓ\n• SALTO\n• SAN ANDRES DE GILES\n• SAN ANTONIO DE ARECO\n• SAN BERNARDO\n• SAN BERNARDO DEL TUYU\n• SAN CAYETANO\n• SAN CLEMENTE DEL TUYU\n• SAN FERNANDO\n• SAN ISIDRO\n• SAN JUSTO\n• SAN MIGUEL\n• SAN MIGUEL DEL MONTE\n• SAN NICOLAS DE LOS ARROYOS\n• SAN PEDRO\n• SAN VICENTE\n• SANTA CLARA DEL MAR\n• SANTA TERESITA\n• SARANDI\n• SUIPACHA\n• TANDIL\n• TAPALQUE\n• TAPIALES\n• TEMPERLEY\n• TIGRE\n• TORDILLO\n• TORNQUIST\n• TRENQUE LAUQUEN\n• TRES ARROYOS\n• TRES DE FEBRERO\n• TRES LOMAS\n• VALERIA DEL MAR\n• VICENTE LOPEZ\n• VILLA DOMINICO\n• VILLA GESELL\n• VILLARINO\n• WILDE\n• ZARATE\n\nPor favor, indícame la ciudad de tu interés.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "e5faaaddbec50282f2af66983945bb4d"
-  },
-  {
-    "ref": "54c57101-9bdb-467d-b6e5-7162bc37fa63",
-    "keyword": "7a6f7a2484bc10c2d50691fff91d5cd4",
-    "answer": "Mar del plata",
+    "ref": "7442a719-5e72-4127-8052-d5e4eaa73c2b",
+    "keyword": "7d1f4c73fe1e92b549bdacd1e4381e5f",
+    "answer": "K",
     "options": {},
     "from": "5491158777626",
-    "refSerialize": "4d847a2a6e9a6bd058da0e64e50d7967"
+    "refSerialize": "2e5ab872d3e8a64c12881eddfb4050e8"
   },
   {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -560,57 +507,11 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
     "from": "541158777626"
   },
   {
-    "ref": "e45a9945-12fe-449b-b438-4d22f36383c6",
-    "keyword": "4d847a2a6e9a6bd058da0e64e50d7967",
-    "answer": "Y",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "28066fcd4029a424c1db7020ae266c82"
-  },
-  {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
-    "from": "5491158777626"
-  },
-  {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
-    "from": "541158777626"
-  },
-  {
-    "ref": "ac9c20cf-d274-4880-a02b-15d074bd2c0d",
+    "ref": "01644889-d806-4e28-9fcc-e8f8e66d3986",
     "keyword": null,
     "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
     "options": {
@@ -623,16 +524,16 @@
     "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
   },
   {
-    "ref": "5247250c-10b8-4fe5-8867-b97bd089005f",
-    "keyword": "7a6f7a2484bc10c2d50691fff91d5cd4",
-    "answer": "Y",
+    "ref": "362a5450-fd3a-4b74-9684-0094bcb9bece",
+    "keyword": "2e5ab872d3e8a64c12881eddfb4050e8",
+    "answer": "K",
     "options": {},
     "from": "5491158777626",
-    "refSerialize": "28066fcd4029a424c1db7020ae266c82"
+    "refSerialize": "2e5ab872d3e8a64c12881eddfb4050e8"
   },
   {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -646,13 +547,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
     "from": "541158777626"
   },
   {
-    "ref": "0b141b73-08c9-49b3-a589-6902cba11293",
+    "ref": "b4907e83-f760-47a6-bfb7-824f38383fe7",
     "keyword": null,
-    "answer": "No pude procesar la respuesta. Inténtalo de nuevo.",
+    "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
     "options": {
       "media": null,
       "buttons": [],
@@ -660,19 +561,19 @@
       "delay": 0
     },
     "from": "541158777626",
-    "refSerialize": "01270c0c828f873ad112bf9316c6cb50"
+    "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
   },
   {
-    "ref": "97a4c01b-8be7-42a2-a524-b610ac10df69",
-    "keyword": "28066fcd4029a424c1db7020ae266c82",
-    "answer": "Y",
+    "ref": "11afa4c4-ff46-48c2-af93-15800a0a3cdd",
+    "keyword": "2e5ab872d3e8a64c12881eddfb4050e8",
+    "answer": "K",
     "options": {},
     "from": "5491158777626",
-    "refSerialize": "28066fcd4029a424c1db7020ae266c82"
+    "refSerialize": "2e5ab872d3e8a64c12881eddfb4050e8"
   },
   {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -686,11 +587,104 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
     "from": "541158777626"
   },
   {
-    "ref": "52098d0e-8996-4419-b3dc-95c557ca8f8e",
+    "ref": "47df9de1-6421-4aae-bb89-1a76cc399f1e",
+    "keyword": null,
+    "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541158777626",
+    "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
+  },
+  {
+    "ref": "71bf29cd-c419-485e-a1e9-0329a71caec1",
+    "keyword": "2e5ab872d3e8a64c12881eddfb4050e8",
+    "answer": "K",
+    "options": {},
+    "from": "5491158777626",
+    "refSerialize": "2e5ab872d3e8a64c12881eddfb4050e8"
+  },
+  {
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
+    "from": "541158777626"
+  },
+  {
+    "ref": "2e59aeff-3c74-4039-98e5-cd2281b4392f",
+    "keyword": null,
+    "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541158777626",
+    "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
+  },
+  {
+    "ref": "2e8842c4-c0ee-4793-b30f-559f0ccfcee7",
+    "keyword": "2e5ab872d3e8a64c12881eddfb4050e8",
+    "answer": "K",
+    "options": {},
+    "from": "5491158777626",
+    "refSerialize": "2e5ab872d3e8a64c12881eddfb4050e8"
+  },
+  {
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
+    "from": "541158777626"
+  },
+  {
+    "ref": "1258cb21-2d95-4ac9-87b3-65950eb7beaf",
+    "keyword": null,
+    "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541158777626",
+    "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
+  },
+  {
+    "ref": "5a41c0fe-f82f-480a-8639-c1a515814024",
     "keyword": null,
     "answer": "",
     "options": {
@@ -703,16 +697,16 @@
     "refSerialize": "4b93ffa6304d50c6b58469c3bad54df7"
   },
   {
-    "ref": "a0575b9b-a636-405a-ade1-2f99a9181933",
-    "keyword": "28066fcd4029a424c1db7020ae266c82",
-    "answer": "N",
+    "ref": "bf7b6a01-5d81-4a1e-9e2b-2c38eadc8f3d",
+    "keyword": "2e5ab872d3e8a64c12881eddfb4050e8",
+    "answer": "HolA",
     "options": {},
     "from": "5491158777626",
-    "refSerialize": "7a05ccf0a760aa74fef9c8bb07bb7bb7"
+    "refSerialize": "09f2491d51350a7f030a842c1653a790"
   },
   {
-    "ref": "ans_3ce2376a-848a-4997-b2e3-c36a01daccc4",
-    "keyword": "key_e097e831-78b4-4fb1-96f5-18e49af6cc64",
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -726,7 +720,60 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "7a6f7a2484bc10c2d50691fff91d5cd4",
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
     "from": "541158777626"
+  },
+  {
+    "ref": "9081742d-f8dd-4616-bb42-58f7be0e7993",
+    "keyword": null,
+    "answer": "¡Hola! Soy Matías de SCIS Medicina Privada. Antes de continuar, necesito validar tu identidad. ¿Podrías proporcionarme tu DNI y contraseña de afiliado para iniciar sesión?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541158777626",
+    "refSerialize": "3b3e4c0ad4e751040ad6d21b9180a273"
+  },
+  {
+    "ref": "74b8c5fc-1ff9-4042-87c2-13cdb7174a09",
+    "keyword": "09f2491d51350a7f030a842c1653a790",
+    "answer": "H",
+    "options": {},
+    "from": "5491158777626",
+    "refSerialize": "ff1074a08d544026a56e516f49298f06"
+  },
+  {
+    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
+    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
+    "from": "541158777626"
+  },
+  {
+    "ref": "15cd5851-eb38-4f0f-8276-884d0613049f",
+    "keyword": null,
+    "answer": "Necesito que me proporciones tu DNI y la contraseña de afiliado para poder validar tu identidad y asistirte mejor.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541158777626",
+    "refSerialize": "f4887139049c1c346cdc9c0fd73fdfaa"
   }
 ]

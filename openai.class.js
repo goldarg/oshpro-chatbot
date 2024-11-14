@@ -36,9 +36,9 @@ class AssistantChat {
     const threadPhone = await this.getThread(phoneNumber);
     const { thread } = threadPhone;
     let { running } = threadPhone;
+    if (running)
+      return "Por favor, espere que estamos procesando su mensaje anterior.";
     try {
-      if (running) return "Por favor, espere que estamos procesando su mensaje anterior.";
-
       threadPhone.running = true;
       running = true;
 
@@ -63,7 +63,7 @@ class AssistantChat {
         });
       }
 
-      const maxRetries = 10;
+      const maxRetries = 4;
       let retryCount = 0;
 
       await this.#waitForTokens();
@@ -120,6 +120,13 @@ class AssistantChat {
             break;
           case "failed":
             if (retryCount < maxRetries) {
+              try {
+                const messagedList =
+                  await this.openai.beta.threads.messages.list(thread.id);
+              } catch (error) {
+                console.log("Error en el listado de mensajes");
+                console.log(error);
+              }
               retryCount++;
               console.log(`Reintentando run... (${retryCount}/${maxRetries})`);
               const { code, message } = run.last_error;
@@ -152,6 +159,15 @@ class AssistantChat {
 
               break;
             } else {
+              try {
+                await this.openai.beta.threads.runs.submitToolOutputs(
+                  thread.id,
+                  run.id,
+                  { tool_outputs: [] }
+                );
+              } catch (error) {
+                console.log(error);
+              }
               console.log("Número máximo de intentos alcanzado. Abortando.");
               threadPhone.running = false;
               running = false;
@@ -160,13 +176,12 @@ class AssistantChat {
               return "No pude procesar la respuesta. Inténtalo de nuevo.";
             }
         }
-        await delay(500);
+        await delay(1000);
       }
       console.log("obteniendo messages");
       const messageList = await this.openai.beta.threads.messages.list(
         thread.id
       );
-      //console.log(messageList);
       let mensajeToRespond = messageList.data[0].content[0].text.value;
 
       console.log(phoneNumber);
