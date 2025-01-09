@@ -197,7 +197,7 @@ const Consulta_Cartilla = async (params) => {
 
   const rows = datos.slice(1);
 
-  const result = rows.map((row) => {
+  const resultEsp = rows.map((row) => {
     let obj = {};
     row.forEach((value, index) => {
       obj[headers[index]] = value;
@@ -205,21 +205,75 @@ const Consulta_Cartilla = async (params) => {
     return obj;
   });
 
-  const especialidad = result.find((x) => x["Nombre"] === speciality)["Codigo"];
+  const especialidad = resultEsp.find((x) => x["Nombre"] === speciality)[
+    "Codigo"
+  ];
 
   try {
     const response =
       city === undefined || city === null || city === ""
         ? await instance.get(
-            `/api/cartilla/domain/scis/plan/${plan}/specialty/${especialidad}/region/${region.replace("CIUDAD AUTONOMA DE BUENOS AIRES", "CAPITAL FEDERAL")}?apikey=zOD9sW2OCOeFriPMuhnbVawzh63qDc08`
+            `/api/cartilla/domain/scis/plan/${plan}/specialty/${especialidad}/region/${region.replace(
+              "CIUDAD AUTONOMA DE BUENOS AIRES",
+              "CAPITAL FEDERAL"
+            )}?apikey=zOD9sW2OCOeFriPMuhnbVawzh63qDc08`
           )
         : await instance.get(
-            `/api/cartilla/domain/scis/plan/${plan}/specialty/${especialidad}/region/${region.replace("CIUDAD AUTONOMA DE BUENOS AIRES", "CAPITAL FEDERAL")}/city/${city.toUpperCase()}?apikey=zOD9sW2OCOeFriPMuhnbVawzh63qDc08`
+            `/api/cartilla/domain/scis/plan/${plan}/specialty/${especialidad}/region/${region.replace(
+              "CIUDAD AUTONOMA DE BUENOS AIRES",
+              "CAPITAL FEDERAL"
+            )}/city/${city.toUpperCase()}?apikey=zOD9sW2OCOeFriPMuhnbVawzh63qDc08`
           );
+
+    let dataALeer = response.data;
+
+    if (dataALeer.length === 0 && city) {
+      const responseY = await instance.get(
+        `/api/cartilla/domain/scis/plan/${plan}/specialty/${especialidad}/region/${region.replace(
+          "CIUDAD AUTONOMA DE BUENOS AIRES",
+          "CAPITAL FEDERAL"
+        )}/city/${city.toUpperCase()} CIUDAD?apikey=zOD9sW2OCOeFriPMuhnbVawzh63qDc08`
+      );
+
+      dataALeer = responseY.data;
+    }
+
+    if (speciality == "GUARDIA 24HS") {
+      const especialidad2 = resultEsp.find(
+        (x) => x["Nombre"] === "GUARDIA ADULTOS"
+      )["Codigo"];
+
+      let responseX =
+        city === undefined || city === null || city === ""
+          ? await instance.get(
+              `/api/cartilla/domain/scis/plan/${plan}/specialty/${especialidad2}/region/${region.replace(
+                "CIUDAD AUTONOMA DE BUENOS AIRES",
+                "CAPITAL FEDERAL"
+              )}?apikey=zOD9sW2OCOeFriPMuhnbVawzh63qDc08`
+            )
+          : await instance.get(
+              `/api/cartilla/domain/scis/plan/${plan}/specialty/${especialidad2}/region/${region.replace(
+                "CIUDAD AUTONOMA DE BUENOS AIRES",
+                "CAPITAL FEDERAL"
+              )}/city/${city.toUpperCase()}?apikey=zOD9sW2OCOeFriPMuhnbVawzh63qDc08`
+            );
+
+      if (responseX.data.length === 0 && city) {
+        responseX = await instance.get(
+          `/api/cartilla/domain/scis/plan/${plan}/specialty/${especialidad2}/region/${region.replace(
+            "CIUDAD AUTONOMA DE BUENOS AIRES",
+            "CAPITAL FEDERAL"
+          )}/city/${city.toUpperCase()} CIUDAD?apikey=zOD9sW2OCOeFriPMuhnbVawzh63qDc08`
+        );
+      }
+
+      dataALeer = dataALeer.concat(responseX.data);
+    }
+
     //console.log("REQUEST:", response.request);
     //console.log("Datos recibidos:", response.data);
 
-    let result = response.data.map((item, index) => {
+    let result = dataALeer.map((item, index) => {
       return {
         name: item.name,
         email: item.email,
@@ -284,36 +338,33 @@ const Consulta_Cartilla = async (params) => {
 const Consulta_Coseguros = async (params) => {
   console.log("PARAMS", params);
 
-  const { plan } = params;
+  const { plan: planWithoutLabel, esOSPEDYC } = params;
 
-  try {
-    // Leer el archivo JSON de manera asíncrona
-    const data = await fs.readFile("./Archivos/Coseguros.json", {
-      encoding: "utf-8",
-    });
+  const obraSocial = esOSPEDYC ? "OSPEDYC" : "GENERAL";
 
-    // Parsear el contenido JSON
-    const jsonData = JSON.parse(data);
+  const plan = `Plan ${planWithoutLabel}`;
 
-    // Filtrar registros donde "SC100" exista y su valor no sea vacío
-    const filteredData = jsonData.filter(
-      (item) => item[plan] && item[plan].trim() !== ""
-    );
+  const data = await fs.readFile("./Archivos/Copagos2.json", {
+    encoding: "utf-8",
+  });
 
-    // Mapear los resultados a un nuevo array con las columnas deseadas
-    const result = filteredData.map((item) => ({
-      seccion: item.Seccion,
-      subseccion: item.Subseccion,
-      titulo: item.Titulo,
-      coseguro: item[plan],
-    }));
+  const jsonData = JSON.parse(data);
 
-    // Retornar el array resultante
-    return result;
-  } catch (err) {
-    console.error("Error:", err);
-    throw err; // Lanza el error para que pueda ser manejado por quien llama a la función
+  const registros = jsonData[`Obra Social - ${obraSocial}`];
+  if (!registros) {
+    console.error("Obra social no encontrada.");
+    return null;
   }
+
+  const resultado = {};
+
+  for (const [categoria, planes] of Object.entries(registros)) {
+    if (planes[plan] !== undefined) {
+      resultado[categoria] = planes[plan];
+    }
+  }
+
+  return resultado;
 };
 
 const getDataPersonsFromResponse = (response) => {

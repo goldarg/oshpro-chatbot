@@ -29,11 +29,6 @@ const {
 const MetaProvider = require("@bot-whatsapp-custom/provider/meta");
 const XLSX = require("xlsx");
 const { Server } = require("http");
-const {
-  HttpTransportType,
-  HubConnectionBuilder,
-  LogLevel,
-} = require("@microsoft/signalr");
 
 const normalizeString = (str) => {
   return str
@@ -57,7 +52,7 @@ const consulta_medicamentos = async (params) => {
     );
     const sheet = vademecum.Sheets["Sheet1"];
     const datos = XLSX.utils.sheet_to_json(sheet, {
-      range: "A1:Q1130",
+      range: "A1:Q1126",
       header: 1,
     });
 
@@ -95,6 +90,10 @@ const consulta_medicamentos = async (params) => {
           matcherExcel.test(item["Producto"])
       );
 
+      if (filteredExcel.length == 0) {
+        return leerVentaLibre(medicamento);
+      }
+
       const datos = filteredExcel.map((item) => ({
         medicamento: item["Producto"],
         presentacion: item["Presentación"],
@@ -104,40 +103,180 @@ const consulta_medicamentos = async (params) => {
         receta: item["Tipo Receta"],
         porcentaje_cobertura: item["%Cob. Perfil"],
         es_para_la: item["Cód. Perfil"] == "M" ? "Madre" : "Hijo",
-      }));
+      })).slice(0, 7);
 
       return datos || {};
     }
+
+    return filteredExcel.map((item) => ({
+      medicamento: item["Producto"],
+      presentacion: item["Presentación"],
+      principio_activo: item["Principio Activo"],
+      laboratorio: item["Laboratorio"],
+      familia: item["Familia AFB"],
+      receta: item["Tipo Receta"],
+      porcentaje_cobertura: item["%Cob. Perfil"],
+      es_para_la: item["Cód. Perfil"] == "M" ? "Madre" : "Hijo",
+    })).slice(0, 7);
   }
 
-  let empadronado = es_materno_infantil || enfermedad_cronica ? "SI" : "NO";
-  let pattern = "\b" + medicamento + "\b";
-  const matcher = new RegExp(pattern, "gi");
-  let filtered = await medicamentos.filter(
-    (item) =>
-      item.Plan.indexOf(plan.toUpperCase()) > -1 &&
-      item.Requiere_Empadronamiento == empadronado &&
-      (matcher.test(item.Principio_Activo) || matcher.test(item.medicamento))
+  if (enfermedad_cronica) {
+    // Leer excel de cronocidad y filtrar por parametros
+    const vademecumCron = XLSX.readFile(
+      "./Archivos/Vademeìcum  De Cronicidad 70-100 4.xlsx"
+    );
+
+    const sheetCron = vademecumCron.Sheets["Sheet1"];
+    const datosCron = XLSX.utils.sheet_to_json(sheetCron, {
+      range: "A1:R2163",
+      header: 1,
+    });
+
+    const headersCron = datosCron[0];
+    const rowsCron = datosCron.slice(1);
+
+    const resultCron = rowsCron.map((row) => {
+      let obj = {};
+      row.forEach((value, index) => {
+        obj[headersCron[index]] = value;
+      });
+      return obj;
+    });
+
+    let patternExcelCron = "\b" + medicamento + "\b";
+    let patternEnfermedadCron = "\b" + enfermedad_cronica + "\b";
+    const matcherExcelCron = new RegExp(patternExcelCron, "gi");
+    const matcherEnfermedadCron = new RegExp(patternEnfermedadCron, "gi");
+    let filteredExcelCron = await resultCron.filter(
+      (item) =>
+        matcherExcelCron.test(item["Principio Activo"]) ||
+        matcherExcelCron.test(item["Producto"])
+    );
+
+    if (filteredExcelCron.length == 0) {
+      let patternExcelCron = medicamento
+        .split(" ")
+        .map((item) => item.split("+"))
+        .flat()
+        .join("|");
+      console.log("pattern", patternExcelCron);
+      const matcherExcelCron = new RegExp(patternExcelCron, "gi");
+      filteredExcelCron = await resultCron.filter(
+        (item) =>
+          matcherExcelCron.test(item["Principio Activo"]) ||
+          matcherExcelCron.test(item["Producto"])
+      );
+
+      if (filteredExcelCron.length == 0) {
+        return leerVentaLibre(medicamento);
+      }
+
+      const datosCronRes = filteredExcelCron.map((item) => ({
+        medicamento: item["Producto"],
+        presentacion: item["Presentación"],
+        principio_activo: item["Principio Activo"],
+        laboratorio: item["Laboratorio"],
+        familia: item["Familia AFB"],
+        receta: item["Tipo Receta"],
+        porcentaje_cobertura: item["%Cob. Perfil"],
+      }));
+
+      return datosCronRes.slice(0,15) || {};
+    }
+
+    return filteredExcelCron.map((item) => ({
+      medicamento: item["Producto"],
+      presentacion: item["Presentación"],
+      principio_activo: item["Principio Activo"],
+      laboratorio: item["Laboratorio"],
+      familia: item["Familia AFB"],
+      receta: item["Tipo Receta"],
+      porcentaje_cobertura: item["%Cob. Perfil"],
+    }))
+    .slice(0,15);
+  }
+
+  let vademecumPlanesAltos;
+  try
+  {
+
+  vademecumPlanesAltos = XLSX.readFile(
+    "./Archivos/vade planesaltos.xlsx"
   );
-  if (filtered.length == 0) {
-    let pattern = medicamento
+  }
+  catch (error)
+  {
+    console.error(error);
+    throw error;
+  }
+
+  const sheetPlanesAltos = vademecumPlanesAltos.Sheets["Sheet1"];
+
+  const datosPlanesAltos = XLSX.utils.sheet_to_json(sheetPlanesAltos, {
+    range: "A1:O9725",
+    header: 1,
+  });
+
+  const headersPlanesAltos = datosPlanesAltos[0];
+  const rowsPlanesAltos = datosPlanesAltos.slice(1);
+
+  const resultPlanesAltos = rowsPlanesAltos.map((row) => {
+    let obj = {};
+    row.forEach((value, index) => {
+      obj[headersPlanesAltos[index]] = value;
+    });
+    return obj;
+  });
+
+  let patternExcelPlanesAltos = "\b" + medicamento + "\b";
+
+  const matcherExcelPlanesAltos = new RegExp(patternExcelPlanesAltos, "gi");
+  let filteredExcelPlanesAltos = await resultPlanesAltos.filter(
+    (item) =>
+      matcherExcelPlanesAltos.test(item["Principio Activo"]) ||
+      matcherExcelPlanesAltos.test(item["Producto"])
+  );
+
+  if (filteredExcelPlanesAltos.length == 0) {
+    let patternExcelPlanesAltos = medicamento
       .split(" ")
       .map((item) => item.split("+"))
       .flat()
       .join("|");
-    console.log("pattern", pattern);
-    const matcher = new RegExp(pattern, "gi");
-    filtered = await medicamentos.filter(
+    console.log("pattern", patternExcelPlanesAltos);
+    const matcherExcelPlanesAltos = new RegExp(patternExcelPlanesAltos, "gi");
+    filteredExcelPlanesAltos = await resultPlanesAltos.filter(
       (item) =>
-        item.Plan.indexOf(plan.toUpperCase()) > -1 &&
-        item.Requiere_Empadronamiento == empadronado &&
-        (matcher.test(item.Principio_Activo) ||
-          matcher.test(item.Medicamento) ||
-          matcher.test(item.Enfermedad))
+        matcherExcelPlanesAltos.test(item["Principio Activo"]) ||
+        matcherExcelPlanesAltos.test(item["Producto"])
     );
+
+    if (filteredExcelPlanesAltos.length == 0) {
+      return leerVentaLibre(medicamento);
+    }
+
+    const datosPlanesAltosRes = filteredExcelPlanesAltos.map((item) => ({
+      medicamento: item["Producto"],
+      presentacion: item["Presentación"],
+      principio_activo: item["Principio Activo"],
+      laboratorio: item["Laboratorio"],
+      familia: item["Familia AFB"],
+      receta: item["Tipo Receta"],
+      porcentaje_cobertura: 100,
+    }));
+
+    return datosPlanesAltosRes.slice(0, 7) || {};
   }
 
-  return filtered?.slice(6) || {};
+  return filteredExcelPlanesAltos.map((item) => ({
+    medicamento: item["Producto"],
+    presentacion: item["Presentación"],
+    principio_activo: item["Principio Activo"],
+    laboratorio: item["Laboratorio"],
+    familia: item["Familia AFB"],
+    receta: item["Tipo Receta"],
+    porcentaje_cobertura: 100,
+  })).slice(0,15);
 };
 
 const functions = {
@@ -173,6 +312,70 @@ const functions = {
   Consulta_Coseguros: Consulta_Coseguros,
   Consulta_Ciudades_en_Region: Consulta_Ciudades_en_Region,
 };
+
+function leerVentaLibre(medicamento) {
+  const vademecum = XLSX.readFile("./Archivos/VL.xlsx");
+  const sheet = vademecum.Sheets["Sheet1"];
+  const datos = XLSX.utils.sheet_to_json(sheet, {
+    range: "A1:O136",
+    header: 1,
+  });
+
+  const headers = datos[0];
+
+  const rows = datos.slice(1);
+
+  const result = rows.map((row) => {
+    let obj = {};
+    row.forEach((value, index) => {
+      obj[headers[index]] = value;
+    });
+    return obj;
+  });
+
+  let patternExcel = "\b" + medicamento + "\b";
+  const matcherExcel = new RegExp(patternExcel, "gi");
+  let filteredExcel = result.filter(
+    (item) =>
+      matcherExcel.test(item["Principio Activo"]) ||
+      matcherExcel.test(item["Producto"])
+  );
+
+  if (filteredExcel.length == 0) {
+    let patternExcel = medicamento
+      .split(" ")
+      .map((item) => item.split("+"))
+      .flat()
+      .join("|");
+    console.log("pattern", patternExcel);
+    const matcherExcel = new RegExp(patternExcel, "gi");
+    filteredExcel = result.filter(
+      (item) =>
+        matcherExcel.test(item["Principio Activo"]) ||
+        matcherExcel.test(item["Producto"])
+    );
+
+    const datos = filteredExcel.map((item) => ({
+      medicamento: item["Producto"],
+      presentacion: item["Presentación"],
+      principio_activo: item["Principio Activo"],
+      laboratorio: item["Laboratorio"],
+      familia: item["Familia AFB"],
+      receta: item["Tipo Receta"],
+    })).slice(0, 7);
+
+    return datos || {};
+  }
+
+  return filteredExcel.map((item) => ({
+    medicamento: item["Producto"],
+    presentacion: item["Presentación"],
+    principio_activo: item["Principio Activo"],
+    laboratorio: item["Laboratorio"],
+    familia: item["Familia AFB"],
+    receta: item["Tipo Receta"],
+  })).slice(0,15);
+}
 
 function formatMessageForWhatsApp(markdownMessage) {
   // Manejar primero los patrones combinados de negrita y cursiva (***texto***)

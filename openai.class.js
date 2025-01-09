@@ -50,17 +50,43 @@ class AssistantChat {
 
         const urlStr = urlDownloads.toString();
 
-        message = await this.openai.beta.threads.messages.create(thread.id, {
-          role: "user",
-          content: [
-            { type: "image_url", image_url: { url: urlStr, detail: "auto" } },
-          ],
-        });
+        try {
+          message = await this.openai.beta.threads.messages.create(thread.id, {
+            role: "user",
+            content: [
+              { type: "image_url", image_url: { url: urlStr, detail: "auto" } },
+            ],
+          });
+        } catch (error) {
+          console.error(error);
+
+          if (
+            error.message &&
+            error.message.toLowerCase().includes("can't add messages")
+          ) {
+            return "Por favor, espere que estamos procesando su mensaje anterior.";
+          } else {
+            throw error;
+          }
+        }
       } else {
-        message = await this.openai.beta.threads.messages.create(thread.id, {
-          role: "user",
-          content: msg,
-        });
+        try {
+          message = await this.openai.beta.threads.messages.create(thread.id, {
+            role: "user",
+            content: msg,
+          });
+        } catch (error) {
+          console.error(error);
+
+          if (
+            error.message &&
+            error.message.toLowerCase().includes("can't add messages")
+          ) {
+            return "Por favor, espere que estamos procesando su mensaje anterior.";
+          } else {
+            throw error;
+          }
+        }
       }
 
       const maxRetries = 4;
@@ -104,7 +130,8 @@ class AssistantChat {
               (obj, index) =>
                 (tool_outputs[index].output = JSON.stringify(obj.value))
             );
-            //console.log(JSON.stringify(tool_outputs));
+            console.log("TOOL OUTPUTS:");
+            console.log(JSON.stringify(tool_outputs));
             await delay(20000);
             await this.openai.beta.threads.runs.submitToolOutputs(
               thread.id,
@@ -202,6 +229,38 @@ class AssistantChat {
         running = false;
       }
     }
+  };
+
+  retryOperation = async (operation, retries, delay) => {
+    let attempt = 0;
+
+    while (attempt < retries) {
+      try {
+        return await operation();
+      } catch (error) {
+        attempt++;
+        console.error(`Attempt ${attempt} failed:`, error);
+
+        if (attempt < retries) {
+          console.log(`Retrying in ${delay / 1000} seconds...`);
+          await new Promise((resolve) => setTimeout(resolve, delay));
+        } else {
+          throw new Error(`Operation failed after ${retries} attempts.`);
+        }
+      }
+    }
+  };
+
+  createMessageWithRetries = async (threadId, role, content) => {
+    return await this.retryOperation(
+      () =>
+        this.openai.beta.threads.messages.create(threadId, {
+          role,
+          content,
+        }),
+      3,
+      20000
+    );
   };
 
   #waitForTokens() {
