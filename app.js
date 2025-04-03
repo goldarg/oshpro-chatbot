@@ -546,6 +546,8 @@ const main = async () => {
     numberId: process.env.TEST_NUMBER_ID,
     verifyToken: process.env.VERIFY_TOKEN,
     version: process.env.META_VERSION,
+    port: process.env.PORT,
+    hostName: process.env.HOST
   });
 
   createBot({

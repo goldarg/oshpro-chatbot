@@ -1,15 +1,7 @@
 [
   {
-    "ref": "a69dee05-655e-4175-8e56-7361c7c7f4fb",
-    "keyword": "8392a2f436ae84fe6c685909d1bf2c29",
-    "answer": "Hola",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -23,13 +15,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
     "from": "541158777626"
   },
   {
-    "ref": "579b4630-46ba-4049-ba55-4b627f94d909",
+    "ref": "c4e9247d-c8ae-4f02-9c56-4f4fce2ba347",
     "keyword": null,
-    "answer": "¡Hola! Soy Matías de SCIS Medicina Privada. Para poder ayudarte, primero necesito validar tu identidad. Por favor, proporciona tu DNI y contraseña para iniciar sesión en SCIS.",
+    "answer": "¡Hola! Soy Matías de SCIS Medicina Privada. Estoy aquí para ayudarte. Antes de comenzar, necesito validar tu identidad. Por favor, indícame tu *DNI* y *contraseña* para el inicio de sesión en SCIS. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -37,19 +29,11 @@
       "delay": 0
     },
     "from": "541158777626",
-    "refSerialize": "2ffa4e003fac422ef15fd6c7ccebacf9"
+    "refSerialize": "2f8188f1baeda82c2be25ae2ce1e2f83"
   },
   {
-    "ref": "0e656716-506c-4713-9e12-fd00be8e2f25",
-    "keyword": "c22e4066d61d81721def9b25d8a397e8",
-    "answer": "30473360 SCISelbio-0",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "9a15824a33b34e1ca43bf2a9937ae3a5"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -63,92 +47,57 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "541158777626"
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
   },
   {
-    "ref": "aeab44d8-172a-41bf-b9a3-a12b355d8a84",
-    "keyword": "9a15824a33b34e1ca43bf2a9937ae3a5",
-    "answer": "B",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "7d1f4c73fe1e92b549bdacd1e4381e5f"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "5491158777626"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "541158777626"
-  },
-  {
-    "ref": "5a57be6c-cd74-4e97-91dd-e46707502ddc",
+    "ref": "08e0f66b-025f-49a6-ad70-61d881f0a797",
     "keyword": null,
-    "answer": "B",
+    "answer": "¡Hola! Soy Matías de SCIS Medicina Privada. Estoy aquí para ayudarte. Antes de continuar, necesito validar tu identidad. Por favor, indícame tu *DNI* y tu *contraseña* para el inicio de sesión en SCIS.",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
       "delay": 0
     },
-    "from": "541158777626",
-    "refSerialize": "e70b10d87b8bd2ed64a1cdb4bfeab9b8"
+    "from": "541168738823",
+    "refSerialize": "4ef1f87792b12f77124f486ba05788eb"
   },
   {
-    "ref": "2560bc3c-8a6b-4b30-9f34-11f7f462c48e",
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
+  },
+  {
+    "ref": "0727da34-44ae-46e5-9a4e-72e7ca1e94f1",
     "keyword": null,
-    "answer": "Para poder ayudarte con los medicamentos, necesitaría saber qué medicamento estás buscando y si hay alguna condición especial que deba tener en cuenta, como si se trata de un medicamento para el plan materno infantil o para una enfermedad crónica. ¿Podrías darme más detalles?",
+    "answer": "No te preocupes. Aunque no podamos acceder a información específica sin validar tu identidad, puedo ayudarte con preguntas generales. ¿Qué necesitas saber? \n\nAlgunas opciones que tengo para ofrecerte son:\n1. Cartilla médica.\n2. Medicamentos.\n3. Solicitud de Autorizaciones.\n4. Copagos.\n\nSi es algo específico, dime y haré lo posible para asistirte. 😊",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
       "delay": 0
     },
-    "from": "541158777626",
-    "refSerialize": "0aa8a69e718a7cac22bc830c9463deb9"
+    "from": "541168738823",
+    "refSerialize": "5aadf3fabf3d6ae2ebd7056d85049a51"
   },
   {
-    "ref": "13e319d2-0617-4978-ab7b-7e697c71ba5a",
-    "keyword": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "answer": "O",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "c11b658a7b72ff7987496e36a4d39a99"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -162,33 +111,25 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "541158777626"
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
   },
   {
-    "ref": "af63d285-59f3-4edf-82ff-1163e4b9752a",
+    "ref": "e70853f9-efa5-4a23-aae1-b2b197a29859",
     "keyword": null,
-    "answer": "Para poder ayudarte con una solicitud de autorizaciones, necesito saber qué tipo de autorización estás buscando. Aquí tienes algunas opciones:\n\n1. Solicitud de autorización de plan materno infantil\n2. Solicitud de autorización de estudios y prácticas en ambulatorio\n3. Solicitud de autorización de medicación especial\n4. Solicitud de autorización de internaciones y/o cirugías programadas\n5. Solicitud de autorización de traslados médicos\n6. Mostrar opciones anteriores\n\nPor favor, indícame qué opción necesitas o si tienes otra consulta específica.",
+    "answer": "Perfecto. ¿Podrías confirmarme el plan que tienes y si perteneces a alguna obra social en particular? Esto me ayudará a buscar la información correcta sobre los copagos. 😊",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
       "delay": 0
     },
-    "from": "541158777626",
-    "refSerialize": "b2e69e0d910bce9645de86208e289042"
+    "from": "541168738823",
+    "refSerialize": "c14689f1590f25a3b06965d6c2f51cce"
   },
   {
-    "ref": "bca7d9c2-d46a-49b7-a533-05e0fdf505f8",
-    "keyword": "c11b658a7b72ff7987496e36a4d39a99",
-    "answer": "2",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -202,92 +143,57 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "541158777626"
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
   },
   {
-    "ref": "71798588-ec40-4aef-a266-ca611295faf7",
-    "keyword": "2294c3d08b53a6effa5df696a15b9d30",
-    "answer": "2",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "5491158777626"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "541158777626"
-  },
-  {
-    "ref": "13aa2445-b329-4126-9ba6-90acf0b0845f",
+    "ref": "38889ad5-01d6-42c0-bf92-c52b76626e62",
     "keyword": null,
-    "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
+    "answer": "Gracias por la información. Buscaré los copagos para el plan SC100. ¿Podrías confirmarme si perteneces a una obra social específica o si no aplica en tu caso? Esto me ayudará a ser más preciso. 😊",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
       "delay": 0
     },
-    "from": "541158777626",
-    "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
+    "from": "541168738823",
+    "refSerialize": "6ea6007823d3ae920f8c0cf5755d53ec"
   },
   {
-    "ref": "8e084ca4-8c70-4cf3-b43c-f8e85f475a21",
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
+  },
+  {
+    "ref": "2b5bddfc-b3b4-4180-a5a6-5aa383147538",
     "keyword": null,
-    "answer": "Para proceder con la solicitud de autorización de estudios y prácticas en ambulatorio, necesito algunos detalles más:\n\n1. *Número de afiliado de la persona que se va a realizar la autorización:* Puede ser el mismo o puede ser el número de otro integrante del grupo familiar.\n2. *Fecha de la orden médica:* Formato dd/MM/yyyy.\n3. *Imagen de la orden médica:* Debe ser un archivo en formato jpeg, png, o jpg, y no debe superar los 10MB. Asegúrate de que se trata realmente de la imagen de una orden médica.\n\nSi tienes estos datos, por favor proporciónalos para que pueda continuar con la solicitud.",
+    "answer": "Aquí tienes los copagos para el *plan SC100* con OSTRAC:\n\nConsultas:\n• *Médico clínico/pediatra/tocoginecólogo:* $5.000\n• *Médico especialista:* $7.000\n• *Consulta en domicilio diurna (9 a 18hs):* $8.000\n• *Consulta en domicilio nocturna (18 a 8hs):* $10.000\n\nTraslados:\n• *Traslados programados:* Con autorización.\n\nPrácticas:\n• *Kinesiología (por sesión hasta 30 sesiones):* $2.500\n• *Excedente hasta 60 sesiones:* $4.000\n• *Kinesiología en domicilio:* No cubierto.\n• *Fonoaudiología (por sesión hasta 30 sesiones):* $2.500\n• *Fonoaudiología en domicilio:* No cubierto.\n• *Laboratorio:* $500\n• *Otras prácticas de laboratorio de PMO:* $2.000\n• *Laboratorio por radioinmunoensayo (RIE):* $10.000\n• *APB y laboratorio no PMO:* No cubierto.\n\nImágenes de Baja Complejidad:\n• RX simple, ecografías nomencladas, ECG/ergometrías, colposcopía, prácticas ORL: $2.500\n\nImágenes de Mediana Complejidad:\n• Ecografía no nomenclada, ecodoppler, mamografías, holter, potenciales evocados/EMG, infiltraciones/yeso: $7.000\n\nImágenes de Alta Complejidad:\n• Tomografía, resonancia, endoscopías, PET, punciones, bloqueos, EFG/polisomnografía, presurometría/MAPA: $9.000\n• Genética, medicina nuclear, cámara gamma: $10.000\n• Prácticas no PMO: No cubierto.\n\nSalud Mental:\n• *Psicología (por sesión hasta 30 sesiones):* $6.000\n• *Psiquiatría:* $7.000\n• *Sesiones excedentes (con autorización de auditoría):* $10.000\n• *Alergias (por sesión):* $5.000\n\nOdontología:\n• *Consultas odontológicas:* $4.500\n• *Prestaciones odontológicas:* $5.500\n\nSi necesitas más información, puedes consultar la página oficial: Copagos https://www.scis.com.ar/index.php/copagos. 😊\n\n¿En qué más puedo ayudarte?",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
       "delay": 0
     },
-    "from": "541158777626",
-    "refSerialize": "7a8ebb846ccb8bd01918f8cc14189f82"
+    "from": "541168738823",
+    "refSerialize": "4bc6107f8cf2676029e176b8bb20ee77"
   },
   {
-    "ref": "06cce811-2f98-410c-b416-559af1737c1b",
-    "keyword": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "answer": "U",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "dffb1fcde4018325d51403f12fd29332"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -301,33 +207,25 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "541158777626"
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
   },
   {
-    "ref": "2c9d3b35-62cf-4c43-9054-311da5f300e2",
+    "ref": "9770927b-0310-4c9d-9540-bb88d5f6b95d",
     "keyword": null,
-    "answer": "Para la solicitud de autorización de estudios y prácticas en ambulatorio, necesito los siguientes detalles:\n\n1. *Número de afiliado de la persona que se va a realizar la autorización:* Puede ser el tuyo o el de otro integrante del grupo familiar.\n2. *Fecha de la orden médica:* Formato dd/MM/yyyy.\n3. *Imagen de la orden médica:* Debe ser un archivo en formato jpeg, png, o jpg, y no debe superar los 10MB. Asegúrate de que se trata realmente de la imagen de una orden médica.\n\nPor favor facilita estos detalles para que pueda proceder con la solicitud. Si lo que necesitas es otra cosa, por favor no dudes en decírmelo.",
+    "answer": "La *paquimetría computarizada* es un estudio oftalmológico que generalmente se incluye dentro de las *imágenes de baja complejidad*. Para tu *plan SC100 con OSTRAC*, el coseguro correspondiente sería *$2.500*.\n\n¿Hay algo más en lo que pueda ayudarte? 😊",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
       "delay": 0
     },
-    "from": "541158777626",
-    "refSerialize": "156b67740a8c0088f99252ef1f031528"
+    "from": "541168738823",
+    "refSerialize": "ea62d7dea85cfe0c7b6d14a3447679a8"
   },
   {
-    "ref": "523ab25a-0cb4-4947-bf18-95727dce9f65",
-    "keyword": "dffb1fcde4018325d51403f12fd29332",
-    "answer": "Nono, quiero consultar por acemuk",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "76b7377e22d96857b7ea779f4b6b5b50"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -341,33 +239,25 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "541158777626"
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
   },
   {
-    "ref": "9f6a35cf-4f05-472c-950c-1e9498957e22",
+    "ref": "a6828470-cfed-423a-b6a8-f63cc8d5738a",
     "keyword": null,
-    "answer": "Perfecto, para consultar sobre el medicamento Acemuk, necesito saber tu plan. Según la información que tengo, tu plan es SC250. ¿Es correcto? Si es así, procedo a buscar la información. Si no, por favor indícame el plan correcto.",
+    "answer": "El *OCT (Tomografía de Coherencia Óptica)* es considerado una *imagen de alta complejidad*. Para tu *plan SC100 con OSTRAC*, el coseguro correspondiente sería de *$9.000*.\n\n¿Te ayudo con algo más? 😊",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
       "delay": 0
     },
-    "from": "541158777626",
-    "refSerialize": "d9a853af92d18935c15e5d514ae3f704"
+    "from": "541168738823",
+    "refSerialize": "df5385cbad2c2ce72689d4124e02a290"
   },
   {
-    "ref": "12784bcd-0412-45fd-a439-f9f8166eded2",
-    "keyword": "76b7377e22d96857b7ea779f4b6b5b50",
-    "answer": "Si",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "611b2bffc5c8bf7a02f45d2060b32e20"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -381,79 +271,25 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "541158777626"
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
   },
   {
-    "ref": "31b9c04b-696a-4f8c-a69e-0dc81f9c233e",
-    "keyword": "611b2bffc5c8bf7a02f45d2060b32e20",
-    "answer": "K",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "2e5ab872d3e8a64c12881eddfb4050e8"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "5491158777626"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "541158777626"
-  },
-  {
-    "ref": "72556262-b60c-4644-b032-0179e4751c41",
+    "ref": "07f3fe35-e0b8-4e9c-8895-764bcc4449fa",
     "keyword": null,
-    "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
+    "answer": "Para tu *plan SC100 con OSTRAC*, el coseguro para un estudio de laboratorio estándar es de *$500*. Si se trata de otras prácticas de laboratorio dentro del PMO, el coseguro sería de *$2.000*. \n\nEn caso de que sea un estudio de laboratorio por *Radioinmunoensayo (RIE)*, el coseguro asciende a *$10.000*.\n\n¿Sabes qué tipo de estudio necesitas realizar? Si no estás seguro, te recomiendo verificarlo con tu médico o laboratorio. Estoy aquí para cualquier otra consulta. 😊",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
       "delay": 0
     },
-    "from": "541158777626",
-    "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
+    "from": "541168738823",
+    "refSerialize": "518c6b964b700f8c1d6ca99a46e6dcfe"
   },
   {
-    "ref": "ab68d441-4970-4a06-8ec5-32d477d0f9ed",
-    "keyword": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "answer": "B",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "7d1f4c73fe1e92b549bdacd1e4381e5f"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -467,33 +303,25 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "541158777626"
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
   },
   {
-    "ref": "0498cc50-ec4d-4b76-b748-c3d37ce98c50",
+    "ref": "3d5aca1a-3d76-4419-96d3-242a8c83a8b6",
     "keyword": null,
-    "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
+    "answer": "Todos los estudios que mencionas (hemograma, glucemia, urea, creatinina, hepatograma completo, etc.) generalmente se consideran *prácticas estándar de laboratorio*. Por lo tanto, para tu *plan SC100 con OSTRAC*, el coseguro total sería de *$500*.\n\nSi alguno de los estudios pertenece a una categoría especial o no está incluido en el nomenclador estándar del PMO, podría tener un costo diferente. Te sugiero confirmarlo directamente con el laboratorio o con el médico que te indicó los estudios.\n\n¿Hay algo más en lo que pueda asistirte? 😊",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
       "delay": 0
     },
-    "from": "541158777626",
-    "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
+    "from": "541168738823",
+    "refSerialize": "650a1a49b9d38664aae1cf564e472bc0"
   },
   {
-    "ref": "7442a719-5e72-4127-8052-d5e4eaa73c2b",
-    "keyword": "7d1f4c73fe1e92b549bdacd1e4381e5f",
-    "answer": "K",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "2e5ab872d3e8a64c12881eddfb4050e8"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -507,33 +335,25 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "541158777626"
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
   },
   {
-    "ref": "01644889-d806-4e28-9fcc-e8f8e66d3986",
+    "ref": "833274cb-933e-44f0-99d5-6c0316a862b7",
     "keyword": null,
-    "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
+    "answer": "El *espinograma frente y perfil* es considerado una *imagen de baja complejidad*. Para tu *plan SC100 con OSTRAC*, el coseguro correspondiente sería de *$2.500*.\n\n¿Puedo ayudarte con algo más? 😊",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
       "delay": 0
     },
-    "from": "541158777626",
-    "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
+    "from": "541168738823",
+    "refSerialize": "9885846b8896c0356d5510247ef6ff08"
   },
   {
-    "ref": "362a5450-fd3a-4b74-9684-0094bcb9bece",
-    "keyword": "2e5ab872d3e8a64c12881eddfb4050e8",
-    "answer": "K",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "2e5ab872d3e8a64c12881eddfb4050e8"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -547,11 +367,177 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "541158777626"
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
   },
   {
-    "ref": "b4907e83-f760-47a6-bfb7-824f38383fe7",
+    "ref": "e583335d-9e1d-4ac6-837d-2e78a0edac2e",
+    "keyword": null,
+    "answer": "Para tu *plan SC100 con OSTRAC*, el copago en una *guardia* debería corresponder a los siguientes valores:\n• *Guardia médica clínica/pediátrica/tocoginecológica:* $5.000\n• *Guardia con médico especialista:* $7.000\n\nSi te cobraron *$15.000*, podría tratarse de un error o una situación específica que no esté reflejada en los valores estándar. Te recomiendo comunicarte con SCIS para confirmar esta situación al *(11) 5246-1600* o enviar un correo a *info@scis.com.ar*.\n\n¿Puedo ayudarte con algo más? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "224cc34515fbd56530f763c12aa3b2ca"
+  },
+  {
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
+  },
+  {
+    "ref": "0c9938bc-e67b-435e-859f-eff3a5c8dfb2",
+    "keyword": null,
+    "answer": "Si necesitas sesiones de psicología y estás en la *Provincia de Buenos Aires*, puedes comunicarte con la *Coordinación de Salud Mental*, a cargo de la *Licenciada Daher*, a través de los siguientes contactos:\n• *Email:* smgsalud.coordinacion@gmail.com  \n• *Celular:* 11-4028-4343  \n\n¿Te ayudo con algo más? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "53249c90fa7ded5c217ec0265069ac8d"
+  },
+  {
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
+  },
+  {
+    "ref": "2d2d569c-8b61-454d-85da-4171a5d3aa6d",
+    "keyword": null,
+    "answer": "Para tu *plan SC100 con OSTRAC*, las sesiones de psicología tienen un *copago de $6.000 por sesión*, hasta un máximo de *30 sesiones por año*. Si necesitas sesiones adicionales, estas deben ser autorizadas por auditoría, y el copago correspondiente será de *$10.000 por sesión*.\n\nSi tienes alguna otra duda, no dudes en preguntar. 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "8fd5b7ab556d5dd9aad945400d772ec6"
+  },
+  {
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
+  },
+  {
+    "ref": "5db34de4-8504-4273-aea6-e3eb2f66330c",
+    "keyword": null,
+    "answer": "Para verificar si tienes cobertura en el *Sanatorio Güemes* de *CABA*, necesito realizar una consulta en la cartilla médica. ¿Podrías confirmarme que deseas buscar específicamente en la región de *CABA* y bajo qué especialidad deseas consultar (por ejemplo, clínica médica, guardia, estudios, etc.)? \n\nTambién te recuerdo que en caso de urgencias y emergencias puedes comunicarte al *0810-345-SCIS (7247)*. 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "22ab83ff04cefb757ffb9d384050412a"
+  },
+  {
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
+  },
+  {
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "5491168738823"
+  },
+  {
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
+  },
+  {
+    "ref": "13c430b7-8669-4a6f-a625-acfa8282c125",
     "keyword": null,
     "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
     "options": {
@@ -560,20 +546,33 @@
       "capture": false,
       "delay": 0
     },
-    "from": "541158777626",
+    "from": "541168738823",
     "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
   },
   {
-    "ref": "11afa4c4-ff46-48c2-af93-15800a0a3cdd",
-    "keyword": "2e5ab872d3e8a64c12881eddfb4050e8",
-    "answer": "K",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "2e5ab872d3e8a64c12881eddfb4050e8"
+    "ref": "fc055a57-a205-4d41-8767-f079b407aa38",
+    "keyword": null,
+    "answer": "Sí, tienes cobertura en el *Sanatorio Güemes* en CABA bajo tu *plan SC100*. Aquí están los detalles:\n• *Dirección:* Fco. Acuña de Figueroa 1240, Palermo.  \n• *Teléfono:* 4959-8200  \n• Ver en mapa https://www.google.com/maps?q=-34.5970346,-58.4219281&hl=es&z=15\n\n¿Hay algo más en lo que pueda ayudarte? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "6f1a572a13225496ca3a9ecf7ddcee3f"
   },
   {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "ref": "2cba0671-4a1c-43c7-be78-83857a60b069",
+    "keyword": "4715fb02db8ee8bb6d73161b53b241fe",
+    "answer": "hasta que edad corresponde pediatra?",
+    "options": {},
+    "from": "5491168738823",
+    "refSerialize": "3365ac66d4bb8887025c140a7576e9ca"
+  },
+  {
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -587,11 +586,217 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "541158777626"
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
   },
   {
-    "ref": "47df9de1-6421-4aae-bb89-1a76cc399f1e",
+    "ref": "5ddef556-b0cf-431b-b298-2f66a466932e",
+    "keyword": null,
+    "answer": "En general, la atención pediátrica corresponde hasta los *18 años de edad*, pero esto puede variar dependiendo del criterio médico y de las políticas específicas de la institución o del plan de salud.\n\nSi necesitas más detalles, puedo ayudarte en lo que necesites. 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "07464fa292798620821c5e60274711e8"
+  },
+  {
+    "ref": "1b9bf5f1-1a8a-48fe-8ab1-a380e5c31478",
+    "keyword": "3365ac66d4bb8887025c140a7576e9ca",
+    "answer": "cual seria el copago para el pediatra",
+    "options": {},
+    "from": "5491168738823",
+    "refSerialize": "3d0fc7f4a1c5f58210477c8c7c383b1a"
+  },
+  {
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
+  },
+  {
+    "ref": "0af6e5bf-4c81-4d77-8cb1-821bccd4d628",
+    "keyword": null,
+    "answer": "Para tu *plan SC100 con OSTRAC*, el copago para una consulta con *pediatra* es de *$5.000*.\n\n¿Hay algo más en lo que pueda ayudarte? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "fee38cf6f3331884679563d9d045e5cb"
+  },
+  {
+    "ref": "6dda4b09-353d-4da8-81db-1d1fd143180e",
+    "keyword": "3d0fc7f4a1c5f58210477c8c7c383b1a",
+    "answer": "cual es el coseguro para un holter?",
+    "options": {},
+    "from": "5491168738823",
+    "refSerialize": "f26dbd3590303f63fd7452b6be72e581"
+  },
+  {
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
+  },
+  {
+    "ref": "8c247bcb-0ff1-43eb-9dce-7411b2f0328e",
+    "keyword": null,
+    "answer": "El *Holter* se considera una *imagen de mediana complejidad*. Por lo tanto, para tu *plan SC100 con OSTRAC*, el coseguro correspondiente sería de *$7.000*.\n\n¿Puedo ayudarte con algo más? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "56e4c548462a3a6ccab12b915c13a72e"
+  },
+  {
+    "ref": "c9a712f0-7fb2-426b-bdb2-d7bfcd1278cf",
+    "keyword": "f26dbd3590303f63fd7452b6be72e581",
+    "answer": "par el plan 50 sale lo mismo?",
+    "options": {},
+    "from": "5491168738823",
+    "refSerialize": "a8b6aed8581acfbf2513163622b7929f"
+  },
+  {
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
+  },
+  {
+    "ref": "d487a0a8-214d-493d-ae2b-1f74f5101c17",
+    "keyword": null,
+    "answer": "No, para el *plan SC50*, el coseguro del *Holter* es de *$8.000*, ya que se considera una imagen de mediana complejidad.\n\n¿Puedo ayudarte con algo más? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "2aaf5545c130d569abd1f30c44d54e0f"
+  },
+  {
+    "ref": "f4fc583c-44e3-4b89-a415-9d9295aea436",
+    "keyword": "a8b6aed8581acfbf2513163622b7929f",
+    "answer": "para el plan 100 tambien me dijiste que era una imagen de mediana complejidad",
+    "options": {},
+    "from": "5491168738823",
+    "refSerialize": "a0d87dbb63abab61dbb15f20092cbf58"
+  },
+  {
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
+  },
+  {
+    "ref": "e2f51a26-8fbf-453a-a89d-878891016c7a",
+    "keyword": "a0d87dbb63abab61dbb15f20092cbf58",
+    "answer": "por que cambia el valor?",
+    "options": {},
+    "from": "5491168738823",
+    "refSerialize": "29561b1da907df9337b36105c63808e0"
+  },
+  {
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "5491168738823"
+  },
+  {
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
+  },
+  {
+    "ref": "b54793aa-5716-497d-b552-975df5bcaaaf",
     "keyword": null,
     "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
     "options": {
@@ -600,20 +805,33 @@
       "capture": false,
       "delay": 0
     },
-    "from": "541158777626",
+    "from": "541168738823",
     "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
   },
   {
-    "ref": "71bf29cd-c419-485e-a1e9-0329a71caec1",
-    "keyword": "2e5ab872d3e8a64c12881eddfb4050e8",
-    "answer": "K",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "2e5ab872d3e8a64c12881eddfb4050e8"
+    "ref": "c513c86f-67c2-4d5b-9718-814290903309",
+    "keyword": null,
+    "answer": "¡Así es! Tanto para el *plan SC100* como para el *plan SC50*, el *Holter* es considerado una *imagen de mediana complejidad*.\n\nSin embargo, el coseguro varía según el plan:\n• *Plan SC100 con OSTRAC:* $7.000.\n• *Plan SC50:* $8.000.\n\nEsto se debe a las diferencias en los valores de cobertura entre los planes. 😊 ¿Hay algo más en lo que pueda ayudarte?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "8ca88a3a6c45bfd2de4a409036fe0841"
   },
   {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
+    "ref": "ccf154a9-c09d-466f-b1d3-c0aaaf289892",
+    "keyword": "4715fb02db8ee8bb6d73161b53b241fe",
+    "answer": "no, gracias.",
+    "options": {},
+    "from": "5491168738823",
+    "refSerialize": "778efd2f7de50b33791273f4d6468413"
+  },
+  {
+    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
+    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -627,153 +845,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "541158777626"
+    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "from": "541168738823"
   },
   {
-    "ref": "2e59aeff-3c74-4039-98e5-cd2281b4392f",
+    "ref": "e1523dbb-5fd5-42a9-8369-77bb7e12682e",
     "keyword": null,
-    "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
+    "answer": "¡De nada! 😊 Si necesitas algo más en el futuro, no dudes en contactarme. ¡Que tengas un excelente día! 🌟",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
       "delay": 0
     },
-    "from": "541158777626",
-    "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
-  },
-  {
-    "ref": "2e8842c4-c0ee-4793-b30f-559f0ccfcee7",
-    "keyword": "2e5ab872d3e8a64c12881eddfb4050e8",
-    "answer": "K",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "2e5ab872d3e8a64c12881eddfb4050e8"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "541158777626"
-  },
-  {
-    "ref": "1258cb21-2d95-4ac9-87b3-65950eb7beaf",
-    "keyword": null,
-    "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
-  },
-  {
-    "ref": "5a41c0fe-f82f-480a-8639-c1a515814024",
-    "keyword": null,
-    "answer": "",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "4b93ffa6304d50c6b58469c3bad54df7"
-  },
-  {
-    "ref": "bf7b6a01-5d81-4a1e-9e2b-2c38eadc8f3d",
-    "keyword": "2e5ab872d3e8a64c12881eddfb4050e8",
-    "answer": "HolA",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "09f2491d51350a7f030a842c1653a790"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "541158777626"
-  },
-  {
-    "ref": "9081742d-f8dd-4616-bb42-58f7be0e7993",
-    "keyword": null,
-    "answer": "¡Hola! Soy Matías de SCIS Medicina Privada. Antes de continuar, necesito validar tu identidad. ¿Podrías proporcionarme tu DNI y contraseña de afiliado para iniciar sesión?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "3b3e4c0ad4e751040ad6d21b9180a273"
-  },
-  {
-    "ref": "74b8c5fc-1ff9-4042-87c2-13cdb7174a09",
-    "keyword": "09f2491d51350a7f030a842c1653a790",
-    "answer": "H",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "ff1074a08d544026a56e516f49298f06"
-  },
-  {
-    "ref": "ans_f47f839c-e0da-4614-bde4-d10aaf267068",
-    "keyword": "key_51065aba-e7b7-44c6-8f44-fad7e9c24b12",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "3a4720db8599ef2e97cb96a8c9c1db7d",
-    "from": "541158777626"
-  },
-  {
-    "ref": "15cd5851-eb38-4f0f-8276-884d0613049f",
-    "keyword": null,
-    "answer": "Necesito que me proporciones tu DNI y la contraseña de afiliado para poder validar tu identidad y asistirte mejor.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "f4887139049c1c346cdc9c0fd73fdfaa"
+    "from": "541168738823",
+    "refSerialize": "6868076fb980bb00c87c4d2a1aeea10a"
   }
 ]

@@ -10,7 +10,7 @@
   "keywords": [],
   "dependencies": {
     "@bot-whatsapp-custom/bot": "file:bot-whatsapp-custom-bot-0.1.38.tgz",
-    "@bot-whatsapp-custom/provider": "file:bot-whatsapp-custom-provider-0.1.38.tgz",
+    "@bot-whatsapp-custom/provider": "file:bot-whatsapp-custom-provider-0.1.40.tgz",
     "@bot-whatsapp/cli": "^0.1.38",
     "@bot-whatsapp/database": "^0.1.38",
     "@microsoft/signalr": "^8.0.7",
