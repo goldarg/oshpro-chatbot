@@ -9,7 +9,7 @@ const XLSX = require("xlsx");
 const { response } = require("express");
 
 const publicKey = `-----BEGIN PUBLIC KEY-----
-MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwFt0gwidIq1VL0f4KOMZghS0Nq6a4leajz7AQjNK/J3ILdf0k840afihFami0qXQ90W3qZ3qnxbHwb6ugXSMT4iMxMjHTwmBMGteK46Hr/4J3CR6npSV8sFNHr5Cbc3s95SVBNJB0O4uv6Nrl4nMJ5gjX6DlO0bojAvqB6TZ4l40SZiSLJ+ZPEGlyqzf/5utMZIBwxgBSd/5GgtfwlSnBA49zZeLoetktNVWYKAczFm3ThYZZVBUg5iyYJRjh+VfzkOPt50bF2TxXGv73eoHJ9nLPCtRxef1h4x5aJkWgfisrvvtOyigVDVrgaDgADdr0XAJAsEbTcHDxURvO9v1RwIDAQAB
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvDFuWlVVZInn5/I6/nmIQ14LF4fcWov4u2jZbzkgSpUg9kpUwS8AKHZVqZiME0Z+YtAQKDdCp18XuRdl1XIdtd0O03K0ZJPXDtWk4RbUy8VZx20PZcKdzU6x6tq0auJAR4tgyoFupN5tIP4yDh5hymwVBMsMXtjVx7P+B+SbnhwP/NGsEcefbozJqTQhYvIY1rvn2r7NCp9h31AH1G97VznUsCJ7e63xEcGNBZlqPxVZqJOTU248vB36vzMdZ6TE+zJPevVXvEUyqx6V5xz7TxekHfddly8bWtOO+M1LZFx4sNuLs8v57I6IM1O07FOKur1TnKrNv0D08V3x3mtptQIDAQAB
 -----END PUBLIC KEY-----`; //your public key
 
 const newLogin = async (params) => {
@@ -20,7 +20,7 @@ const newLogin = async (params) => {
   console.debug(encryptedPassword);
 
   try {
-    const baseUrl = `https://osiris.hms-tech.com`;
+    const baseUrl = `https://test01.scisonline.com.ar`;
 
     const instance = axios.create({
       baseURL: baseUrl,
@@ -39,7 +39,7 @@ const newLogin = async (params) => {
           },
         },
       },
-      person_domain: "HMS",
+      person_domain: "scis",
       password: encryptedPassword,
       token: {
         expiration_duration: "PT3M",
@@ -47,7 +47,7 @@ const newLogin = async (params) => {
     };
 
     const response = await instance.post(
-      `/api/auth2/domain/HMS/environment/TEST/authenticate/identifier?apikey=kO2Ntii7I7d8SzxnYZGsckNmTUZAdZ1b`,
+      `/v2/api/auth2/domain/scis/environment/testV2/authenticate/identifier?apikey=zOD9sW2OCOeFriPMuhnbVawzh63qDc08`,
       data
     );
 
@@ -64,7 +64,7 @@ const newLogin = async (params) => {
         )
       );
       const responseRelaciones = await instance.post(
-        `/api/people_v2/domain/HMS/findPersonsByIdentifier?apikey=kO2Ntii7I7d8SzxnYZGsckNmTUZAdZ1b`,
+        `/v2/api/people_v2/domain/HMS/findPersonsByIdentifier?apikey=zOD9sW2OCOeFriPMuhnbVawzh63qDc08`,
         relationsToSend
       );
 
@@ -401,7 +401,7 @@ const transformApiResponse = async (response, grupoFamiliar) => {
   );
 
   const cuilEncrypted = person.document_ids.find(
-    (x) => x.type === "CUIT/CUIL"
+    (x) => (x.type === "CUIT/CUIL" || x.type === "DNI")
   ).value;
 
   const cuil = (await decryptRSA(publicKey, cuilEncrypted)).toString("utf8");

@@ -1,7 +1,7 @@
 [
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -15,13 +15,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541158777626"
   },
   {
-    "ref": "c4e9247d-c8ae-4f02-9c56-4f4fce2ba347",
+    "ref": "9bc09be6-504b-4f90-862a-26e150f6b58c",
     "keyword": null,
-    "answer": "¡Hola! Soy Matías de SCIS Medicina Privada. Estoy aquí para ayudarte. Antes de comenzar, necesito validar tu identidad. Por favor, indícame tu *DNI* y *contraseña* para el inicio de sesión en SCIS. 😊",
+    "answer": "¡Hola! Soy Matías de SCIS Medicina Privada. Estoy aquí para ayudarte. Primero, necesito validar tu identidad antes de continuar. Por favor, indícame tu *DNI* y tu *contraseña* para el inicio de sesión en SCIS.",
     "options": {
       "media": null,
       "buttons": [],
@@ -29,11 +29,11 @@
       "delay": 0
     },
     "from": "541158777626",
-    "refSerialize": "2f8188f1baeda82c2be25ae2ce1e2f83"
+    "refSerialize": "06a24b395b250ee3d4c36030cb343854"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -47,13 +47,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "08e0f66b-025f-49a6-ad70-61d881f0a797",
+    "ref": "9c07e872-2de8-417f-a4c7-27e62823f92e",
     "keyword": null,
-    "answer": "¡Hola! Soy Matías de SCIS Medicina Privada. Estoy aquí para ayudarte. Antes de continuar, necesito validar tu identidad. Por favor, indícame tu *DNI* y tu *contraseña* para el inicio de sesión en SCIS.",
+    "answer": "¡Hola! Soy Matías de SCIS Medicina Privada. ¿En qué puedo ayudarte hoy? Primero, necesito validar tu identidad. Por favor, indícame tu DNI y contraseña para iniciar sesión en SCIS.",
     "options": {
       "media": null,
       "buttons": [],
@@ -61,11 +61,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "4ef1f87792b12f77124f486ba05788eb"
+    "refSerialize": "b3f3929d6657298a79222a2e1df1d9fc"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -79,13 +79,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "0727da34-44ae-46e5-9a4e-72e7ca1e94f1",
+    "ref": "81ce10ae-5a3f-4cd6-bf1b-24b75ee43ad6",
     "keyword": null,
-    "answer": "No te preocupes. Aunque no podamos acceder a información específica sin validar tu identidad, puedo ayudarte con preguntas generales. ¿Qué necesitas saber? \n\nAlgunas opciones que tengo para ofrecerte son:\n1. Cartilla médica.\n2. Medicamentos.\n3. Solicitud de Autorizaciones.\n4. Copagos.\n\nSi es algo específico, dime y haré lo posible para asistirte. 😊",
+    "answer": "¡Gracias, Pablo Martínez! Tu identidad ha sido validada correctamente. Tu plan actual es *SC250*.\n\nEstas son algunas de las opciones con las que puedo ayudarte para comenzar:\n1. Cartilla médica\n2. Medicamentos\n3. Solicitud de Autorizaciones\n4. Copagos\n\nSi tienes alguna consulta específica, no dudes en decírmelo. ¿En qué puedo ayudarte? 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -93,11 +93,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "5aadf3fabf3d6ae2ebd7056d85049a51"
+    "refSerialize": "ba6b725d541e90495d2b2bd6fc56018e"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -111,13 +111,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "e70853f9-efa5-4a23-aae1-b2b197a29859",
+    "ref": "3348ead0-4ffa-43d3-85c8-5997be6533aa",
     "keyword": null,
-    "answer": "Perfecto. ¿Podrías confirmarme el plan que tienes y si perteneces a alguna obra social en particular? Esto me ayudará a buscar la información correcta sobre los copagos. 😊",
+    "answer": "Perfecto, ¿quieres consultar la cartilla médica? Por favor, indícame lo siguiente:\n\n1. *Región*: ¿En qué región necesitas buscar?\n2. *Especialidad*: ¿Qué especialidad deseas consultar?\n3. *Ciudad* (opcional): Si necesitas una ciudad específica, indícamela.\n\nAdemás, te recuerdo que en caso de urgencias y emergencias puedes comunicarte al *0810-345-SCIS (7247)*. También puedes acceder a la cartilla desde la página web: Cartilla SCIS https://cartilla.scisonline.com.ar/domain/scis/app/cartilla/home.",
     "options": {
       "media": null,
       "buttons": [],
@@ -125,11 +125,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "c14689f1590f25a3b06965d6c2f51cce"
+    "refSerialize": "bfc06db83feab230de0aafdc3b90a289"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -143,13 +143,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "38889ad5-01d6-42c0-bf92-c52b76626e62",
+    "ref": "7623bce3-37fc-4b81-a232-4e47c09b00ec",
     "keyword": null,
-    "answer": "Gracias por la información. Buscaré los copagos para el plan SC100. ¿Podrías confirmarme si perteneces a una obra social específica o si no aplica en tu caso? Esto me ayudará a ser más preciso. 😊",
+    "answer": "¡Entendido! Vamos a buscar en la región *Capital Federal*. Por favor, indícame:\n\n1. ¿Qué especialidad deseas consultar?\n2. ¿Quieres especificar una ciudad o directamente toda la región?",
     "options": {
       "media": null,
       "buttons": [],
@@ -157,11 +157,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "6ea6007823d3ae920f8c0cf5755d53ec"
+    "refSerialize": "c7840641c9457b2759191493a5830c42"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -175,13 +175,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "2b5bddfc-b3b4-4180-a5a6-5aa383147538",
+    "ref": "f061aa9d-c454-433b-abe6-3ae6f409f436",
     "keyword": null,
-    "answer": "Aquí tienes los copagos para el *plan SC100* con OSTRAC:\n\nConsultas:\n• *Médico clínico/pediatra/tocoginecólogo:* $5.000\n• *Médico especialista:* $7.000\n• *Consulta en domicilio diurna (9 a 18hs):* $8.000\n• *Consulta en domicilio nocturna (18 a 8hs):* $10.000\n\nTraslados:\n• *Traslados programados:* Con autorización.\n\nPrácticas:\n• *Kinesiología (por sesión hasta 30 sesiones):* $2.500\n• *Excedente hasta 60 sesiones:* $4.000\n• *Kinesiología en domicilio:* No cubierto.\n• *Fonoaudiología (por sesión hasta 30 sesiones):* $2.500\n• *Fonoaudiología en domicilio:* No cubierto.\n• *Laboratorio:* $500\n• *Otras prácticas de laboratorio de PMO:* $2.000\n• *Laboratorio por radioinmunoensayo (RIE):* $10.000\n• *APB y laboratorio no PMO:* No cubierto.\n\nImágenes de Baja Complejidad:\n• RX simple, ecografías nomencladas, ECG/ergometrías, colposcopía, prácticas ORL: $2.500\n\nImágenes de Mediana Complejidad:\n• Ecografía no nomenclada, ecodoppler, mamografías, holter, potenciales evocados/EMG, infiltraciones/yeso: $7.000\n\nImágenes de Alta Complejidad:\n• Tomografía, resonancia, endoscopías, PET, punciones, bloqueos, EFG/polisomnografía, presurometría/MAPA: $9.000\n• Genética, medicina nuclear, cámara gamma: $10.000\n• Prácticas no PMO: No cubierto.\n\nSalud Mental:\n• *Psicología (por sesión hasta 30 sesiones):* $6.000\n• *Psiquiatría:* $7.000\n• *Sesiones excedentes (con autorización de auditoría):* $10.000\n• *Alergias (por sesión):* $5.000\n\nOdontología:\n• *Consultas odontológicas:* $4.500\n• *Prestaciones odontológicas:* $5.500\n\nSi necesitas más información, puedes consultar la página oficial: Copagos https://www.scis.com.ar/index.php/copagos. 😊\n\n¿En qué más puedo ayudarte?",
+    "answer": "Aquí tienes las opciones disponibles en la región *Capital Federal* para internación obstétrica y neonatología (Maternidad), bajo tu plan *SC250*:\n\n1. *Centro Deragopyan*  \n• Dirección: ACOYTE 286, CABALLITO  \n• Teléfonos: (011) 6139-7992 / 0810-777-8876 / 0810-362-8876  \n• Horario: Lunes a Viernes 7:00 a 15:00, Sábados 8:00 a 12:00  \n• Ver en mapa https://www.google.com/maps?q=-34.6148196,-58.4379581&hl=es&z=15\n\n2. *Centro Deragopyan*  \n• Dirección: AMENÁBAR 1331, BELGRANO  \n• Teléfonos: 0810-777-8876 / 0810-362-8876 / (011) 6139-7992  \n• Horario: Lunes a Viernes 7:00 a 15:00, Sábados 8:00 a 12:00  \n• Ver en mapa https://www.google.com/maps?q=-34.569155,-58.4517381&hl=es&z=15\n\n3. *Sanatorio Güemes*  \n• Dirección: FCO. ACUÑA DE FIGUEROA 1240, PALERMO  \n• Teléfono: 4959-8200  \n• Ver en mapa https://www.google.com/maps?q=-34.5970346,-58.4219281&hl=es&z=15\n\nSi necesitas más información o ayuda, no dudes en decírmelo. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -189,11 +189,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "4bc6107f8cf2676029e176b8bb20ee77"
+    "refSerialize": "257fac7ba5230b8f89bd1becfbfb87c1"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -207,13 +207,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "9770927b-0310-4c9d-9540-bb88d5f6b95d",
+    "ref": "c827c981-46f0-4f1c-a4e0-fd6a67123fa2",
     "keyword": null,
-    "answer": "La *paquimetría computarizada* es un estudio oftalmológico que generalmente se incluye dentro de las *imágenes de baja complejidad*. Para tu *plan SC100 con OSTRAC*, el coseguro correspondiente sería *$2.500*.\n\n¿Hay algo más en lo que pueda ayudarte? 😊",
+    "answer": "La Interrupción Voluntaria del Embarazo (IVE) está incluida en el marco de las leyes de salud vigentes en Argentina. SCIS Medicina Privada cumple con estas normativas, por lo que sí cuentas con cobertura para esta práctica dentro de los términos establecidos por la Ley 27.610.\n\nTe recomiendo que consultes directamente con la cartilla médica para identificar las instituciones que realizan esta práctica o también puedes comunicarte al *0810-345-SCIS (7247)* para más información.\n\n¿Hay algo más en lo que pueda ayudarte? Aquí algunas opciones para continuar:  \n1. Cartilla médica  \n2. Medicamentos  \n3. Solicitud de Autorizaciones  \n4. Copagos",
     "options": {
       "media": null,
       "buttons": [],
@@ -221,11 +221,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "ea62d7dea85cfe0c7b6d14a3447679a8"
+    "refSerialize": "0012f4ef11b0f1b80396200d909dc663"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -239,13 +239,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "a6828470-cfed-423a-b6a8-f63cc8d5738a",
+    "ref": "544f257e-3488-4809-8d42-09064a7246f3",
     "keyword": null,
-    "answer": "El *OCT (Tomografía de Coherencia Óptica)* es considerado una *imagen de alta complejidad*. Para tu *plan SC100 con OSTRAC*, el coseguro correspondiente sería de *$9.000*.\n\n¿Te ayudo con algo más? 😊",
+    "answer": "No, con tu plan *SC250* puedes atenderte tanto en la Provincia de Buenos Aires como en otras regiones del país, dependiendo de la cobertura de SCIS y la disponibilidad de prestadores en la cartilla médica.\n\nSi necesitas consultar la disponibilidad por región o especialidad, puedo ayudarte a buscar en la cartilla médica. ¿Hay alguna región o especialidad específica que te interese? 😊\n\nAdemás, recuerda que en caso de urgencias o emergencias puedes comunicarte al *0810-345-SCIS (7247)*.",
     "options": {
       "media": null,
       "buttons": [],
@@ -253,11 +253,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "df5385cbad2c2ce72689d4124e02a290"
+    "refSerialize": "d0b077f8d0dd3d1d4976c9808ebbfa86"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -271,13 +271,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "07f3fe35-e0b8-4e9c-8895-764bcc4449fa",
+    "ref": "680a0ec5-2748-4049-9c04-d2ecc784de7c",
     "keyword": null,
-    "answer": "Para tu *plan SC100 con OSTRAC*, el coseguro para un estudio de laboratorio estándar es de *$500*. Si se trata de otras prácticas de laboratorio dentro del PMO, el coseguro sería de *$2.000*. \n\nEn caso de que sea un estudio de laboratorio por *Radioinmunoensayo (RIE)*, el coseguro asciende a *$10.000*.\n\n¿Sabes qué tipo de estudio necesitas realizar? Si no estás seguro, te recomiendo verificarlo con tu médico o laboratorio. Estoy aquí para cualquier otra consulta. 😊",
+    "answer": "No encontré médicos clínicos disponibles en la ciudad *San Ramón de la Nueva Orán*, en la región de Salta, para tu plan *SC250*. \n\nSi deseas, puedo realizar una búsqueda en las ciudades cercanas de la misma región o puedes consultar directamente la cartilla en SCIS Online https://cartilla.scisonline.com.ar/domain/scis/app/cartilla/home. \n\n¿Te gustaría que revise en otra ciudad o región? 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -285,11 +285,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "518c6b964b700f8c1d6ca99a46e6dcfe"
+    "refSerialize": "7b6055286dc925e134d3b0196d30f894"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -303,13 +303,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "3d5aca1a-3d76-4419-96d3-242a8c83a8b6",
+    "ref": "61dc8c27-ed78-41db-a898-43751b73c452",
     "keyword": null,
-    "answer": "Todos los estudios que mencionas (hemograma, glucemia, urea, creatinina, hepatograma completo, etc.) generalmente se consideran *prácticas estándar de laboratorio*. Por lo tanto, para tu *plan SC100 con OSTRAC*, el coseguro total sería de *$500*.\n\nSi alguno de los estudios pertenece a una categoría especial o no está incluido en el nomenclador estándar del PMO, podría tener un costo diferente. Te sugiero confirmarlo directamente con el laboratorio o con el médico que te indicó los estudios.\n\n¿Hay algo más en lo que pueda asistirte? 😊",
+    "answer": "No encontré clínicas con guardia 24 horas disponibles en *San Ramón de la Nueva Orán* bajo tu plan *SC250*. \n\nSi necesitas atención urgente, te recomiendo comunicarte al *0810-345-SCIS (7247)* para obtener más soporte o buscar opciones cercanas. También puedo ayudarte a buscar en otra ciudad o región, si lo deseas. ¿Cómo prefieres continuar? 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -317,11 +317,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "650a1a49b9d38664aae1cf564e472bc0"
+    "refSerialize": "31cfa120578da34bba0087269c2304e2"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -335,13 +335,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "833274cb-933e-44f0-99d5-6c0316a862b7",
+    "ref": "e1589962-7163-4f94-8c28-7b5c423d42b2",
     "keyword": null,
-    "answer": "El *espinograma frente y perfil* es considerado una *imagen de baja complejidad*. Para tu *plan SC100 con OSTRAC*, el coseguro correspondiente sería de *$2.500*.\n\n¿Puedo ayudarte con algo más? 😊",
+    "answer": "Aquí tienes algunas clínicas con *guardia 24 horas* disponibles en *Salta Capital* bajo tu plan *SC250*:\n\n1. *Clínica Cruz Azul*  \n• Dirección: ALBERDI 359, SALTA  \n• Teléfonos: 0387-4311561 / 0387-155086144 / 0387-156397667  \n• Ver en mapa https://www.google.com/maps?q=-24.7942995,-65.4111223&hl=es&z=15\n\n2. *Clínica San Rafael*  \n• Dirección: AV. SARMIENTO 566, SALTA  \n• Teléfono: 0387-4318111  \n• Ver en mapa https://www.google.com/maps?q=-24.7825571,-65.4156693&hl=es&z=15\n\n3. *Clínica María de Urkupiña*  \n• Dirección: AMEGHINO 1069, SALTA  \n• Teléfonos: 0387-4212708 / 0387-4321893  \n• Ver en mapa https://www.google.com/maps?q=-24.7770539,-65.4160052&hl=es&z=15\n\n4. *Hospital Pdo. Santa Clara de Asís*  \n• Dirección: URQUIZA 964, SALTA  \n• Teléfonos: 0387-4321440 / 0387-5953900  \n• Ver en mapa https://www.google.com/maps?q=-24.7918379,-65.415999&hl=es&z=15  \n\n5. *IMAC Centro*  \n• Dirección: ALVARADO 858, SALTA  \n• Teléfono: 0387-4219212  \n• Ver en mapa https://www.google.com/maps?q=-24.7906974,-65.4133494&hl=es&z=15\n\n6. *Maternidad Privada Salta S.A.*  \n• Dirección: URQUIZA 150, SALTA  \n• Teléfono: 0387-4320385  \n• Ver en mapa https://www.google.com/maps?q=-24.7925921,-65.4051869&hl=es&z=15\n\nQuedan más registros disponibles en esta región. ¿Te gustaría ver más opciones? 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -349,11 +349,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "9885846b8896c0356d5510247ef6ff08"
+    "refSerialize": "e9a72d4f330e852f8380a6d418062b97"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -367,13 +367,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "e583335d-9e1d-4ac6-837d-2e78a0edac2e",
+    "ref": "7dcc11cb-97d5-4049-8548-690e80fe10cf",
     "keyword": null,
-    "answer": "Para tu *plan SC100 con OSTRAC*, el copago en una *guardia* debería corresponder a los siguientes valores:\n• *Guardia médica clínica/pediátrica/tocoginecológica:* $5.000\n• *Guardia con médico especialista:* $7.000\n\nSi te cobraron *$15.000*, podría tratarse de un error o una situación específica que no esté reflejada en los valores estándar. Te recomiendo comunicarte con SCIS para confirmar esta situación al *(11) 5246-1600* o enviar un correo a *info@scis.com.ar*.\n\n¿Puedo ayudarte con algo más? 😊",
+    "answer": "Para confirmar si la *Maternidad Privada Salta S.A.* cuenta con servicios de neonatología, te sugiero que te comuniques directamente con ellos al teléfono *0387-4320385*. También puedes visitarlos en su dirección: *URQUIZA 150, SALTA*. Aquí tienes el enlace para ver la ubicación en el mapa: Ver en mapa https://www.google.com/maps?q=-24.7925921,-65.4051869&hl=es&z=15.\n\nSi necesitas más ayuda o deseas buscar otras opciones, avísame. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -381,11 +381,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "224cc34515fbd56530f763c12aa3b2ca"
+    "refSerialize": "d05b00e47bcfc6246337756d929aab4a"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -399,13 +399,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "0c9938bc-e67b-435e-859f-eff3a5c8dfb2",
+    "ref": "48f58871-4c27-4ac5-9d28-3e4bd812c84d",
     "keyword": null,
-    "answer": "Si necesitas sesiones de psicología y estás en la *Provincia de Buenos Aires*, puedes comunicarte con la *Coordinación de Salud Mental*, a cargo de la *Licenciada Daher*, a través de los siguientes contactos:\n• *Email:* smgsalud.coordinacion@gmail.com  \n• *Celular:* 11-4028-4343  \n\n¿Te ayudo con algo más? 😊",
+    "answer": "¡Claro que sí! Estas son las opciones disponibles para continuar:\n\n1. Cartilla médica  \n2. Medicamentos  \n3. Solicitud de Autorizaciones  \n4. Copagos  \n\nIndícame qué opción prefieres o hazme cualquier consulta específica. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -413,11 +413,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "53249c90fa7ded5c217ec0265069ac8d"
+    "refSerialize": "4642de56e64d18af5e2fc7777312a6ce"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -431,13 +431,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "2d2d569c-8b61-454d-85da-4171a5d3aa6d",
+    "ref": "64870368-e0c3-446b-bf12-19332ec91a6d",
     "keyword": null,
-    "answer": "Para tu *plan SC100 con OSTRAC*, las sesiones de psicología tienen un *copago de $6.000 por sesión*, hasta un máximo de *30 sesiones por año*. Si necesitas sesiones adicionales, estas deben ser autorizadas por auditoría, y el copago correspondiente será de *$10.000 por sesión*.\n\nSi tienes alguna otra duda, no dudes en preguntar. 😊",
+    "answer": "Perfecto, vamos a consultar sobre copagos. Antes de continuar, ¿podrías indicarme si tienes alguna obra social asociada a tu plan? Esto me ayudará a proporcionarte la información correcta. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -445,11 +445,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "8fd5b7ab556d5dd9aad945400d772ec6"
+    "refSerialize": "014929a03894cf2bb77d0e11a721544e"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -463,13 +463,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "5db34de4-8504-4273-aea6-e3eb2f66330c",
+    "ref": "0aada1c1-12c6-427a-8066-fd84f6a437f1",
     "keyword": null,
-    "answer": "Para verificar si tienes cobertura en el *Sanatorio Güemes* de *CABA*, necesito realizar una consulta en la cartilla médica. ¿Podrías confirmarme que deseas buscar específicamente en la región de *CABA* y bajo qué especialidad deseas consultar (por ejemplo, clínica médica, guardia, estudios, etc.)? \n\nTambién te recuerdo que en caso de urgencias y emergencias puedes comunicarte al *0810-345-SCIS (7247)*. 😊",
+    "answer": "Estos son los copagos para el plan *SC250*, con tu obra social asociada (*Ostrac*):\n\nConsultas:\n• Médico clínico/pediatra/tocoginecólogo: *Sin cargo*  \n• Médico especialista: *Sin cargo*  \n• Consulta en domicilio diurna (9 a 18 hs): *$7000*  \n• Consulta en domicilio nocturna (18 a 8 hs): *$8000*  \n• Traslados programados: *Con autorización*\n\nPrácticas:\n• *Kinesiología*:  \n• Por sesión (hasta 30 sesiones): *Sin cargo*  \n• Excedente (hasta 60 sesiones): *$4000*  \n• En domicilio: *No cubierto*  \n• *Fonoaudiología*:  \n• Por sesión (hasta 30 sesiones): *Sin cargo*  \n• En domicilio: *Sin cargo*  \n• Laboratorio: *Sin cargo*  \n• Otras prácticas de laboratorio (PMO y no PMO): *Sin cargo*  \n• Reintegros: *No cubierto*\n\nImágenes:\n• *Baja Complejidad*:  \n• RX simple, ecografías nomencladas, ECG/ergometrías, colposcopia, prácticas ORL: *Sin cargo*  \n• *Mediana Complejidad*:  \n• Ecografías no nomencladas, ecodoppler, mamografías, holter, potenciales evocados/EMG, infiltraciones/yeso: *Sin cargo*  \n• *Alta Complejidad*:  \n• Tomografía, resonancia, genética, medicina nuclear, cámara gamma, endoscopías, PET, punciones, bloqueos, EFG/polisomnografía, presurometría/MAPA, ecodoppler transesofágico: *Sin cargo*  \n• Prácticas no PMO: *No cubierto*\n\nSalud Mental:\n• Psicología (por sesión hasta 30 sesiones): *$6000*  \n• Psiquiatría: *$7000*  \n• Sesiones excedentes (con autorización de auditoría): *$10,000*  \n• Reintegros: *No cubierto*  \n\nOdontología:\n• Consultas odontológicas: *Sin cargo*  \n• Prestaciones odontológicas: *Sin cargo*\n\nSi necesitas más detalles o tienes otra consulta, no dudes en avisarme. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -477,11 +477,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "22ab83ff04cefb757ffb9d384050412a"
+    "refSerialize": "4244ee3daa784ea5f4d8f3fc332604c2"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -495,12 +495,25 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "d550cadc-f28b-4657-b5f9-58d7bff95f8b",
+    "keyword": null,
+    "answer": "Para consultar los copagos del *plan SC100*, necesito saber si está asociado a alguna obra social en particular. Por ejemplo, ¿tienes una obra social vinculada a este plan? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "8241a815a1f5bb952b3273112e29d215"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -514,12 +527,607 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "75af1005-d240-40d4-a784-892b5a7ec6d8",
+    "keyword": null,
+    "answer": "Estos son los copagos para el *plan SC100*, con tu obra social asociada (*Ostrac*):\n\nConsultas:\n• Médico clínico/pediatra/tocoginecólogo: *$5000*  \n• Médico especialista: *$7000*  \n• Consulta en domicilio diurna (9 a 18 hs): *$8000*  \n• Consulta en domicilio nocturna (18 a 8 hs): *$10,000*  \n• Traslados programados: *Con autorización*\n\nPrácticas:\n• *Kinesiología*:  \n• Por sesión (hasta 30 sesiones): *$2500*  \n• Excedente (hasta 60 sesiones): *$4000*  \n• En domicilio: *No cubierto*  \n• *Fonoaudiología*:  \n• Por sesión (hasta 30 sesiones): *$2500*  \n• En domicilio: *No cubierto*  \n• *Laboratorio*:  \n• General: *$500*  \n• Otras prácticas de laboratorio (PMO): *$2000*  \n• Radioinmunoensayo (RIE): *$10,000*  \n• No PMO: *No cubierto*\n\nImágenes:\n• *Baja Complejidad*:  \n• RX simple, ecografías nomencladas, ECG/ergometrías, colposcopia, prácticas ORL: *$2500*  \n• *Mediana Complejidad*:  \n• Ecografías no nomencladas, ecodoppler, mamografías, holter, potenciales evocados/EMG, infiltraciones/yeso: *$7000*  \n• *Alta Complejidad*:  \n• Tomografía, resonancia, endoscopías, PET, punciones, bloqueos, EFG/polisomnografía, presurometría/MAPA, ecodoppler transesofágico: *$9000*  \n• Genética, medicina nuclear, cámara gamma: *$10,000*  \n• Prácticas no PMO: *No cubierto*\n\nSalud Mental:\n• Psicología (por sesión hasta 30 sesiones): *$6000*  \n• Psiquiatría: *$7000*  \n• Sesiones excedentes (con autorización de auditoría): *$10,000*  \n• Reintegros: *No cubierto*\n\nOdontología:\n• Consultas odontológicas: *$4500*  \n• Prestaciones odontológicas: *$5500*\n\nSi necesitas más detalles o tienes otra consulta, no dudes en decírmelo. 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "1f3515d450b93f9f5b0f971b8e0f1d07"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "7350e022-b5d2-4bb2-8cb1-73115daa1830",
+    "keyword": null,
+    "answer": "Las coberturas de farmacia para medicamentos en el *plan SC100* son las siguientes:\n\n1. *Medicamentos incluidos en el formulario del plan*:  \n• Cobertura del *40%* para medicamentos recetados.  \n• No requieren autorización previa.  \n• Las prescripciones son válidas por *30 días* y deben estar emitidas con el *nombre genérico del medicamento*.  \n• *Hasta 3 medicamentos por receta*.\n\n2. *Cobertura del 70% o 100% para medicamentos específicos*:  \n• Se aplica para casos especiales como *PMI (Plan Materno Infantil)* o condiciones crónicas, pero requiere inscripción previa en el programa correspondiente.  \n\n3. *Condiciones crónicas (como diabetes, hipertensión, etc.)*:  \n• Puedes obtener descuentos de hasta el *70%* en medicamentos ambulatorios si estás previamente inscrito.  \n• Es necesario descargar los formularios para acceder a estos beneficios.  \n\nSi necesitas más información sobre medicamentos específicos, puedo ayudarte a buscar en el vademécum. Solo indícame el nombre del medicamento o la enfermedad (si corresponde). 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "b0ca9629a96100a7e4f86c878bf6e57f"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "6ad5a970-fd90-4c33-8442-890da5684850",
+    "keyword": null,
+    "answer": "No, la receta no necesariamente tiene que ser electrónica. Las recetas pueden ser *manuscritas o electrónicas*, siempre y cuando cumplan con los siguientes requisitos:\n• Deben estar emitidas con el *nombre genérico del medicamento*.\n• La prescripción tiene que estar firmada por el médico tratante.\n• La receta es válida por un período de *30 días*.\n\nSi tienes dudas adicionales o necesitas más información, no dudes en consultarme. 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "818b32e6b14d7b166c21a5e09ddede41"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "5973f623-891c-4c75-a8ba-a9ed651e6261",
+    "keyword": null,
+    "answer": "Lamento mucho que estés pasando por esta situación. Si te informaron que los servicios están cortados, lo mejor sería que te comuniques directamente con el área de atención al cliente de SCIS para obtener información más precisa y resolver el inconveniente. Puedes hacerlo a través de:\n• *Teléfono*: (11) 5246-1600  \n• *Correo electrónico*: info@scis.com.ar  \n\nEllos podrán verificar el estado de tu plan y brindarte una solución rápida. ¿Hay algo más en lo que pueda asistirte mientras tanto? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "acb6bd44690045cfac5c15b3209bfc09"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "eff1d722-ba18-48ec-aadc-f48254653749",
+    "keyword": null,
+    "answer": "Entendido, Pablo. Si necesitas ayuda en el futuro, no dudes en escribirme. ¡Que tengas un buen día! 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "73755a127e2c882dcad442f4e3fc0683"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "13b91ef0-3005-4ab3-b4ef-4e9d9c829804",
+    "keyword": null,
+    "answer": "Aquí tienes los lugares disponibles para realizar una *mamografía* en *CABA* con tu plan *SC250*:\n\n1. *Centro Deragopyan*  \n• Dirección: ACOYTE 286, CABALLITO  \n• Teléfonos: (011) 6139-7992 / 0810-777-8876 / 0810-362-8876  \n• Horarios: Lunes a Viernes 7:00 a 15:00, Sábados 8:00 a 12:00  \n• Ver en mapa https://www.google.com/maps?q=-34.6148196,-58.4379581&hl=es&z=15\n\n2. *Centro Deragopyan*  \n• Dirección: AMENÁBAR 1331, BELGRANO  \n• Teléfonos: (011) 6139-7992 / 0810-777-8876 / 0810-362-8876  \n• Horarios: Lunes a Viernes 7:00 a 15:00, Sábados 8:00 a 12:00  \n• Ver en mapa https://www.google.com/maps?q=-34.569155,-58.4517381&hl=es&z=15\n\n3. *Centro Médico MAS*  \n• Dirección: PARAGUAY 2629, CAPITAL FEDERAL  \n• Teléfonos: (011) 4966-0854 / 15 2563 3683  \n• Ver en mapa https://www.google.com/maps?q=-34.5969006,-58.4056775&hl=es&z=15\n\n4. *CIEM*  \n• Dirección: AV. SANTA FE 2036 2 A, RECOLETA  \n• Teléfonos: 4825-7106  \n• Ver en mapa https://www.google.com/maps?q=-34.5960231,-58.396664&hl=es&z=15\n\n5. *I.A.M.A. S.A.*  \n• Dirección: VIAMONTE 2560, BALVANERA  \n• Teléfonos: 4962-0990 / 4961-7323  \n• Ver en mapa https://www.google.com/maps?q=-34.6006676,-58.4046767&hl=es&z=15\n\n6. *Imagen Test S.A.*  \n• Dirección: VARELA 140, FLORES  \n• Teléfonos: 4612-0992 / 4630-1400  \n• Ver en mapa https://www.google.com/maps?q=-34.631363,-58.464637&hl=es&z=15\n\nQuedan más registros disponibles en esta especialidad. ¿Te gustaría ver más opciones? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "e337ca5a6a633c08696cacc18e0b2fee"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "42c4b305-f036-48ba-8e2f-7c26074ae58e",
+    "keyword": null,
+    "answer": "Aquí tienes más opciones para realizar una *mamografía* en *CABA* bajo tu plan *SC250*:\n\n7. *Investigaciones Médicas*  \n• Dirección: PICHINCHA 63, BALVANERA  \n• Teléfono: 4127-2800  \n• Ver en mapa https://www.google.com/maps?q=-34.610357,-58.39921&hl=es&z=15\n\n8. *Investigaciones Médicas*  \n• Dirección: VIAMONTE 1871, BALVANERA  \n• Teléfono: 4127-2800  \n• Ver en mapa https://www.google.com/maps?q=-34.6005927,-58.393817&hl=es&z=15\n\n9. *Sanatorio Colegiales*  \n• Dirección: CONDE 851, COLEGIALES  \n• Teléfono: 4556-4800  \n• Ver en mapa https://www.google.com/maps?q=-34.5770524,-58.4508985&hl=es&z=15\n\n10. *Sanatorio Güemes*  \n• Dirección: FCO. ACUÑA DE FIGUEROA 1240, PALERMO  \n• Teléfono: 4959-8200  \n• Ver en mapa https://www.google.com/maps?q=-34.5970346,-58.4219281&hl=es&z=15\n\nCon esto completamos todas las opciones disponibles para mamografías en CABA. ¿Hay algo más en lo que pueda ayudarte? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "bed2d776a3fbfa75237215c033b09744"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "3b8cec3b-a077-4c0e-81cb-6dc51a4d9674",
+    "keyword": null,
+    "answer": "Para cambiar de plan, te recomiendo que te pongas en contacto con el área de atención al cliente de SCIS, ya que ellos podrán guiarte sobre los planes disponibles y cómo realizar el cambio. Puedes comunicarte a través de:\n• *Teléfono*: (11) 5246-1600  \n• *Correo electrónico*: info@scis.com.ar  \n\nAdemás, si tienes en mente algún plan específico o quieres saber más sobre las coberturas de otros planes, puedo ayudarte con información general sobre los planes disponibles. ¿Te gustaría saber más antes de comunicarte con atención al cliente? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "8b60e936e22d128155264f2a0ed0c980"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "2a2d55be-5e07-434d-a200-ff147fd9bd5a",
+    "keyword": null,
+    "answer": "No encontré información específica sobre los planes disponibles en los archivos cargados. Para conocer las opciones de planes que SCIS ofrece, puedes contactarte directamente con *Atención al Cliente* al *(11) 5246-1600* o al correo *info@scis.com.ar*.\n\n¿Te gustaría realizar otra consulta o profundizar en algún tema? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "d85947a4fbdc4396a5eb34e402840b6c"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "5ba70d30-13e5-4778-b455-51570d0009ec",
+    "keyword": null,
+    "answer": "Sí, SCIS Medicina Privada trabaja con varias obras sociales, ofreciendo planes de salud integrales y complementarios. Las obras sociales pueden asociarse a SCIS para brindar cobertura adicional a sus afiliados. Sin embargo, si tienes dudas sobre si tu obra social trabaja con SCIS o sobre la cobertura específica, te recomiendo contactar con *Atención al Cliente* al *(11) 5246-1600* o al correo *info@scis.com.ar*.\n\n¿Hay algo más en lo que pueda ayudarte? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "615c42c65cccc2b41c94f030894dcd86"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "ce37d3dc-0dd9-4ffb-8a3b-0e60e2ecd6db",
+    "keyword": null,
+    "answer": "No tengo la lista específica de las obras sociales con las que SCIS trabaja, pero SCIS colabora con varias obras sociales para ofrecer planes complementarios de salud. Para obtener la información más precisa y actualizada sobre las obras sociales asociadas, te sugiero que te comuniques directamente con *Atención al Cliente* al *(11) 5246-1600* o escribas a *info@scis.com.ar*.\n\nSi necesitas algo más, ¡aquí estoy para ayudarte! 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "ae26bd3f8c08ce80e8b589a1845e0dfa"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "e8dd3969-f29f-4cec-b93b-0403b409fe02",
+    "keyword": null,
+    "answer": "Sí, SCIS ofrece cobertura para la vacuna de la gripe según las condiciones de tu plan y las normativas vigentes. En general:\n\n1. *Cobertura Total*: Si estás incluido en grupos de riesgo (embarazadas, niños pequeños, adultos mayores o personas con enfermedades crónicas) o estás inscrito en el *Plan Materno Infantil (PMI)*, la vacuna para la gripe suele estar cubierta al *100%*.\n   \n2. *Cobertura Parcial o Sin Costo*: Para beneficiarios que no están dentro de los grupos de riesgo, la cobertura dependerá de las condiciones específicas de tu plan.\n\nTe recomiendo que confirmes con SCIS llamando al *(11) 5246-1600* o escribiendo a *info@scis.com.ar* para obtener detalles precisos sobre tu cobertura para la vacuna de la gripe este invierno.\n\n¿Hay algo más en lo que pueda ayudarte? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "a1816c6611bf9213f70ecc0bd8c7c839"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "012f8518-efaf-435c-bc04-88193f0aa578",
+    "keyword": null,
+    "answer": "¡Felicidades por tu embarazo! 😊 Como estás embarazada, la vacuna de la gripe está cubierta al *100%* bajo el *Plan Materno Infantil (PMI)*. Esto incluye todas las vacunas del calendario nacional, lo que significa que no deberías tener costo alguno.\n\nPasos para vacunarte:\n1. *Consulta un centro de vacunación* de la cartilla médica o en tu clínica habitual. Si necesitas ayuda para buscar un lugar, puedo ayudarte con la cartilla.\n2. Lleva tu *credencial virtual* y el *DNI* al momento de vacunarte.\n3. Si necesitas una autorización o más información, puedes comunicarte directamente con SCIS al *0810-345-SCIS (7247)*.\n\nSi necesitas más detalles o ayuda para localizar un centro, avísame. 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "892239841c0211687b30d269eebd0866"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "803f685a-45d1-4aee-8cbe-7b3fdf1b790b",
+    "keyword": null,
+    "answer": "Aquí tienes las farmacias disponibles en *Lomas de Zamora* bajo tu plan *SC250*:\n\n1. *Farmacia Argentina*  \n• Dirección: BOEDO MARIANO 202, LOMAS DE ZAMORA  \n• Teléfono: 4244-1699  \n• Ver en mapa https://www.google.com/maps?q=-34.7596734,-58.399603&hl=es&z=15\n\n2. *Farmacia Etchegaray*  \n• Dirección: MADRID 403, LOMAS DE ZAMORA  \n• Teléfono: 4282-5054  \n• Ver en mapa https://www.google.com/maps?q=-34.7727036,-58.4353429&hl=es&z=15\n\n3. *Farmacia Lofrano*  \n• Dirección: MITRE 188, LOMAS DE ZAMORA  \n• Teléfono: (011) 3324-0744  \n• Ver en mapa https://www.google.com/maps?q=-34.7656879,-58.3997747&hl=es&z=15\n\n4. *Farmacia Meitner*  \n• Dirección: COLOMBRES 1745, LOMAS DE ZAMORA  \n• Teléfono: (011) 2110-8502  \n• Ver en mapa https://www.google.com/maps?q=-34.7610052,-58.4227426&hl=es&z=15\n\n5. *Farmacia Otegui*  \n• Dirección: FALUCHO 1016, LOMAS DE ZAMORA  \n• Teléfono: (011) 6185-2757  \n• Ver en mapa https://www.google.com/maps?q=-34.7578816,-58.4409793&hl=es&z=15\n\nSi necesitas más ayuda o información, ¡no dudes en decírmelo! 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "9ce9bb90ff3b1aaa363dda9a352e6063"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "4a8b7162-6c3f-43b7-a4e7-f23d28714466",
+    "keyword": null,
+    "answer": "No encontré información específica sobre la cobertura del medicamento *Optamox Duo* en tu plan *SC250*. Es posible que no esté registrado con ese nombre en el sistema.\n\nTe sugiero:\n1. Consultar directamente con la farmacia adherida para verificar la cobertura.\n2. Contactar al área de medicamentos especiales en *medicamentosespeciales@scis.com.ar* para confirmar la cobertura de este medicamento.\n\nSi necesitas más ayuda, ¡no dudes en decírmelo! 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "cd4118d98e7698e55c297ca2563aaaec"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "17d07312-e50e-42b2-b22f-b8776b0f1fbe",
+    "keyword": null,
+    "answer": "No encontré información específica sobre la cobertura de *Amoxicilina con Ácido Clavulánico* en el sistema para tu plan *SC250*. Es posible que el medicamento esté registrado bajo un nombre comercial o presentación diferente.\n\nTe recomiendo:\n1. Consultar directamente en una farmacia adherida a SCIS.\n2. Contactar al área de medicamentos especiales al correo *medicamentosespeciales@scis.com.ar* para obtener más detalles.\n\nSi necesitas más ayuda con esto o cualquier otra cosa, estoy aquí para asistirte. 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "7dfe58e97596ee9a04be9e93e4d5b252"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "fd19ffbb-fcb8-461d-8c0b-19899c3241bc",
+    "keyword": null,
+    "answer": "Para actualizar la planilla de diabetes, puedes obtener el formulario directamente desde SCIS siguiendo estos pasos:\n\n1. Comunícate con el área de *Medicación Especial* enviando un correo a *medicamentosespeciales@scis.com.ar*. Allí podrás solicitar el formulario correspondiente.\n2. En el correo, incluye tu *número de afiliado* y explica que necesitas actualizar la planilla de diabetes.\n\nUna vez que completes el formulario, asegúrate de enviarlo al mismo correo mencionado para que puedan procesar la actualización.\n\nSi necesitas más información o ayuda adicional, no dudes en pedírmelo. 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "531f7a05e18879aaf629614ecebd77fa"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "a45fec89-019b-40cc-9c4f-2a90ce5c236b",
+    "keyword": null,
+    "answer": "Para obtener el formulario de diabetes, debes solicitarlo directamente al área de *Medicación Especial* enviando un correo a *medicamentosespeciales@scis.com.ar*. En el correo, incluye lo siguiente:\n\n1. *Asunto*: Solicitud de formulario de diabetes.  \n2. *Cuerpo del correo*: Indica tu número de afiliado, nombre completo y que necesitas el formulario para actualizar tus datos de diabetes.\n\nEl equipo de medicación especial te enviará el formulario para que lo completes y lo devuelvas.\n\nSi necesitas más orientación, ¡aquí estoy! 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "8f6a1be0dadf84c9d5b5f99524aad70f"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "5491168738823"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -533,13 +1141,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "13c430b7-8669-4a6f-a625-acfa8282c125",
+    "ref": "ae4a2d88-50ec-46ae-a024-32f0f9ff792d",
     "keyword": null,
-    "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
+    "answer": "No se puede descargar?",
     "options": {
       "media": null,
       "buttons": [],
@@ -547,12 +1155,12 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
+    "refSerialize": "8cdffe78eaa3964691359c5805fea547"
   },
   {
-    "ref": "fc055a57-a205-4d41-8767-f079b407aa38",
+    "ref": "280e36a7-972a-4186-8f24-d4adad1593ea",
     "keyword": null,
-    "answer": "Sí, tienes cobertura en el *Sanatorio Güemes* en CABA bajo tu *plan SC100*. Aquí están los detalles:\n• *Dirección:* Fco. Acuña de Figueroa 1240, Palermo.  \n• *Teléfono:* 4959-8200  \n• Ver en mapa https://www.google.com/maps?q=-34.5970346,-58.4219281&hl=es&z=15\n\n¿Hay algo más en lo que pueda ayudarte? 😊",
+    "answer": "Actualmente, el formulario para actualizar la planilla de diabetes no está disponible para descarga directa. Debes solicitarlo enviando un correo a *medicamentosespeciales@scis.com.ar*, donde te proporcionarán el formulario actualizado para que puedas completarlo.\n\nSi necesitas más información o ayuda adicional, no dudes en decírmelo. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -560,19 +1168,19 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "6f1a572a13225496ca3a9ecf7ddcee3f"
+    "refSerialize": "5807b7f2636de787d8d7ef9d1cc91d74"
   },
   {
-    "ref": "2cba0671-4a1c-43c7-be78-83857a60b069",
-    "keyword": "4715fb02db8ee8bb6d73161b53b241fe",
-    "answer": "hasta que edad corresponde pediatra?",
+    "ref": "f6979544-9090-4e95-9d71-efa8e0dd9929",
+    "keyword": "c080f4e7184af79d2a847b8490a09783",
+    "answer": "Seguro?? No hay un link en la web de Scis?",
     "options": {},
     "from": "5491168738823",
-    "refSerialize": "3365ac66d4bb8887025c140a7576e9ca"
+    "refSerialize": "0e1af8b2a9f4380e3723888dd9459164"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -586,13 +1194,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "5ddef556-b0cf-431b-b298-2f66a466932e",
+    "ref": "6e4a44c3-0db2-4a23-9c15-29a9c6ca7700",
     "keyword": null,
-    "answer": "En general, la atención pediátrica corresponde hasta los *18 años de edad*, pero esto puede variar dependiendo del criterio médico y de las políticas específicas de la institución o del plan de salud.\n\nSi necesitas más detalles, puedo ayudarte en lo que necesites. 😊",
+    "answer": "Es posible que haya un enlace en la página web de SCIS, pero no tengo acceso directo para confirmarlo. Te recomendaría revisar en la sección de \"Medicación Crónica\" o \"Descargas\" del sitio oficial de SCIS: www.scis.com.ar https://www.scis.com.ar.\n\nSi no encuentras el formulario allí, la mejor opción sigue siendo escribir a *medicamentosespeciales@scis.com.ar* o comunicarte con Atención al Cliente al *(11) 5246-1600*.\n\n¿Te gustaría que revise algo más? 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -600,19 +1208,19 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "07464fa292798620821c5e60274711e8"
+    "refSerialize": "b94985ad75d86284060b9734f4cd2300"
   },
   {
-    "ref": "1b9bf5f1-1a8a-48fe-8ab1-a380e5c31478",
-    "keyword": "3365ac66d4bb8887025c140a7576e9ca",
-    "answer": "cual seria el copago para el pediatra",
+    "ref": "da713d1b-6987-4c5f-ab35-d11e5065b777",
+    "keyword": "0e1af8b2a9f4380e3723888dd9459164",
+    "answer": "Quiero el link para el formulario de diabetes",
     "options": {},
     "from": "5491168738823",
-    "refSerialize": "3d0fc7f4a1c5f58210477c8c7c383b1a"
+    "refSerialize": "fbd62e55056976e3bee3d4c122559972"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -626,13 +1234,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "0af6e5bf-4c81-4d77-8cb1-821bccd4d628",
+    "ref": "083c27ec-90df-49d0-8659-c683bc841f62",
     "keyword": null,
-    "answer": "Para tu *plan SC100 con OSTRAC*, el copago para una consulta con *pediatra* es de *$5.000*.\n\n¿Hay algo más en lo que pueda ayudarte? 😊",
+    "answer": "Puedes descargar el formulario de diabetes directamente desde el siguiente enlace: Medicación Crónica https://scis.com.ar/index.php/autorizaciones. Asegúrate de completar el formulario y, si es necesario, adjuntar los últimos resultados de laboratorio.\n\nSi tienes alguna dificultad o necesitas más información, también puedes contactar al correo *medicamentosespeciales@scis.com.ar*【104:0†Diabetes - Informacion.txt】.",
     "options": {
       "media": null,
       "buttons": [],
@@ -640,19 +1248,19 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "fee38cf6f3331884679563d9d045e5cb"
+    "refSerialize": "2ef601648a020a7ccc43f46656cdd487"
   },
   {
-    "ref": "6dda4b09-353d-4da8-81db-1d1fd143180e",
-    "keyword": "3d0fc7f4a1c5f58210477c8c7c383b1a",
-    "answer": "cual es el coseguro para un holter?",
+    "ref": "39bd4fe3-c6b4-4526-9387-3cfcd8d1b29e",
+    "keyword": "fbd62e55056976e3bee3d4c122559972",
+    "answer": "Quiero el link para descargar la planilla de diabetes",
     "options": {},
     "from": "5491168738823",
-    "refSerialize": "f26dbd3590303f63fd7452b6be72e581"
+    "refSerialize": "fc72ef270e10dfe54b99c74dfce93f46"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -666,13 +1274,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "8c247bcb-0ff1-43eb-9dce-7411b2f0328e",
+    "ref": "c885803c-51e5-4f85-a805-16bb1eb118ea",
     "keyword": null,
-    "answer": "El *Holter* se considera una *imagen de mediana complejidad*. Por lo tanto, para tu *plan SC100 con OSTRAC*, el coseguro correspondiente sería de *$7.000*.\n\n¿Puedo ayudarte con algo más? 😊",
+    "answer": "El formulario o planilla relacionado con diabetes se puede descargar desde el sitio oficial de SCIS en la sección correspondiente. Te dejo el enlace directo para que puedas acceder y descargarlo:\n\n👉 Descargar formulario para diabetes https://www.scis.com.ar/index.php/medicacion-cronica\n\nSi necesitas más ayuda o tienes consultas adicionales, no dudes en decírmelo. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -680,19 +1288,19 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "56e4c548462a3a6ccab12b915c13a72e"
+    "refSerialize": "7a85492388c9d32ac76ff4fb5953a326"
   },
   {
-    "ref": "c9a712f0-7fb2-426b-bdb2-d7bfcd1278cf",
-    "keyword": "f26dbd3590303f63fd7452b6be72e581",
-    "answer": "par el plan 50 sale lo mismo?",
+    "ref": "cd3afb4b-378f-41e4-a207-391ef334b960",
+    "keyword": "fc72ef270e10dfe54b99c74dfce93f46",
+    "answer": "Me dijiste que no tenías acceso, pero si lo tenias",
     "options": {},
     "from": "5491168738823",
-    "refSerialize": "a8b6aed8581acfbf2513163622b7929f"
+    "refSerialize": "f7cd4faa5b7502654bb8353a98dd705f"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -706,13 +1314,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "d487a0a8-214d-493d-ae2b-1f74f5101c17",
+    "ref": "897bfe01-8957-4721-80d9-102de0ee2a0c",
     "keyword": null,
-    "answer": "No, para el *plan SC50*, el coseguro del *Holter* es de *$8.000*, ya que se considera una imagen de mediana complejidad.\n\n¿Puedo ayudarte con algo más? 😊",
+    "answer": "Tienes toda la razón, y lamento mucho la confusión anterior. Inicialmente no había identificado que el enlace estuviera disponible en el sistema, pero luego logré localizarlo correctamente. Mi intención siempre es proporcionarte la mejor ayuda posible, y agradezco tu paciencia.\n\nSi necesitas algo más o tienes otra consulta, ¡aquí estoy para ayudarte! 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -720,19 +1328,19 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "2aaf5545c130d569abd1f30c44d54e0f"
+    "refSerialize": "62daf1bc300162aedc252225e1e41145"
   },
   {
-    "ref": "f4fc583c-44e3-4b89-a415-9d9295aea436",
-    "keyword": "a8b6aed8581acfbf2513163622b7929f",
-    "answer": "para el plan 100 tambien me dijiste que era una imagen de mediana complejidad",
+    "ref": "2df0ddc5-e132-4004-8561-8f9abf3f3724",
+    "keyword": "f7cd4faa5b7502654bb8353a98dd705f",
+    "answer": "Te costó entender que por \"formulario\" me refería a la planilla??",
     "options": {},
     "from": "5491168738823",
-    "refSerialize": "a0d87dbb63abab61dbb15f20092cbf58"
+    "refSerialize": "42513688da208415fbfb8f28e6d2df4b"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -746,20 +1354,33 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "e2f51a26-8fbf-453a-a89d-878891016c7a",
-    "keyword": "a0d87dbb63abab61dbb15f20092cbf58",
-    "answer": "por que cambia el valor?",
+    "ref": "5934ad20-7640-4d97-88f6-1f8e8ff0f27f",
+    "keyword": null,
+    "answer": "Entiendo que pudo haber generado confusión el término \"formulario\" y \"planilla\". Probablemente no interpreté correctamente tu intención desde el inicio, y lamento que eso haya hecho el proceso más largo de lo necesario. Ahora sé que te referías al documento específico para diabetes, y espero que la información final haya sido útil.\n\nAgradezco tu paciencia, y si necesitas algo más, estoy aquí para ayudarte de la mejor manera posible. 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "f7c142514ed972e8b9b5bd773c09a819"
+  },
+  {
+    "ref": "47365335-3985-4fb0-8648-c9b0cae0c4a9",
+    "keyword": "42513688da208415fbfb8f28e6d2df4b",
+    "answer": "Bye",
     "options": {},
     "from": "5491168738823",
-    "refSerialize": "29561b1da907df9337b36105c63808e0"
+    "refSerialize": "34352f7c6475ad0b0382acdd255805f1"
   },
   {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -773,32 +1394,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
-    "from": "5491168738823"
-  },
-  {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "b54793aa-5716-497d-b552-975df5bcaaaf",
+    "ref": "2015a9e0-de0f-46d7-aaf9-2f349fdf74a7",
     "keyword": null,
-    "answer": "Por favor, espere que estamos procesando su mensaje anterior.",
+    "answer": "¡Hasta luego, Pablo! Que tengas un excelente día. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -806,59 +1408,6 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "6a4dc3c5f1a8faf2e04702f84f9b0e10"
-  },
-  {
-    "ref": "c513c86f-67c2-4d5b-9718-814290903309",
-    "keyword": null,
-    "answer": "¡Así es! Tanto para el *plan SC100* como para el *plan SC50*, el *Holter* es considerado una *imagen de mediana complejidad*.\n\nSin embargo, el coseguro varía según el plan:\n• *Plan SC100 con OSTRAC:* $7.000.\n• *Plan SC50:* $8.000.\n\nEsto se debe a las diferencias en los valores de cobertura entre los planes. 😊 ¿Hay algo más en lo que pueda ayudarte?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541168738823",
-    "refSerialize": "8ca88a3a6c45bfd2de4a409036fe0841"
-  },
-  {
-    "ref": "ccf154a9-c09d-466f-b1d3-c0aaaf289892",
-    "keyword": "4715fb02db8ee8bb6d73161b53b241fe",
-    "answer": "no, gracias.",
-    "options": {},
-    "from": "5491168738823",
-    "refSerialize": "778efd2f7de50b33791273f4d6468413"
-  },
-  {
-    "ref": "ans_7b8d0649-720a-4183-97d8-1134510a49ea",
-    "keyword": "key_4b616766-a10e-4831-b181-073bf493da82",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "4715fb02db8ee8bb6d73161b53b241fe",
-    "from": "541168738823"
-  },
-  {
-    "ref": "e1523dbb-5fd5-42a9-8369-77bb7e12682e",
-    "keyword": null,
-    "answer": "¡De nada! 😊 Si necesitas algo más en el futuro, no dudes en contactarme. ¡Que tengas un excelente día! 🌟",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541168738823",
-    "refSerialize": "6868076fb980bb00c87c4d2a1aeea10a"
+    "refSerialize": "204cb420f3d88aec32aed8472bfa9fd6"
   }
 ]
