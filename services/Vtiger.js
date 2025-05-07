@@ -21,7 +21,8 @@ const getAfiliadoInfo = async (number) => {
 const solicitarAutorizacionPlanMaternoInfantil = async (params) => {
   await delay(1500);
   return {
-    gestionAutorizacionId: generateRandomNumber(100000, 999999),
+    numeroDeTramiteId: generateRandomNumber(100000, 999999),
+        mensajeAdicional: "Se ha solicitado autorizacion para plan materno infantil, este puede demorar hasta 48 horas habiles"
   };
 };
 
@@ -37,7 +38,8 @@ const solicitarAutorizacionEstudiosYPracticas = async (params) => {
     }
 
     return {
-        gestionAutorizacionId: generateRandomNumber(100000, 999999),
+        numeroDeTramiteId: generateRandomNumber(100000, 999999),
+        mensajeAdicional: "Se ha solicitado autorizacion para estudios y practicas, este puede demorar hasta 48 horas habiles"
     };
 };
 
@@ -45,7 +47,8 @@ const solicitarAutorizacionMedicacionEspecial = async (params) => {
     await delay(1500);
 
     return {
-        gestionAutorizacionId: generateRandomNumber(100000, 999999),
+        numeroDeTramiteId: generateRandomNumber(100000, 999999),
+        mensajeAdicional: "Se ha solicitado autorizacion para medicacion especial, este puede demorar hasta 48 horas habiles"
     };
 }
 
@@ -53,7 +56,8 @@ const solicitarAutorizacionInternacionesYCirugias = async (params) => {
     await delay(1500);
 
     return {
-        gestionAutorizacionId: generateRandomNumber(100000, 999999),
+        numeroDeTramiteId: generateRandomNumber(100000, 999999),
+        mensajeAdicional: "Se ha solicitado autorizacion para internaciones y cirugías, este puede demorar hasta 48 horas habiles"
     };
 }
 
@@ -61,7 +65,8 @@ const solicitarAutorizacionTrasladosMedicos = async (params) => {
     await delay(1500);
 
     return {
-        gestionAutorizacionId: generateRandomNumber(100000, 999999),
+        numeroDeTramiteId: generateRandomNumber(100000, 999999),
+        mensajeAdicional: "Se ha solicitado autorizacion para traslados médicos, este puede demorar hasta 48 horas habiles"
     };
 }
 

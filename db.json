@@ -1,7 +1,7 @@
 [
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -15,13 +15,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541158777626"
   },
   {
-    "ref": "2560cd90-8eb4-4316-8e97-7db89b9bdf44",
+    "ref": "9bc09be6-504b-4f90-862a-26e150f6b58c",
     "keyword": null,
-    "answer": "¡Hola! Soy Matías de SCIS Medicina Privada. Antes de continuar, necesito validar tu identidad. Por favor, proporciona tu email y contraseña para el inicio de sesión en SCIS.",
+    "answer": "¡Hola! Soy Matías de SCIS Medicina Privada. Estoy aquí para ayudarte. Primero, necesito validar tu identidad antes de continuar. Por favor, indícame tu *DNI* y tu *contraseña* para el inicio de sesión en SCIS.",
     "options": {
       "media": null,
       "buttons": [],
@@ -29,11 +29,11 @@
       "delay": 0
     },
     "from": "541158777626",
-    "refSerialize": "4b1134729b1df3a75713c9f8a0d12c54"
+    "refSerialize": "06a24b395b250ee3d4c36030cb343854"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -47,275 +47,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541158777626"
-  },
-  {
-    "ref": "af3a02ad-1a8a-440c-9c48-15efa7c4dc33",
-    "keyword": null,
-    "answer": "¡Gracias, Javier! Tu identidad ha sido validada correctamente. Aquí tienes algunas opciones para comenzar. Si tienes una consulta específica, no dudes en decírmelo.\n\n1. Cartilla médica\n2. Medicamentos\n3. Solicitud de Autorizaciones\n\n¿Qué te gustaría hacer?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "18447d6c64ba15f3089b9ce6ad8352dc"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541158777626"
-  },
-  {
-    "ref": "87057780-bf7e-4e46-8359-9ce48ae7ff62",
-    "keyword": null,
-    "answer": "Entendido, Javier. Para solicitudes de autorizaciones, por favor selecciona una de las siguientes opciones:\n\n1. Solicitud de autorización de plan materno infantil\n2. Solicitud de autorización de estudios y prácticas en ambulatorio\n3. Solicitud de autorización de medicación especial\n4. Solicitud de autorización de internaciones y/o cirugías programadas\n5. Solicitud de autorización de traslados médicos\n6. Menú principal\n\n¿Cuál opción te gustaría elegir?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "79004fbfcf95ad1db0db855f49499d32"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "57b8f49a-3798-424d-ad1c-df6350e54b42",
-    "keyword": null,
-    "answer": "¡Hola! Soy Matías de SCIS Medicina Privada. Antes de poder ayudarte, necesito validar tu identidad. Por favor, proporciona tu correo electrónico y contraseña para iniciar sesión en SCIS.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "2e49b3ad34dda82c511f3e2210a25979"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541158777626"
-  },
-  {
-    "ref": "e7c289a3-6a54-4ad7-a24d-cbc72d7b3f04",
-    "keyword": null,
-    "answer": "Perfecto, Javier. Para proceder con la solicitud de autorización de medicación especial, necesito algunos datos:\n\n1. Fecha de la orden médica (dd/MM/yyyy)\n2. Imagen de la orden médica (formatos permitidos: jpeg, png, jpg; peso máximo permitido: 10MB)\n\nSi tienes el domicilio de entrega opcional (solo se usará en caso de medicamentos que vayan por droguería), también puedes proporcionarlo. \n\nPor favor, envíame la información y la imagen de la orden médica para continuar.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "8832c939b4bcc3d6eb3455cdf114d2ab"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541158777626"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "5491158777626"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541158777626"
-  },
-  {
-    "ref": "0e2d7dd1-fb55-4ddb-add7-7d5f890197d7",
-    "keyword": null,
-    "answer": "",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "4b93ffa6304d50c6b58469c3bad54df7"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "e356df56-5081-4339-abdb-0659757803bf",
-    "keyword": null,
-    "answer": "",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "4b93ffa6304d50c6b58469c3bad54df7"
-  },
-  {
-    "ref": "00892a7d-d130-4d56-ac6b-139f039087ca",
-    "keyword": null,
-    "answer": "Perfecto, Javier. Ahora, por favor, adjunta la imagen de la orden médica. Recuerda que los formatos permitidos son jpeg, png, jpg y el peso máximo permitido es 10MB.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "ed77e0a26dc6a0cea1f7cd8f3636b7bf"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "a7a6c653-f8a9-4e41-a136-f6e6865447e8",
+    "ref": "9c07e872-2de8-417f-a4c7-27e62823f92e",
     "keyword": null,
-    "answer": "",
+    "answer": "¡Hola! Soy Matías de SCIS Medicina Privada. ¿En qué puedo ayudarte hoy? Primero, necesito validar tu identidad. Por favor, indícame tu DNI y contraseña para iniciar sesión en SCIS.",
     "options": {
       "media": null,
       "buttons": [],
@@ -323,24 +61,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "4b93ffa6304d50c6b58469c3bad54df7"
+    "refSerialize": "b3f3929d6657298a79222a2e1df1d9fc"
   },
   {
-    "ref": "c13fc986-99bd-4cdd-8180-c5130373336c",
-    "keyword": null,
-    "answer": "Necesito validar tu identidad antes de continuar. Por favor, proporciona tu correo electrónico y contraseña para iniciar sesión en SCIS.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "b8866ff4b513e3af52a78ab636654dca"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -354,176 +79,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "5491131730393"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "870ecc10-7555-499d-931c-c75513a38652",
-    "keyword": null,
-    "answer": "",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "4b93ffa6304d50c6b58469c3bad54df7"
-  },
-  {
-    "ref": "fd35dc81-79cb-4337-9c8e-8d37c5916d84",
-    "keyword": null,
-    "answer": "Perfecto, ahora necesito que me proporciones tu contraseña para iniciar sesión en SCIS y validar tu identidad.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "4c5255c3866e5dad0cefd3c39dbcf2dd"
-  },
-  {
-    "ref": "abc190a5-b2d8-40ec-8ead-f073d70abeb1",
-    "keyword": "133dc3fd8c282d534169ccbc05a931c2",
-    "answer": "_event_media__6a3cce1a-b838-4355-b2dd-dfb95b56cecd",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "d2795abc71c3d48eb0a71ca4913a65c3"
-  },
-  {
-    "ref": "ans_e956c1fc-8dd1-4b08-abb9-9de9fdb20733",
-    "keyword": "key_443f56a7-46e7-4812-ae22-8bcf2615799e",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "54c453d95c495f9c582d1f757be6e6e9",
-    "from": "541158777626"
-  },
-  {
-    "ref": "47b63fe5-1bcb-4d4a-b1f4-7270dca0829c",
-    "keyword": "133dc3fd8c282d534169ccbc05a931c2",
-    "answer": "SCIStaborda-0",
-    "options": {},
-    "from": "5491131730393",
-    "refSerialize": "a8f09abd6d2a508b15cccfb0d0131e81"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "ef7284c4-4ac2-4a3d-a247-ffc56ae70c9a",
-    "keyword": null,
-    "answer": "",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "4b93ffa6304d50c6b58469c3bad54df7"
-  },
-  {
-    "ref": "cb9ad4e1-3821-402c-8570-f8d702bd52f2",
-    "keyword": null,
-    "answer": "Javier, parece que la imagen que has adjuntado no es una orden médica. Por favor, verifica y adjunta la imagen correcta de la orden médica. Recuerda que debe ser en formato jpeg, png o jpg y no debe superar los 10MB.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "554fdac9f28ddfc8e7b13b08e7b69d2b"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "416dde87-676a-4120-bc1d-dd1bf7434268",
+    "ref": "81ce10ae-5a3f-4cd6-bf1b-24b75ee43ad6",
     "keyword": null,
-    "answer": "¡Hola! Soy Matías de SCIS Medicina Privada. Para poder ayudarte mejor, necesito validar tu identidad. Por favor, proporcióname tu email y contraseña de afiliado para iniciar sesión en SCIS.",
+    "answer": "¡Gracias, Pablo Martínez! Tu identidad ha sido validada correctamente. Tu plan actual es *SC250*.\n\nEstas son algunas de las opciones con las que puedo ayudarte para comenzar:\n1. Cartilla médica\n2. Medicamentos\n3. Solicitud de Autorizaciones\n4. Copagos\n\nSi tienes alguna consulta específica, no dudes en decírmelo. ¿En qué puedo ayudarte? 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -531,19 +93,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "bd48f2187fe5d1964047782053b68835"
+    "refSerialize": "ba6b725d541e90495d2b2bd6fc56018e"
   },
   {
-    "ref": "d57ca0ca-dca9-4b2a-afb5-44b5afe0e839",
-    "keyword": "d2795abc71c3d48eb0a71ca4913a65c3",
-    "answer": "_event_media__b33eb9d8-59d7-4923-94ca-49e4ec82af29",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "fc2beceda540629cf41f9078bc0e8522"
-  },
-  {
-    "ref": "ans_e956c1fc-8dd1-4b08-abb9-9de9fdb20733",
-    "keyword": "key_443f56a7-46e7-4812-ae22-8bcf2615799e",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -557,72 +111,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "54c453d95c495f9c582d1f757be6e6e9",
-    "from": "541158777626"
-  },
-  {
-    "ref": "a919be93-5505-461e-abab-b0e8610c126d",
-    "keyword": null,
-    "answer": "Gracias, Javier. Ahora procederé a solicitar la autorización de medicación especial con los datos proporcionados.\n\nVoy a necesitar también el número de afiliado del integrante familiar que se va a realizar la autorización. ¿Podrías confirmarme si es para ti o para otro miembro de tu grupo familiar?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "cd60c7047347b4cb9dcb5d0b0acb106e"
-  },
-  {
-    "ref": "f22e67dd-922a-4c94-90b8-701016355af6",
-    "keyword": "fc2beceda540629cf41f9078bc0e8522",
-    "answer": "Para mi",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "94e97925d140660bf80be1202fc5c048"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541158777626"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "5d0304b2-d544-439e-82f3-f9ae7b57e2d4",
+    "ref": "3348ead0-4ffa-43d3-85c8-5997be6533aa",
     "keyword": null,
-    "answer": "",
+    "answer": "Perfecto, ¿quieres consultar la cartilla médica? Por favor, indícame lo siguiente:\n\n1. *Región*: ¿En qué región necesitas buscar?\n2. *Especialidad*: ¿Qué especialidad deseas consultar?\n3. *Ciudad* (opcional): Si necesitas una ciudad específica, indícamela.\n\nAdemás, te recuerdo que en caso de urgencias y emergencias puedes comunicarte al *0810-345-SCIS (7247)*. También puedes acceder a la cartilla desde la página web: Cartilla SCIS https://cartilla.scisonline.com.ar/domain/scis/app/cartilla/home.",
     "options": {
       "media": null,
       "buttons": [],
@@ -630,24 +125,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "4b93ffa6304d50c6b58469c3bad54df7"
+    "refSerialize": "bfc06db83feab230de0aafdc3b90a289"
   },
   {
-    "ref": "46cded18-d07d-44eb-af79-2a99ef4e2697",
-    "keyword": null,
-    "answer": "La solicitud de autorización de medicación especial ha sido procesada exitosamente. Tu número de gestión de autorización es *778709*.\n\n¿Hay algo más en lo que pueda asistirte?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "851771933e548322817dd78490a6b1f4"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -661,13 +143,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "b754f6c0-7c82-41c6-b1d6-53a84567cd96",
+    "ref": "7623bce3-37fc-4b81-a232-4e47c09b00ec",
     "keyword": null,
-    "answer": "Parece que has ingresado un código. Para poder continuar, necesito validar tu identidad. Por favor, proporcióname tu email y contraseña de afiliado para iniciar sesión en SCIS.",
+    "answer": "¡Entendido! Vamos a buscar en la región *Capital Federal*. Por favor, indícame:\n\n1. ¿Qué especialidad deseas consultar?\n2. ¿Quieres especificar una ciudad o directamente toda la región?",
     "options": {
       "media": null,
       "buttons": [],
@@ -675,19 +157,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "462a09ca8385ff5154d7ec8a95aca16c"
+    "refSerialize": "c7840641c9457b2759191493a5830c42"
   },
   {
-    "ref": "e215bbc6-55aa-443c-95c2-425446e14a1b",
-    "keyword": "94e97925d140660bf80be1202fc5c048",
-    "answer": "Si",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "611b2bffc5c8bf7a02f45d2060b32e20"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -701,104 +175,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541158777626"
-  },
-  {
-    "ref": "1735fde1-eb8d-4f17-9654-6dd5803ad486",
-    "keyword": "611b2bffc5c8bf7a02f45d2060b32e20",
-    "answer": "Si",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "611b2bffc5c8bf7a02f45d2060b32e20"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "5491158777626"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541158777626"
-  },
-  {
-    "ref": "8182bf59-26a0-410c-bc20-3f6d1836e83e",
-    "keyword": null,
-    "answer": "",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "4b93ffa6304d50c6b58469c3bad54df7"
-  },
-  {
-    "ref": "729a13a5-9922-4d74-85c0-8863554e8533",
-    "keyword": null,
-    "answer": "Claro, Javier. ¿En qué más puedo ayudarte? Aquí tienes algunas opciones adicionales:\n\n1. Cartilla médica\n2. Medicamentos\n3. Coberturas\n4. Plan Materno Infantil\n5. Autorizaciones\n6. Planes Disponibles\n7. Diabetes\n\nO si tienes alguna consulta específica, no dudes en decírmelo.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "7fde58b086689d86164566ff5c99fe90"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "cdf20909-3379-4047-8731-575019534eb5",
+    "ref": "f061aa9d-c454-433b-abe6-3ae6f409f436",
     "keyword": null,
-    "answer": "Necesito también tu contraseña de afiliado para poder validar tu identidad. Por favor, proporciónamela para continuar.",
+    "answer": "Aquí tienes las opciones disponibles en la región *Capital Federal* para internación obstétrica y neonatología (Maternidad), bajo tu plan *SC250*:\n\n1. *Centro Deragopyan*  \n• Dirección: ACOYTE 286, CABALLITO  \n• Teléfonos: (011) 6139-7992 / 0810-777-8876 / 0810-362-8876  \n• Horario: Lunes a Viernes 7:00 a 15:00, Sábados 8:00 a 12:00  \n• Ver en mapa https://www.google.com/maps?q=-34.6148196,-58.4379581&hl=es&z=15\n\n2. *Centro Deragopyan*  \n• Dirección: AMENÁBAR 1331, BELGRANO  \n• Teléfonos: 0810-777-8876 / 0810-362-8876 / (011) 6139-7992  \n• Horario: Lunes a Viernes 7:00 a 15:00, Sábados 8:00 a 12:00  \n• Ver en mapa https://www.google.com/maps?q=-34.569155,-58.4517381&hl=es&z=15\n\n3. *Sanatorio Güemes*  \n• Dirección: FCO. ACUÑA DE FIGUEROA 1240, PALERMO  \n• Teléfono: 4959-8200  \n• Ver en mapa https://www.google.com/maps?q=-34.5970346,-58.4219281&hl=es&z=15\n\nSi necesitas más información o ayuda, no dudes en decírmelo. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -806,11 +189,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "4fa7445d2bd1b9f387d9ad604258d530"
+    "refSerialize": "257fac7ba5230b8f89bd1becfbfb87c1"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -824,13 +207,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "f2166d34-1ac2-459a-a0de-ea6aca26a076",
+    "ref": "c827c981-46f0-4f1c-a4e0-fd6a67123fa2",
     "keyword": null,
-    "answer": "¡Gracias, Javier! Tu identidad ha sido validada correctamente.\n\nAquí tienes algunas opciones para comenzar, pero si tienes una consulta específica, no dudes en decírmelo:\n1. Cartilla médica\n2. Medicamentos\n3. Solicitud de Autorizaciones\n\n¿Qué te gustaría hacer?",
+    "answer": "La Interrupción Voluntaria del Embarazo (IVE) está incluida en el marco de las leyes de salud vigentes en Argentina. SCIS Medicina Privada cumple con estas normativas, por lo que sí cuentas con cobertura para esta práctica dentro de los términos establecidos por la Ley 27.610.\n\nTe recomiendo que consultes directamente con la cartilla médica para identificar las instituciones que realizan esta práctica o también puedes comunicarte al *0810-345-SCIS (7247)* para más información.\n\n¿Hay algo más en lo que pueda ayudarte? Aquí algunas opciones para continuar:  \n1. Cartilla médica  \n2. Medicamentos  \n3. Solicitud de Autorizaciones  \n4. Copagos",
     "options": {
       "media": null,
       "buttons": [],
@@ -838,11 +221,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "c1e59ff1770134c0b3d168f0e3e24ee8"
+    "refSerialize": "0012f4ef11b0f1b80396200d909dc663"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -856,13 +239,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "4e6a5df5-521a-4b72-a441-4caf60c0879e",
+    "ref": "544f257e-3488-4809-8d42-09064a7246f3",
     "keyword": null,
-    "answer": "Entiendo que deseas realizar una solicitud de autorización. Para poder ayudarte mejor, por favor selecciona el tipo de autorización que necesitas:\n1. Solicitud de autorización de plan materno infantil\n2. Solicitud de autorización de estudios y prácticas en ambulatorio\n3. Solicitud de autorización de medicación especial\n4. Solicitud de autorización de internaciones y/o cirugías programadas\n5. Solicitud de autorización de traslados médicos\n6. Menú principal\n\nPor favor, indícame el número de la opción que necesitas.",
+    "answer": "No, con tu plan *SC250* puedes atenderte tanto en la Provincia de Buenos Aires como en otras regiones del país, dependiendo de la cobertura de SCIS y la disponibilidad de prestadores en la cartilla médica.\n\nSi necesitas consultar la disponibilidad por región o especialidad, puedo ayudarte a buscar en la cartilla médica. ¿Hay alguna región o especialidad específica que te interese? 😊\n\nAdemás, recuerda que en caso de urgencias o emergencias puedes comunicarte al *0810-345-SCIS (7247)*.",
     "options": {
       "media": null,
       "buttons": [],
@@ -870,11 +253,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "afd2c17f04d8733391c6c0530060747a"
+    "refSerialize": "d0b077f8d0dd3d1d4976c9808ebbfa86"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -888,13 +271,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "1ae54068-b5f8-4e4d-91eb-1a722d48efdf",
+    "ref": "680a0ec5-2748-4049-9c04-d2ecc784de7c",
     "keyword": null,
-    "answer": "Para proceder con la solicitud de autorización de estudios y prácticas en ambulatorio, necesito algunos datos adicionales:\n\n1. Número de afiliado del integrante familiar que se va a realizar la autorización (puede ser el mismo número de afiliado que inicia la solicitud).\n2. Fecha de la orden médica (dd/MM/yyyy).\n3. Imagen de la orden médica (formatos permitidos: jpeg, png, jpg; peso máximo permitido: 10MB).\n\nPor favor, proporcióname esta información para continuar.",
+    "answer": "No encontré médicos clínicos disponibles en la ciudad *San Ramón de la Nueva Orán*, en la región de Salta, para tu plan *SC250*. \n\nSi deseas, puedo realizar una búsqueda en las ciudades cercanas de la misma región o puedes consultar directamente la cartilla en SCIS Online https://cartilla.scisonline.com.ar/domain/scis/app/cartilla/home. \n\n¿Te gustaría que revise en otra ciudad o región? 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -902,11 +285,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "3ecca98f72ad3a593b8afd08b6e6fd4a"
+    "refSerialize": "7b6055286dc925e134d3b0196d30f894"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -920,13 +303,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "57329c25-e69f-493e-9ad3-ecfa2e47024e",
+    "ref": "61dc8c27-ed78-41db-a898-43751b73c452",
     "keyword": null,
-    "answer": "Gracias. Aquí tienes los integrantes de tu grupo familiar:\n\n1. Agustin Lopez (1234567891236)\n2. Ignacio Lopez (1234567891235)\n\nPor favor, indícame el número de afiliado del integrante familiar que se va a realizar la autorización.\n\nAdemás, necesito la fecha de la orden médica y la imagen de la orden médica (formatos permitidos: jpeg, png, jpg; peso máximo permitido: 10MB).",
+    "answer": "No encontré clínicas con guardia 24 horas disponibles en *San Ramón de la Nueva Orán* bajo tu plan *SC250*. \n\nSi necesitas atención urgente, te recomiendo comunicarte al *0810-345-SCIS (7247)* para obtener más soporte o buscar opciones cercanas. También puedo ayudarte a buscar en otra ciudad o región, si lo deseas. ¿Cómo prefieres continuar? 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -934,11 +317,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "6c81cb75e83e7371d55ac083ed9557d5"
+    "refSerialize": "31cfa120578da34bba0087269c2304e2"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -952,13 +335,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "f7828a0d-3275-4367-90e7-78436db87c92",
+    "ref": "e1589962-7163-4f94-8c28-7b5c423d42b2",
     "keyword": null,
-    "answer": "Lamento el inconveniente. Es posible que haya ocurrido un error. Vamos a verificar nuevamente.\n\nPor favor, confirma nuevamente tu número de afiliado y la información de los integrantes de tu grupo familiar. Si el problema persiste, te recomendaría contactar al (11) 5246-1600 o enviar un mail a info@scis.com.ar para resolver este inconveniente.\n\nMientras tanto, ¿puedes proporcionarme la fecha de la orden médica y la imagen de la orden médica para continuar con la solicitud de autorización?",
+    "answer": "Aquí tienes algunas clínicas con *guardia 24 horas* disponibles en *Salta Capital* bajo tu plan *SC250*:\n\n1. *Clínica Cruz Azul*  \n• Dirección: ALBERDI 359, SALTA  \n• Teléfonos: 0387-4311561 / 0387-155086144 / 0387-156397667  \n• Ver en mapa https://www.google.com/maps?q=-24.7942995,-65.4111223&hl=es&z=15\n\n2. *Clínica San Rafael*  \n• Dirección: AV. SARMIENTO 566, SALTA  \n• Teléfono: 0387-4318111  \n• Ver en mapa https://www.google.com/maps?q=-24.7825571,-65.4156693&hl=es&z=15\n\n3. *Clínica María de Urkupiña*  \n• Dirección: AMEGHINO 1069, SALTA  \n• Teléfonos: 0387-4212708 / 0387-4321893  \n• Ver en mapa https://www.google.com/maps?q=-24.7770539,-65.4160052&hl=es&z=15\n\n4. *Hospital Pdo. Santa Clara de Asís*  \n• Dirección: URQUIZA 964, SALTA  \n• Teléfonos: 0387-4321440 / 0387-5953900  \n• Ver en mapa https://www.google.com/maps?q=-24.7918379,-65.415999&hl=es&z=15  \n\n5. *IMAC Centro*  \n• Dirección: ALVARADO 858, SALTA  \n• Teléfono: 0387-4219212  \n• Ver en mapa https://www.google.com/maps?q=-24.7906974,-65.4133494&hl=es&z=15\n\n6. *Maternidad Privada Salta S.A.*  \n• Dirección: URQUIZA 150, SALTA  \n• Teléfono: 0387-4320385  \n• Ver en mapa https://www.google.com/maps?q=-24.7925921,-65.4051869&hl=es&z=15\n\nQuedan más registros disponibles en esta región. ¿Te gustaría ver más opciones? 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -966,11 +349,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "961ce340ac2ba5ea509edf7d193b65a5"
+    "refSerialize": "e9a72d4f330e852f8380a6d418062b97"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -984,13 +367,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "25cb4f1a-1a6b-4fa1-9019-3dabb6fe9076",
+    "ref": "7dcc11cb-97d5-4049-8548-690e80fe10cf",
     "keyword": null,
-    "answer": "Gracias por confirmar tu número de afiliado. Vamos a proceder con la solicitud de autorización de estudios y prácticas en ambulatorio.\n\nPor favor, proporciona la siguiente información:\n1. Fecha de la orden médica (dd/MM/yyyy).\n2. Imagen de la orden médica (formatos permitidos: jpeg, png, jpg; peso máximo permitido: 10MB).\n\nUna vez que tenga estos datos, podré continuar con la solicitud.",
+    "answer": "Para confirmar si la *Maternidad Privada Salta S.A.* cuenta con servicios de neonatología, te sugiero que te comuniques directamente con ellos al teléfono *0387-4320385*. También puedes visitarlos en su dirección: *URQUIZA 150, SALTA*. Aquí tienes el enlace para ver la ubicación en el mapa: Ver en mapa https://www.google.com/maps?q=-24.7925921,-65.4051869&hl=es&z=15.\n\nSi necesitas más ayuda o deseas buscar otras opciones, avísame. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -998,11 +381,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "4dbedf9d08a68066e5ee29b0e49366fd"
+    "refSerialize": "d05b00e47bcfc6246337756d929aab4a"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -1016,13 +399,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "420c3be5-6a42-4b67-8f1b-01ac3b0053bf",
+    "ref": "48f58871-4c27-4ac5-9d28-3e4bd812c84d",
     "keyword": null,
-    "answer": "Por favor, adjunta la imagen de la orden médica (formatos permitidos: jpeg, png, jpg; peso máximo permitido: 10MB) para poder continuar con la solicitud de autorización de estudios y prácticas en ambulatorio.",
+    "answer": "¡Claro que sí! Estas son las opciones disponibles para continuar:\n\n1. Cartilla médica  \n2. Medicamentos  \n3. Solicitud de Autorizaciones  \n4. Copagos  \n\nIndícame qué opción prefieres o hazme cualquier consulta específica. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -1030,11 +413,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "a5d02e733e72f968cc0f66c5828dbf00"
+    "refSerialize": "4642de56e64d18af5e2fc7777312a6ce"
   },
   {
-    "ref": "ans_e956c1fc-8dd1-4b08-abb9-9de9fdb20733",
-    "keyword": "key_443f56a7-46e7-4812-ae22-8bcf2615799e",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -1048,13 +431,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "54c453d95c495f9c582d1f757be6e6e9",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "01cd3cea-3a63-41ed-9970-19f12bdf4b5e",
+    "ref": "64870368-e0c3-446b-bf12-19332ec91a6d",
     "keyword": null,
-    "answer": "Gracias por proporcionar la imagen de la orden médica.\n\nVoy a proceder con la solicitud de autorización de estudios y prácticas en ambulatorio. Por favor, confirma la siguiente información:\n\n- Tipo de AP: Estudios y prácticas en ambulatorio\n- Fecha de la orden médica: 18/09/2024\n- Integrante familiar: Javier Andres Taborda\n\n¿Es correcto?",
+    "answer": "Perfecto, vamos a consultar sobre copagos. Antes de continuar, ¿podrías indicarme si tienes alguna obra social asociada a tu plan? Esto me ayudará a proporcionarte la información correcta. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -1062,11 +445,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "2c6fbe70c70b417c60c9fa0cfd045788"
+    "refSerialize": "014929a03894cf2bb77d0e11a721544e"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -1080,13 +463,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "42ad9dd2-8457-48b8-8cc2-154bac32de78",
+    "ref": "0aada1c1-12c6-427a-8066-fd84f6a437f1",
     "keyword": null,
-    "answer": "La solicitud de autorización de estudios y prácticas en ambulatorio ha sido procesada exitosamente. El ID de gestión de la autorización es *257693*.\n\nSi necesitas algo más, no dudes en decírmelo. ¡Estoy aquí para ayudarte!",
+    "answer": "Estos son los copagos para el plan *SC250*, con tu obra social asociada (*Ostrac*):\n\nConsultas:\n• Médico clínico/pediatra/tocoginecólogo: *Sin cargo*  \n• Médico especialista: *Sin cargo*  \n• Consulta en domicilio diurna (9 a 18 hs): *$7000*  \n• Consulta en domicilio nocturna (18 a 8 hs): *$8000*  \n• Traslados programados: *Con autorización*\n\nPrácticas:\n• *Kinesiología*:  \n• Por sesión (hasta 30 sesiones): *Sin cargo*  \n• Excedente (hasta 60 sesiones): *$4000*  \n• En domicilio: *No cubierto*  \n• *Fonoaudiología*:  \n• Por sesión (hasta 30 sesiones): *Sin cargo*  \n• En domicilio: *Sin cargo*  \n• Laboratorio: *Sin cargo*  \n• Otras prácticas de laboratorio (PMO y no PMO): *Sin cargo*  \n• Reintegros: *No cubierto*\n\nImágenes:\n• *Baja Complejidad*:  \n• RX simple, ecografías nomencladas, ECG/ergometrías, colposcopia, prácticas ORL: *Sin cargo*  \n• *Mediana Complejidad*:  \n• Ecografías no nomencladas, ecodoppler, mamografías, holter, potenciales evocados/EMG, infiltraciones/yeso: *Sin cargo*  \n• *Alta Complejidad*:  \n• Tomografía, resonancia, genética, medicina nuclear, cámara gamma, endoscopías, PET, punciones, bloqueos, EFG/polisomnografía, presurometría/MAPA, ecodoppler transesofágico: *Sin cargo*  \n• Prácticas no PMO: *No cubierto*\n\nSalud Mental:\n• Psicología (por sesión hasta 30 sesiones): *$6000*  \n• Psiquiatría: *$7000*  \n• Sesiones excedentes (con autorización de auditoría): *$10,000*  \n• Reintegros: *No cubierto*  \n\nOdontología:\n• Consultas odontológicas: *Sin cargo*  \n• Prestaciones odontológicas: *Sin cargo*\n\nSi necesitas más detalles o tienes otra consulta, no dudes en avisarme. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -1094,11 +477,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "265010974d3b3db8e4135c381ce8b5d3"
+    "refSerialize": "4244ee3daa784ea5f4d8f3fc332604c2"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -1112,13 +495,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "33c3f5e1-a6b8-4cfe-aeb3-fdce0f563501",
+    "ref": "d550cadc-f28b-4657-b5f9-58d7bff95f8b",
     "keyword": null,
-    "answer": "¡Claro! Estoy aquí para ayudarte. ¿Qué necesitas? Puedes elegir una de las siguientes opciones o hacer una consulta específica:\n\n1. Cartilla médica\n2. Medicamentos\n3. Coberturas\n4. Plan Materno Infantil\n5. Autorizaciones\n6. Planes Disponibles\n7. Diabetes\n\nPor favor, indícame en qué puedo asistirte.",
+    "answer": "Para consultar los copagos del *plan SC100*, necesito saber si está asociado a alguna obra social en particular. Por ejemplo, ¿tienes una obra social vinculada a este plan? 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -1126,11 +509,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "4c9e7dfd7099d127ead7076bc6461b16"
+    "refSerialize": "8241a815a1f5bb952b3273112e29d215"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -1144,13 +527,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "dbb40cf9-5231-495b-b125-c6825a9e385f",
+    "ref": "75af1005-d240-40d4-a784-892b5a7ec6d8",
     "keyword": null,
-    "answer": "Para poder ayudarte con las autorizaciones, por favor selecciona el tipo de autorización que necesitas:\n\n1. Solicitud de autorización de plan materno infantil\n2. Solicitud de autorización de estudios y prácticas en ambulatorio\n3. Solicitud de autorización de medicación especial\n4. Solicitud de autorización de internaciones y/o cirugías programadas\n5. Solicitud de autorización de traslados médicos\n6. Menú principal\n\nPor favor, indícame el número de la opción que necesitas.",
+    "answer": "Estos son los copagos para el *plan SC100*, con tu obra social asociada (*Ostrac*):\n\nConsultas:\n• Médico clínico/pediatra/tocoginecólogo: *$5000*  \n• Médico especialista: *$7000*  \n• Consulta en domicilio diurna (9 a 18 hs): *$8000*  \n• Consulta en domicilio nocturna (18 a 8 hs): *$10,000*  \n• Traslados programados: *Con autorización*\n\nPrácticas:\n• *Kinesiología*:  \n• Por sesión (hasta 30 sesiones): *$2500*  \n• Excedente (hasta 60 sesiones): *$4000*  \n• En domicilio: *No cubierto*  \n• *Fonoaudiología*:  \n• Por sesión (hasta 30 sesiones): *$2500*  \n• En domicilio: *No cubierto*  \n• *Laboratorio*:  \n• General: *$500*  \n• Otras prácticas de laboratorio (PMO): *$2000*  \n• Radioinmunoensayo (RIE): *$10,000*  \n• No PMO: *No cubierto*\n\nImágenes:\n• *Baja Complejidad*:  \n• RX simple, ecografías nomencladas, ECG/ergometrías, colposcopia, prácticas ORL: *$2500*  \n• *Mediana Complejidad*:  \n• Ecografías no nomencladas, ecodoppler, mamografías, holter, potenciales evocados/EMG, infiltraciones/yeso: *$7000*  \n• *Alta Complejidad*:  \n• Tomografía, resonancia, endoscopías, PET, punciones, bloqueos, EFG/polisomnografía, presurometría/MAPA, ecodoppler transesofágico: *$9000*  \n• Genética, medicina nuclear, cámara gamma: *$10,000*  \n• Prácticas no PMO: *No cubierto*\n\nSalud Mental:\n• Psicología (por sesión hasta 30 sesiones): *$6000*  \n• Psiquiatría: *$7000*  \n• Sesiones excedentes (con autorización de auditoría): *$10,000*  \n• Reintegros: *No cubierto*\n\nOdontología:\n• Consultas odontológicas: *$4500*  \n• Prestaciones odontológicas: *$5500*\n\nSi necesitas más detalles o tienes otra consulta, no dudes en decírmelo. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -1158,11 +541,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "b2a857afb87ac5af698307f61aa175e4"
+    "refSerialize": "1f3515d450b93f9f5b0f971b8e0f1d07"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -1176,13 +559,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "49de7cde-05d6-49a3-a62d-dced72a56527",
+    "ref": "7350e022-b5d2-4bb2-8cb1-73115daa1830",
     "keyword": null,
-    "answer": "Para proceder con la solicitud de autorización del plan materno infantil, necesito algunos datos adicionales:\n\n1. Número de afiliado del integrante familiar que se va a realizar la autorización (puede ser el mismo número de afiliado que inicia la solicitud).\n2. Fecha de la orden médica (dd/MM/yyyy).\n3. Imagen de la orden médica (formatos permitidos: jpeg, png, jpg; peso máximo permitido: 10MB).\n\nPor favor, proporcióname esta información para continuar.",
+    "answer": "Las coberturas de farmacia para medicamentos en el *plan SC100* son las siguientes:\n\n1. *Medicamentos incluidos en el formulario del plan*:  \n• Cobertura del *40%* para medicamentos recetados.  \n• No requieren autorización previa.  \n• Las prescripciones son válidas por *30 días* y deben estar emitidas con el *nombre genérico del medicamento*.  \n• *Hasta 3 medicamentos por receta*.\n\n2. *Cobertura del 70% o 100% para medicamentos específicos*:  \n• Se aplica para casos especiales como *PMI (Plan Materno Infantil)* o condiciones crónicas, pero requiere inscripción previa en el programa correspondiente.  \n\n3. *Condiciones crónicas (como diabetes, hipertensión, etc.)*:  \n• Puedes obtener descuentos de hasta el *70%* en medicamentos ambulatorios si estás previamente inscrito.  \n• Es necesario descargar los formularios para acceder a estos beneficios.  \n\nSi necesitas más información sobre medicamentos específicos, puedo ayudarte a buscar en el vademécum. Solo indícame el nombre del medicamento o la enfermedad (si corresponde). 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -1190,19 +573,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "346174805bdf5d1be67370bf80ac6eef"
+    "refSerialize": "b0ca9629a96100a7e4f86c878bf6e57f"
   },
   {
-    "ref": "1b71564d-48fc-445a-ae0f-533dd6561b6c",
-    "keyword": "a8f09abd6d2a508b15cccfb0d0131e81",
-    "answer": "holas",
-    "options": {},
-    "from": "5491131730393",
-    "refSerialize": "6b0676f6fdf7ff93dd0e8bd307efdd1f"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -1216,152 +591,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "91baa33d-891c-4156-b5d8-794501a64db1",
-    "keyword": null,
-    "answer": "Para poder asistirte, necesito que me proporciones tu contraseña para iniciar sesión en SCIS y validar tu identidad.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "74da548b0bbb447a541038bef3f16742"
-  },
-  {
-    "ref": "877a875c-93e0-4508-b7cd-19ccca91cbfc",
-    "keyword": "6b0676f6fdf7ff93dd0e8bd307efdd1f",
-    "answer": "javiertaborda.scis@gmail.com",
-    "options": {},
-    "from": "5491131730393",
-    "refSerialize": "4bcba7919ab104de8867a5074a959737"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "033fbc65-755c-4061-be61-ea2361b9b75f",
-    "keyword": null,
-    "answer": "Perfecto, ahora necesito que me proporciones tu contraseña para completar la validación de tu identidad.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "69531cb55080a32a80dd028f25521087"
-  },
-  {
-    "ref": "a3dce2f8-1820-42a5-9411-58da30255162",
-    "keyword": "4bcba7919ab104de8867a5074a959737",
-    "answer": "SCIStaborda-0",
-    "options": {},
-    "from": "5491131730393",
-    "refSerialize": "a8f09abd6d2a508b15cccfb0d0131e81"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "322994ca-2884-4150-885b-f0dfd4c1b9c4",
-    "keyword": "133dc3fd8c282d534169ccbc05a931c2",
-    "answer": "Ninguno, quiero el menú del principio",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "f4ac93105e4fb9bdad79b35efe7d0bba"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541158777626"
-  },
-  {
-    "ref": "e196eb3f-3ed8-40df-820d-2ef39eb34702",
-    "keyword": null,
-    "answer": "",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "4b93ffa6304d50c6b58469c3bad54df7"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "db345e68-a6ba-4701-b2cb-5580eafe5898",
+    "ref": "6ad5a970-fd90-4c33-8442-890da5684850",
     "keyword": null,
-    "answer": "",
+    "answer": "No, la receta no necesariamente tiene que ser electrónica. Las recetas pueden ser *manuscritas o electrónicas*, siempre y cuando cumplan con los siguientes requisitos:\n• Deben estar emitidas con el *nombre genérico del medicamento*.\n• La prescripción tiene que estar firmada por el médico tratante.\n• La receta es válida por un período de *30 días*.\n\nSi tienes dudas adicionales o necesitas más información, no dudes en consultarme. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -1369,24 +605,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "4b93ffa6304d50c6b58469c3bad54df7"
+    "refSerialize": "818b32e6b14d7b166c21a5e09ddede41"
   },
   {
-    "ref": "d819e250-166c-4a29-ad28-e7dae01549f4",
-    "keyword": null,
-    "answer": "¡Gracias, Javier! Tu identidad ha sido validada correctamente.\n\nAquí tienes algunas de las opciones con las que puedo ayudarte para comenzar:\n1. Cartilla médica\n2. Medicamentos\n3. Solicitud de Autorizaciones\n\nSi tienes alguna consulta específica, no dudes en hacerla. ¿En qué más puedo ayudarte hoy?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "d1fb48abb17582dde6d106a71a661db9"
-  },
-  {
-    "ref": "ans_e956c1fc-8dd1-4b08-abb9-9de9fdb20733",
-    "keyword": "key_443f56a7-46e7-4812-ae22-8bcf2615799e",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -1400,13 +623,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "54c453d95c495f9c582d1f757be6e6e9",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "dc6e44ec-dad8-405a-a918-fdbfc3585792",
+    "ref": "5973f623-891c-4c75-a8ba-a9ed651e6261",
     "keyword": null,
-    "answer": "Parece que la imagen proporcionada no es una orden médica. Por favor, asegúrate de adjuntar la imagen correcta de la orden médica (formatos permitidos: jpeg, png, jpg; peso máximo permitido: 10MB).\n\nAdemás, necesito los siguientes datos:\n1. Número de afiliado del integrante familiar que se va a realizar la autorización.\n2. Fecha de la orden médica (dd/MM/yyyy).\n\nUna vez que tenga esta información, podré continuar con la solicitud de autorización del plan materno infantil.",
+    "answer": "Lamento mucho que estés pasando por esta situación. Si te informaron que los servicios están cortados, lo mejor sería que te comuniques directamente con el área de atención al cliente de SCIS para obtener información más precisa y resolver el inconveniente. Puedes hacerlo a través de:\n• *Teléfono*: (11) 5246-1600  \n• *Correo electrónico*: info@scis.com.ar  \n\nEllos podrán verificar el estado de tu plan y brindarte una solución rápida. ¿Hay algo más en lo que pueda asistirte mientras tanto? 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -1414,19 +637,11 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "5439986ea1efb110c5c3dd8acb31d090"
+    "refSerialize": "acb6bd44690045cfac5c15b3209bfc09"
   },
   {
-    "ref": "e4b98cf2-1705-4265-a178-a79be789b12c",
-    "keyword": "a8f09abd6d2a508b15cccfb0d0131e81",
-    "answer": "3",
-    "options": {},
-    "from": "5491131730393",
-    "refSerialize": "7af65864494b12f0f7ef00589f4d3979"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -1440,84 +655,25 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "a2b5bbcd-e5d2-4e7e-9822-ca4e115a4b74",
-    "keyword": null,
-    "answer": "Entiendo que necesitas ayuda con una solicitud de autorización. Por favor, selecciona el tipo de autorización que necesitas:\n\n1. Solicitud de autorización de plan materno infantil\n2. Solicitud de autorización de estudios y prácticas en ambulatorio\n3. Solicitud de autorización de medicación especial\n4. Solicitud de autorización de internaciones y/o cirugías programadas\n5. Solicitud de autorización de traslados médicos\n6. Menú principal\n\n¿Cuál opción eliges?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "8325edb7df8b66480411cbc8ff31886a"
-  },
-  {
-    "ref": "635b77d4-c123-4929-b36d-1c5b264a0bb4",
-    "keyword": "7af65864494b12f0f7ef00589f4d3979",
-    "answer": "1",
-    "options": {},
-    "from": "5491131730393",
-    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "2c9bb773-6be5-4375-9efb-a580904f9d02",
-    "keyword": null,
-    "answer": "Aquí tienes los miembros de tu grupo familiar:\n\n1. Agustin Lopez (N° de afiliado: 1234567891236)\n2. Ignacio Lopez (N° de afiliado: 1234567891235)\n\nPor favor, indícame el número de afiliado de la persona que se va a realizar la autorización. Además, proporciona la fecha de la orden médica y adjunta la imagen de la orden médica (formatos permitidos: jpeg, png, jpg; peso máximo permitido: 10MB).",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "a4f577596b89d210ab88ff5c72f20621"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "eff1d722-ba18-48ec-aadc-f48254653749",
+    "keyword": null,
+    "answer": "Entendido, Pablo. Si necesitas ayuda en el futuro, no dudes en escribirme. ¡Que tengas un buen día! 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "73755a127e2c882dcad442f4e3fc0683"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -1531,12 +687,447 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "13b91ef0-3005-4ab3-b4ef-4e9d9c829804",
+    "keyword": null,
+    "answer": "Aquí tienes los lugares disponibles para realizar una *mamografía* en *CABA* con tu plan *SC250*:\n\n1. *Centro Deragopyan*  \n• Dirección: ACOYTE 286, CABALLITO  \n• Teléfonos: (011) 6139-7992 / 0810-777-8876 / 0810-362-8876  \n• Horarios: Lunes a Viernes 7:00 a 15:00, Sábados 8:00 a 12:00  \n• Ver en mapa https://www.google.com/maps?q=-34.6148196,-58.4379581&hl=es&z=15\n\n2. *Centro Deragopyan*  \n• Dirección: AMENÁBAR 1331, BELGRANO  \n• Teléfonos: (011) 6139-7992 / 0810-777-8876 / 0810-362-8876  \n• Horarios: Lunes a Viernes 7:00 a 15:00, Sábados 8:00 a 12:00  \n• Ver en mapa https://www.google.com/maps?q=-34.569155,-58.4517381&hl=es&z=15\n\n3. *Centro Médico MAS*  \n• Dirección: PARAGUAY 2629, CAPITAL FEDERAL  \n• Teléfonos: (011) 4966-0854 / 15 2563 3683  \n• Ver en mapa https://www.google.com/maps?q=-34.5969006,-58.4056775&hl=es&z=15\n\n4. *CIEM*  \n• Dirección: AV. SANTA FE 2036 2 A, RECOLETA  \n• Teléfonos: 4825-7106  \n• Ver en mapa https://www.google.com/maps?q=-34.5960231,-58.396664&hl=es&z=15\n\n5. *I.A.M.A. S.A.*  \n• Dirección: VIAMONTE 2560, BALVANERA  \n• Teléfonos: 4962-0990 / 4961-7323  \n• Ver en mapa https://www.google.com/maps?q=-34.6006676,-58.4046767&hl=es&z=15\n\n6. *Imagen Test S.A.*  \n• Dirección: VARELA 140, FLORES  \n• Teléfonos: 4612-0992 / 4630-1400  \n• Ver en mapa https://www.google.com/maps?q=-34.631363,-58.464637&hl=es&z=15\n\nQuedan más registros disponibles en esta especialidad. ¿Te gustaría ver más opciones? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "e337ca5a6a633c08696cacc18e0b2fee"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "42c4b305-f036-48ba-8e2f-7c26074ae58e",
+    "keyword": null,
+    "answer": "Aquí tienes más opciones para realizar una *mamografía* en *CABA* bajo tu plan *SC250*:\n\n7. *Investigaciones Médicas*  \n• Dirección: PICHINCHA 63, BALVANERA  \n• Teléfono: 4127-2800  \n• Ver en mapa https://www.google.com/maps?q=-34.610357,-58.39921&hl=es&z=15\n\n8. *Investigaciones Médicas*  \n• Dirección: VIAMONTE 1871, BALVANERA  \n• Teléfono: 4127-2800  \n• Ver en mapa https://www.google.com/maps?q=-34.6005927,-58.393817&hl=es&z=15\n\n9. *Sanatorio Colegiales*  \n• Dirección: CONDE 851, COLEGIALES  \n• Teléfono: 4556-4800  \n• Ver en mapa https://www.google.com/maps?q=-34.5770524,-58.4508985&hl=es&z=15\n\n10. *Sanatorio Güemes*  \n• Dirección: FCO. ACUÑA DE FIGUEROA 1240, PALERMO  \n• Teléfono: 4959-8200  \n• Ver en mapa https://www.google.com/maps?q=-34.5970346,-58.4219281&hl=es&z=15\n\nCon esto completamos todas las opciones disponibles para mamografías en CABA. ¿Hay algo más en lo que pueda ayudarte? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "bed2d776a3fbfa75237215c033b09744"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "3b8cec3b-a077-4c0e-81cb-6dc51a4d9674",
+    "keyword": null,
+    "answer": "Para cambiar de plan, te recomiendo que te pongas en contacto con el área de atención al cliente de SCIS, ya que ellos podrán guiarte sobre los planes disponibles y cómo realizar el cambio. Puedes comunicarte a través de:\n• *Teléfono*: (11) 5246-1600  \n• *Correo electrónico*: info@scis.com.ar  \n\nAdemás, si tienes en mente algún plan específico o quieres saber más sobre las coberturas de otros planes, puedo ayudarte con información general sobre los planes disponibles. ¿Te gustaría saber más antes de comunicarte con atención al cliente? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "8b60e936e22d128155264f2a0ed0c980"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "2a2d55be-5e07-434d-a200-ff147fd9bd5a",
+    "keyword": null,
+    "answer": "No encontré información específica sobre los planes disponibles en los archivos cargados. Para conocer las opciones de planes que SCIS ofrece, puedes contactarte directamente con *Atención al Cliente* al *(11) 5246-1600* o al correo *info@scis.com.ar*.\n\n¿Te gustaría realizar otra consulta o profundizar en algún tema? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "d85947a4fbdc4396a5eb34e402840b6c"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "5ba70d30-13e5-4778-b455-51570d0009ec",
+    "keyword": null,
+    "answer": "Sí, SCIS Medicina Privada trabaja con varias obras sociales, ofreciendo planes de salud integrales y complementarios. Las obras sociales pueden asociarse a SCIS para brindar cobertura adicional a sus afiliados. Sin embargo, si tienes dudas sobre si tu obra social trabaja con SCIS o sobre la cobertura específica, te recomiendo contactar con *Atención al Cliente* al *(11) 5246-1600* o al correo *info@scis.com.ar*.\n\n¿Hay algo más en lo que pueda ayudarte? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "615c42c65cccc2b41c94f030894dcd86"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "ce37d3dc-0dd9-4ffb-8a3b-0e60e2ecd6db",
+    "keyword": null,
+    "answer": "No tengo la lista específica de las obras sociales con las que SCIS trabaja, pero SCIS colabora con varias obras sociales para ofrecer planes complementarios de salud. Para obtener la información más precisa y actualizada sobre las obras sociales asociadas, te sugiero que te comuniques directamente con *Atención al Cliente* al *(11) 5246-1600* o escribas a *info@scis.com.ar*.\n\nSi necesitas algo más, ¡aquí estoy para ayudarte! 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "ae26bd3f8c08ce80e8b589a1845e0dfa"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "e8dd3969-f29f-4cec-b93b-0403b409fe02",
+    "keyword": null,
+    "answer": "Sí, SCIS ofrece cobertura para la vacuna de la gripe según las condiciones de tu plan y las normativas vigentes. En general:\n\n1. *Cobertura Total*: Si estás incluido en grupos de riesgo (embarazadas, niños pequeños, adultos mayores o personas con enfermedades crónicas) o estás inscrito en el *Plan Materno Infantil (PMI)*, la vacuna para la gripe suele estar cubierta al *100%*.\n   \n2. *Cobertura Parcial o Sin Costo*: Para beneficiarios que no están dentro de los grupos de riesgo, la cobertura dependerá de las condiciones específicas de tu plan.\n\nTe recomiendo que confirmes con SCIS llamando al *(11) 5246-1600* o escribiendo a *info@scis.com.ar* para obtener detalles precisos sobre tu cobertura para la vacuna de la gripe este invierno.\n\n¿Hay algo más en lo que pueda ayudarte? 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "a1816c6611bf9213f70ecc0bd8c7c839"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "012f8518-efaf-435c-bc04-88193f0aa578",
+    "keyword": null,
+    "answer": "¡Felicidades por tu embarazo! 😊 Como estás embarazada, la vacuna de la gripe está cubierta al *100%* bajo el *Plan Materno Infantil (PMI)*. Esto incluye todas las vacunas del calendario nacional, lo que significa que no deberías tener costo alguno.\n\nPasos para vacunarte:\n1. *Consulta un centro de vacunación* de la cartilla médica o en tu clínica habitual. Si necesitas ayuda para buscar un lugar, puedo ayudarte con la cartilla.\n2. Lleva tu *credencial virtual* y el *DNI* al momento de vacunarte.\n3. Si necesitas una autorización o más información, puedes comunicarte directamente con SCIS al *0810-345-SCIS (7247)*.\n\nSi necesitas más detalles o ayuda para localizar un centro, avísame. 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "892239841c0211687b30d269eebd0866"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "803f685a-45d1-4aee-8cbe-7b3fdf1b790b",
+    "keyword": null,
+    "answer": "Aquí tienes las farmacias disponibles en *Lomas de Zamora* bajo tu plan *SC250*:\n\n1. *Farmacia Argentina*  \n• Dirección: BOEDO MARIANO 202, LOMAS DE ZAMORA  \n• Teléfono: 4244-1699  \n• Ver en mapa https://www.google.com/maps?q=-34.7596734,-58.399603&hl=es&z=15\n\n2. *Farmacia Etchegaray*  \n• Dirección: MADRID 403, LOMAS DE ZAMORA  \n• Teléfono: 4282-5054  \n• Ver en mapa https://www.google.com/maps?q=-34.7727036,-58.4353429&hl=es&z=15\n\n3. *Farmacia Lofrano*  \n• Dirección: MITRE 188, LOMAS DE ZAMORA  \n• Teléfono: (011) 3324-0744  \n• Ver en mapa https://www.google.com/maps?q=-34.7656879,-58.3997747&hl=es&z=15\n\n4. *Farmacia Meitner*  \n• Dirección: COLOMBRES 1745, LOMAS DE ZAMORA  \n• Teléfono: (011) 2110-8502  \n• Ver en mapa https://www.google.com/maps?q=-34.7610052,-58.4227426&hl=es&z=15\n\n5. *Farmacia Otegui*  \n• Dirección: FALUCHO 1016, LOMAS DE ZAMORA  \n• Teléfono: (011) 6185-2757  \n• Ver en mapa https://www.google.com/maps?q=-34.7578816,-58.4409793&hl=es&z=15\n\nSi necesitas más ayuda o información, ¡no dudes en decírmelo! 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "9ce9bb90ff3b1aaa363dda9a352e6063"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "4a8b7162-6c3f-43b7-a4e7-f23d28714466",
+    "keyword": null,
+    "answer": "No encontré información específica sobre la cobertura del medicamento *Optamox Duo* en tu plan *SC250*. Es posible que no esté registrado con ese nombre en el sistema.\n\nTe sugiero:\n1. Consultar directamente con la farmacia adherida para verificar la cobertura.\n2. Contactar al área de medicamentos especiales en *medicamentosespeciales@scis.com.ar* para confirmar la cobertura de este medicamento.\n\nSi necesitas más ayuda, ¡no dudes en decírmelo! 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "cd4118d98e7698e55c297ca2563aaaec"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "17d07312-e50e-42b2-b22f-b8776b0f1fbe",
+    "keyword": null,
+    "answer": "No encontré información específica sobre la cobertura de *Amoxicilina con Ácido Clavulánico* en el sistema para tu plan *SC250*. Es posible que el medicamento esté registrado bajo un nombre comercial o presentación diferente.\n\nTe recomiendo:\n1. Consultar directamente en una farmacia adherida a SCIS.\n2. Contactar al área de medicamentos especiales al correo *medicamentosespeciales@scis.com.ar* para obtener más detalles.\n\nSi necesitas más ayuda con esto o cualquier otra cosa, estoy aquí para asistirte. 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "7dfe58e97596ee9a04be9e93e4d5b252"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "fd19ffbb-fcb8-461d-8c0b-19899c3241bc",
+    "keyword": null,
+    "answer": "Para actualizar la planilla de diabetes, puedes obtener el formulario directamente desde SCIS siguiendo estos pasos:\n\n1. Comunícate con el área de *Medicación Especial* enviando un correo a *medicamentosespeciales@scis.com.ar*. Allí podrás solicitar el formulario correspondiente.\n2. En el correo, incluye tu *número de afiliado* y explica que necesitas actualizar la planilla de diabetes.\n\nUna vez que completes el formulario, asegúrate de enviarlo al mismo correo mencionado para que puedan procesar la actualización.\n\nSi necesitas más información o ayuda adicional, no dudes en pedírmelo. 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "531f7a05e18879aaf629614ecebd77fa"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "a45fec89-019b-40cc-9c4f-2a90ce5c236b",
+    "keyword": null,
+    "answer": "Para obtener el formulario de diabetes, debes solicitarlo directamente al área de *Medicación Especial* enviando un correo a *medicamentosespeciales@scis.com.ar*. En el correo, incluye lo siguiente:\n\n1. *Asunto*: Solicitud de formulario de diabetes.  \n2. *Cuerpo del correo*: Indica tu número de afiliado, nombre completo y que necesitas el formulario para actualizar tus datos de diabetes.\n\nEl equipo de medicación especial te enviará el formulario para que lo completes y lo devuelvas.\n\nSi necesitas más orientación, ¡aquí estoy! 😊",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "541168738823",
+    "refSerialize": "8f6a1be0dadf84c9d5b5f99524aad70f"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
+    "from": "541168738823"
+  },
+  {
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "5491168738823"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -1550,13 +1141,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "219119ef-e007-4d60-9606-71d6d94e18f7",
+    "ref": "ae4a2d88-50ec-46ae-a024-32f0f9ff792d",
     "keyword": null,
-    "answer": "",
+    "answer": "No se puede descargar?",
     "options": {
       "media": null,
       "buttons": [],
@@ -1564,12 +1155,12 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "4b93ffa6304d50c6b58469c3bad54df7"
+    "refSerialize": "8cdffe78eaa3964691359c5805fea547"
   },
   {
-    "ref": "04086269-ff8b-4dad-8cbf-5e61963b4bcb",
+    "ref": "280e36a7-972a-4186-8f24-d4adad1593ea",
     "keyword": null,
-    "answer": "Parece que nuevamente se ha producido un error con la información del grupo familiar. \n\nPara proceder, por favor confirma:\n1. El número de afiliado del integrante familiar que se va a realizar la autorización (puede ser el mismo número de afiliado que inicia la solicitud).\n2. La fecha de la orden médica (dd/MM/yyyy).\n3. Adjunta la imagen correcta de la orden médica (formatos permitidos: jpeg, png, jpg; peso máximo permitido: 10MB).\n\nUna vez que tenga esta información, podré continuar con la solicitud de autorización del plan materno infantil.",
+    "answer": "Actualmente, el formulario para actualizar la planilla de diabetes no está disponible para descarga directa. Debes solicitarlo enviando un correo a *medicamentosespeciales@scis.com.ar*, donde te proporcionarán el formulario actualizado para que puedas completarlo.\n\nSi necesitas más información o ayuda adicional, no dudes en decírmelo. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -1577,19 +1168,19 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "e38cd729d071d249bb307d16ca639e58"
+    "refSerialize": "5807b7f2636de787d8d7ef9d1cc91d74"
   },
   {
-    "ref": "b304a223-353c-46b4-8132-d658d4c203a6",
-    "keyword": "133dc3fd8c282d534169ccbc05a931c2",
-    "answer": "_event_media__f77675c9-cb95-4f24-b7d4-ad859d466cfe",
+    "ref": "f6979544-9090-4e95-9d71-efa8e0dd9929",
+    "keyword": "c080f4e7184af79d2a847b8490a09783",
+    "answer": "Seguro?? No hay un link en la web de Scis?",
     "options": {},
     "from": "5491168738823",
-    "refSerialize": "92ccbeb869af5128a702b4e6520b8e0a"
+    "refSerialize": "0e1af8b2a9f4380e3723888dd9459164"
   },
   {
-    "ref": "ans_e956c1fc-8dd1-4b08-abb9-9de9fdb20733",
-    "keyword": "key_443f56a7-46e7-4812-ae22-8bcf2615799e",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -1603,40 +1194,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "54c453d95c495f9c582d1f757be6e6e9",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "cc7f336b-80cc-447c-8d6d-733b9992baaa",
-    "keyword": "290236b1d481a790a200ea6e94b2122a",
-    "answer": "2",
-    "options": {},
-    "from": "5491131730393",
-    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "3830f0eb-6e3d-4991-86fa-4ee32766cfde",
+    "ref": "6e4a44c3-0db2-4a23-9c15-29a9c6ca7700",
     "keyword": null,
-    "answer": "Gracias por proporcionar la imagen de la orden médica. Ahora necesito la fecha de la orden médica y confirmar el número de afiliado del integrante familiar que se va a realizar la autorización.\n\nPor favor, confirma la siguiente información:\n1. Número de afiliado del integrante familiar: 0800050439004\n2. Fecha de la orden médica (dd/MM/yyyy)\n\nUna vez que tenga esta información, podré proceder con la solicitud de autorización del plan materno infantil.",
+    "answer": "Es posible que haya un enlace en la página web de SCIS, pero no tengo acceso directo para confirmarlo. Te recomendaría revisar en la sección de \"Medicación Crónica\" o \"Descargas\" del sitio oficial de SCIS: www.scis.com.ar https://www.scis.com.ar.\n\nSi no encuentras el formulario allí, la mejor opción sigue siendo escribir a *medicamentosespeciales@scis.com.ar* o comunicarte con Atención al Cliente al *(11) 5246-1600*.\n\n¿Te gustaría que revise algo más? 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -1644,32 +1208,19 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "6881d134d3b3093e90014e94fdaa5a35"
+    "refSerialize": "b94985ad75d86284060b9734f4cd2300"
   },
   {
-    "ref": "f235e0ab-a2db-4769-aaf3-b89493b3fc22",
-    "keyword": null,
-    "answer": "Perfecto, has seleccionado a Ignacio Lopez (N° de afiliado: 1234567891235).\n\nAhora, por favor, proporciona la fecha de la orden médica (dd/MM/yyyy) y adjunta la imagen de la orden médica (formatos permitidos: jpeg, png, jpg; peso máximo permitido: 10MB).",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "53b8d3f4612df816a028d6ae8856a80c"
-  },
-  {
-    "ref": "e67f7e87-c0ba-4e52-b4c4-d4d2c97a0d8b",
-    "keyword": "92ccbeb869af5128a702b4e6520b8e0a",
-    "answer": "16/09/2024",
+    "ref": "da713d1b-6987-4c5f-ab35-d11e5065b777",
+    "keyword": "0e1af8b2a9f4380e3723888dd9459164",
+    "answer": "Quiero el link para el formulario de diabetes",
     "options": {},
     "from": "5491168738823",
-    "refSerialize": "d6bf77df8df1d7e344ab3b481ece0e48"
+    "refSerialize": "fbd62e55056976e3bee3d4c122559972"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -1683,13 +1234,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "0003e64f-c63f-4b12-bcc3-71a700a768a6",
+    "ref": "083c27ec-90df-49d0-8659-c683bc841f62",
     "keyword": null,
-    "answer": "La solicitud de autorización del plan materno infantil ha sido procesada exitosamente. El ID de gestión de la autorización es *222588*.\n\nSi necesitas algo más, no dudes en decírmelo. ¡Estoy aquí para ayudarte!",
+    "answer": "Puedes descargar el formulario de diabetes directamente desde el siguiente enlace: Medicación Crónica https://scis.com.ar/index.php/autorizaciones. Asegúrate de completar el formulario y, si es necesario, adjuntar los últimos resultados de laboratorio.\n\nSi tienes alguna dificultad o necesitas más información, también puedes contactar al correo *medicamentosespeciales@scis.com.ar*【104:0†Diabetes - Informacion.txt】.",
     "options": {
       "media": null,
       "buttons": [],
@@ -1697,19 +1248,19 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "c0bf0b1e1bf0e23a982e7f63c936a0f0"
+    "refSerialize": "2ef601648a020a7ccc43f46656cdd487"
   },
   {
-    "ref": "952c8dc9-5214-4dfa-9829-88bcea44d8a4",
-    "keyword": "d6bf77df8df1d7e344ab3b481ece0e48",
-    "answer": "No, gracias",
+    "ref": "39bd4fe3-c6b4-4526-9387-3cfcd8d1b29e",
+    "keyword": "fbd62e55056976e3bee3d4c122559972",
+    "answer": "Quiero el link para descargar la planilla de diabetes",
     "options": {},
     "from": "5491168738823",
-    "refSerialize": "6625f6735eb0ba2e69b4339cd1ff6728"
+    "refSerialize": "fc72ef270e10dfe54b99c74dfce93f46"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -1723,13 +1274,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "43d51fc4-fa4c-4a18-ad4e-9f612e5d0229",
+    "ref": "c885803c-51e5-4f85-a805-16bb1eb118ea",
     "keyword": null,
-    "answer": "¡De nada, Javier! Me alegra haber podido ayudarte. Si necesitas algo en el futuro, no dudes en contactarme. ¡Que tengas un excelente día!",
+    "answer": "El formulario o planilla relacionado con diabetes se puede descargar desde el sitio oficial de SCIS en la sección correspondiente. Te dejo el enlace directo para que puedas acceder y descargarlo:\n\n👉 Descargar formulario para diabetes https://www.scis.com.ar/index.php/medicacion-cronica\n\nSi necesitas más ayuda o tienes consultas adicionales, no dudes en decírmelo. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -1737,86 +1288,19 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "758059d82cf84b9fee7b06bd0d30e342"
+    "refSerialize": "7a85492388c9d32ac76ff4fb5953a326"
   },
   {
-    "ref": "c7dddacc-d3c2-46d5-bd46-ea883451528d",
-    "keyword": "f4ac93105e4fb9bdad79b35efe7d0bba",
-    "answer": "Hola",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541158777626"
-  },
-  {
-    "ref": "bf78df9f-5de8-4187-94f9-e690d4ce7151",
-    "keyword": null,
-    "answer": "¡Hola de nuevo, Javier! ¿En qué puedo ayudarte esta vez? Aquí tienes algunas opciones:\n\n1. Cartilla médica\n2. Medicamentos\n3. Coberturas\n4. Plan Materno Infantil\n5. Autorizaciones\n6. Planes Disponibles\n7. Diabetes\n\nO si tienes alguna consulta específica, no dudes en decírmelo.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "981010157571cd15db81f602c34758ef"
-  },
-  {
-    "ref": "d7ab435e-9fc2-42b2-a79b-4eb451f1bbeb",
-    "keyword": "2294c3d08b53a6effa5df696a15b9d30",
-    "answer": "hola",
-    "options": {},
-    "from": "5491131730393",
-    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "69a5ca5a-799f-4adb-ba88-6a13abc8676f",
-    "keyword": "6625f6735eb0ba2e69b4339cd1ff6728",
-    "answer": "hola",
+    "ref": "cd3afb4b-378f-41e4-a207-391ef334b960",
+    "keyword": "fc72ef270e10dfe54b99c74dfce93f46",
+    "answer": "Me dijiste que no tenías acceso, pero si lo tenias",
     "options": {},
     "from": "5491168738823",
-    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+    "refSerialize": "f7cd4faa5b7502654bb8353a98dd705f"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -1830,13 +1314,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "0860e3b6-68d1-4cbd-bc82-5821a2a5409e",
+    "ref": "897bfe01-8957-4721-80d9-102de0ee2a0c",
     "keyword": null,
-    "answer": "",
+    "answer": "Tienes toda la razón, y lamento mucho la confusión anterior. Inicialmente no había identificado que el enlace estuviera disponible en el sistema, pero luego logré localizarlo correctamente. Mi intención siempre es proporcionarte la mejor ayuda posible, y agradezco tu paciencia.\n\nSi necesitas algo más o tienes otra consulta, ¡aquí estoy para ayudarte! 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -1844,152 +1328,19 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "4b93ffa6304d50c6b58469c3bad54df7"
+    "refSerialize": "62daf1bc300162aedc252225e1e41145"
   },
   {
-    "ref": "0e89b445-1d30-45b2-91b5-221281604763",
-    "keyword": null,
-    "answer": "Hola de nuevo, Javier. Para continuar con la solicitud de autorización del plan materno infantil para Ignacio Lopez, necesito que me proporciones la fecha de la orden médica (dd/MM/yyyy) y que adjuntes la imagen de la orden médica (formatos permitidos: jpeg, png, jpg; peso máximo permitido: 10MB).",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "e2d73746608c54d2dbe5f010c881c847"
-  },
-  {
-    "ref": "7e5b6a7e-e773-4647-a8e0-3594c9fdf02e",
-    "keyword": "c22e4066d61d81721def9b25d8a397e8",
-    "answer": "5",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "d2b414a4bc0b3490276097c7513b4c8c"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541158777626"
-  },
-  {
-    "ref": "a9caf3b0-0cc7-4042-af21-8d02d83f86f2",
-    "keyword": "79e7fc16f7fb85373fd25a99390f44c0",
-    "answer": "no quiero hacerlo mas",
-    "options": {},
-    "from": "5491131730393",
-    "refSerialize": "64b0b80315f190612f813f8e35b52267"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "a8a62380-e829-44b9-982b-64a8633702e8",
-    "keyword": null,
-    "answer": "",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "4b93ffa6304d50c6b58469c3bad54df7"
-  },
-  {
-    "ref": "7ecebba7-c08a-4b5c-b81b-076fac7b4188",
-    "keyword": null,
-    "answer": "Entendido, Javier. Para solicitudes de autorizaciones, por favor selecciona una de las siguientes opciones:\n\n1. Solicitud de autorización de plan materno infantil\n2. Solicitud de autorización de estudios y prácticas en ambulatorio\n3. Solicitud de autorización de medicación especial\n4. Solicitud de autorización de internaciones y/o cirugías programadas\n5. Solicitud de autorización de traslados médicos\n6. Menú principal\n\n¿Cuál opción te gustaría elegir?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "79004fbfcf95ad1db0db855f49499d32"
-  },
-  {
-    "ref": "648db0ed-00ee-4df2-b172-e1a5c777fef7",
-    "keyword": "d2b414a4bc0b3490276097c7513b4c8c",
-    "answer": "6",
-    "options": {},
-    "from": "5491158777626",
-    "refSerialize": "a7c49181ef3046656ea8ab317c4adca7"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541158777626"
-  },
-  {
-    "ref": "aac5e951-be97-4192-8887-c256968c5bd7",
-    "keyword": null,
-    "answer": "Perfecto, Javier. Aquí tienes algunas opciones para comenzar:\n\n1. Cartilla médica\n2. Medicamentos\n3. Coberturas\n4. Plan Materno Infantil\n5. Autorizaciones\n6. Planes Disponibles\n7. Diabetes\n\n¿Qué te gustaría hacer?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541158777626",
-    "refSerialize": "7b4b83cac6eca830df3fe7f23c0ba91d"
-  },
-  {
-    "ref": "da23a013-f529-449e-a446-44c06199f200",
-    "keyword": "79e7fc16f7fb85373fd25a99390f44c0",
-    "answer": "Hola",
+    "ref": "2df0ddc5-e132-4004-8561-8f9abf3f3724",
+    "keyword": "f7cd4faa5b7502654bb8353a98dd705f",
+    "answer": "Te costó entender que por \"formulario\" me refería a la planilla??",
     "options": {},
     "from": "5491168738823",
-    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+    "refSerialize": "42513688da208415fbfb8f28e6d2df4b"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -2003,13 +1354,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "d5631013-013f-440b-82c7-05d0090f0875",
+    "ref": "5934ad20-7640-4d97-88f6-1f8e8ff0f27f",
     "keyword": null,
-    "answer": "¡Hola de nuevo, Javier! ¿En qué puedo ayudarte hoy? Aquí tienes algunas opciones para comenzar, pero si tienes una consulta específica, no dudes en decírmelo:\n\n1. Cartilla médica\n2. Medicamentos\n3. Solicitud de Autorizaciones\n\n¿Qué te gustaría hacer?",
+    "answer": "Entiendo que pudo haber generado confusión el término \"formulario\" y \"planilla\". Probablemente no interpreté correctamente tu intención desde el inicio, y lamento que eso haya hecho el proceso más largo de lo necesario. Ahora sé que te referías al documento específico para diabetes, y espero que la información final haya sido útil.\n\nAgradezco tu paciencia, y si necesitas algo más, estoy aquí para ayudarte de la mejor manera posible. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -2017,99 +1368,19 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "afe0a5a34cf2ea223b72acc202628aaa"
+    "refSerialize": "f7c142514ed972e8b9b5bd773c09a819"
   },
   {
-    "ref": "3f96fffe-6341-4c56-9d77-43afe001c1ae",
-    "keyword": "64b0b80315f190612f813f8e35b52267",
-    "answer": "holsa",
-    "options": {},
-    "from": "5491131730393",
-    "refSerialize": "577a229b9ff1f9d7f31d42d932167403"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "b0de4678-18f6-48ba-b9e3-f4a4075a2c21",
-    "keyword": null,
-    "answer": "Entiendo. Necesito que me proporciones la fecha de la orden médica (dd/MM/yyyy) y que adjuntes la imagen de la orden médica (formatos permitidos: jpeg, png, jpg; peso máximo permitido: 10MB) para poder continuar con la solicitud de autorización del plan materno infantil para Ignacio Lopez.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "6bf95cbd4bdb623835384cd2a189b2bf"
-  },
-  {
-    "ref": "5f9f57e9-e5fc-474d-9392-96ec5d085437",
-    "keyword": "577a229b9ff1f9d7f31d42d932167403",
-    "answer": "no soy el mismo afiliado",
-    "options": {},
-    "from": "5491131730393",
-    "refSerialize": "391de296d3a353746bc1d383b0cdfddd"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "6a28c8a1-5187-4bd2-adee-93cdb55889eb",
-    "keyword": null,
-    "answer": "Entiendo, parece que hubo una confusión. Permíteme reiniciar el proceso.\n\nPara poder ayudarte, primero necesito validar tu identidad. Por favor, proporciona tu correo electrónico y contraseña para iniciar sesión en SCIS.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "1dc74cc9b2ec62391abfcd22d587e695"
-  },
-  {
-    "ref": "9f32c74b-e343-40c0-91f1-21b4db9db3ea",
-    "keyword": "c22e4066d61d81721def9b25d8a397e8",
-    "answer": "3",
+    "ref": "47365335-3985-4fb0-8648-c9b0cae0c4a9",
+    "keyword": "42513688da208415fbfb8f28e6d2df4b",
+    "answer": "Bye",
     "options": {},
     "from": "5491168738823",
-    "refSerialize": "7af65864494b12f0f7ef00589f4d3979"
+    "refSerialize": "34352f7c6475ad0b0382acdd255805f1"
   },
   {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
+    "ref": "ans_1c3d0ba0-0104-4e08-b473-49dcb61b4073",
+    "keyword": "key_4a340920-ee5f-4876-b809-244aa80cfcf1",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -2123,53 +1394,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
+    "refSerialize": "c080f4e7184af79d2a847b8490a09783",
     "from": "541168738823"
   },
   {
-    "ref": "ad338e78-e076-4c61-9b32-88c9b41eda6f",
-    "keyword": "391de296d3a353746bc1d383b0cdfddd",
-    "answer": "SSAMARTIN87@GMAIL.COM",
-    "options": {},
-    "from": "5491131730393",
-    "refSerialize": "8c6f487383c3d7aff896884bf995f9e5"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "9c98273a-42b8-40dc-827e-0187ffe7d688",
+    "ref": "2015a9e0-de0f-46d7-aaf9-2f349fdf74a7",
     "keyword": null,
-    "answer": "",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "4b93ffa6304d50c6b58469c3bad54df7"
-  },
-  {
-    "ref": "100cb042-7c45-412e-ab34-78b8c1863b62",
-    "keyword": null,
-    "answer": "Entiendo que deseas realizar una solicitud de autorización. Para poder ayudarte mejor, por favor selecciona el tipo de autorización que necesitas:\n\n1. Solicitud de autorización de plan materno infantil\n2. Solicitud de autorización de estudios y prácticas en ambulatorio\n3. Solicitud de autorización de medicación especial\n4. Solicitud de autorización de internaciones y/o cirugías programadas\n5. Solicitud de autorización de traslados médicos\n6. Menú principal\n\nPor favor, indícame el número de la opción que necesitas.",
+    "answer": "¡Hasta luego, Pablo! Que tengas un excelente día. 😊",
     "options": {
       "media": null,
       "buttons": [],
@@ -2177,604 +1408,6 @@
       "delay": 0
     },
     "from": "541168738823",
-    "refSerialize": "0833551d8c0ccef39603eb5c0dc89866"
-  },
-  {
-    "ref": "17dfb1b6-ea08-4a95-9dc5-d61c86df6dda",
-    "keyword": "8c6f487383c3d7aff896884bf995f9e5",
-    "answer": "cVICT",
-    "options": {},
-    "from": "5491131730393",
-    "refSerialize": "1795a70869e408252a19180fc2d66bb8"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "684fecd8-d2d9-4aa6-9ae8-5798bb9ddca1",
-    "keyword": null,
-    "answer": "Para poder asistirte, necesito que me proporciones tu correo electrónico y contraseña para iniciar sesión en SCIS y validar tu identidad.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "0a5ca5d21f229639ca7a608cc8c788e7"
-  },
-  {
-    "ref": "e42a4703-ebb0-4e32-b9e8-454ba2567ba5",
-    "keyword": "7af65864494b12f0f7ef00589f4d3979",
-    "answer": "2",
-    "options": {},
-    "from": "5491168738823",
-    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541168738823"
-  },
-  {
-    "ref": "db5183ab-8a9a-4a91-9da3-e85a578c5097",
-    "keyword": null,
-    "answer": "Para proceder con la solicitud de autorización de estudios y prácticas en ambulatorio, necesito algunos datos adicionales:\n\n1. Número de afiliado del integrante familiar que se va a realizar la autorización (puede ser el mismo número de afiliado que inicia la solicitud).\n2. Fecha de la orden médica (dd/MM/yyyy).\n3. Imagen de la orden médica (formatos permitidos: jpeg, png, jpg; peso máximo permitido: 10MB).\n\nPor favor, proporcióname esta información para continuar.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541168738823",
-    "refSerialize": "3ecca98f72ad3a593b8afd08b6e6fd4a"
-  },
-  {
-    "ref": "91c3c138-a8e2-471c-b755-b5e7a6a786cd",
-    "keyword": "1795a70869e408252a19180fc2d66bb8",
-    "answer": "SSAMARTIN87@GMAIL.COM",
-    "options": {},
-    "from": "5491131730393",
-    "refSerialize": "8c6f487383c3d7aff896884bf995f9e5"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "56aae499-2ec7-47be-a50c-dc9beee6ae8c",
-    "keyword": "8c6f487383c3d7aff896884bf995f9e5",
-    "answer": "cVICT",
-    "options": {},
-    "from": "5491131730393",
-    "refSerialize": "1795a70869e408252a19180fc2d66bb8"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "5491131730393"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "be172ce0-2c0d-46ff-9e12-03c68f2cc075",
-    "keyword": null,
-    "answer": "",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "4b93ffa6304d50c6b58469c3bad54df7"
-  },
-  {
-    "ref": "480c48dd-9523-4fc2-8170-82c87f644aae",
-    "keyword": null,
-    "answer": "Perfecto, ahora necesito que me proporciones tu contraseña para completar la validación de tu identidad.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "69531cb55080a32a80dd028f25521087"
-  },
-  {
-    "ref": "00a320b5-4aea-47d7-a8ea-1ea590dd6f10",
-    "keyword": "133dc3fd8c282d534169ccbc05a931c2",
-    "answer": "cVICT",
-    "options": {},
-    "from": "5491131730393",
-    "refSerialize": "1795a70869e408252a19180fc2d66bb8"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "c608febc-6e9c-4f61-9f71-7263f3e9154e",
-    "keyword": null,
-    "answer": "Parece que hubo un error al intentar validar tu identidad. Asegúrate de que el correo electrónico y la contraseña sean correctos.\n\nPor favor, intenta nuevamente proporcionando tu correo electrónico y contraseña para iniciar sesión en SCIS.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "af6afbba7928d561e4b63fb6eed281e4"
-  },
-  {
-    "ref": "49ad539b-8409-4213-8aa3-134a1b9bf803",
-    "keyword": "2294c3d08b53a6effa5df696a15b9d30",
-    "answer": "0800050002300",
-    "options": {},
-    "from": "5491168738823",
-    "refSerialize": "8541fec816f1df31ec82fd8377c78712"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541168738823"
-  },
-  {
-    "ref": "1bdeab7f-80f7-46db-a498-5d642b74810e",
-    "keyword": null,
-    "answer": "Gracias. Aquí tienes los integrantes de tu grupo familiar:\n\n1. Agustin Lopez (1234567891236)\n2. Ignacio Lopez (1234567891235)\n\nPor favor, indícame el número de afiliado del integrante familiar que se va a realizar la autorización.\n\nAdemás, necesito la fecha de la orden médica y la imagen de la orden médica (formatos permitidos: jpeg, png, jpg; peso máximo permitido: 10MB).",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541168738823",
-    "refSerialize": "6c81cb75e83e7371d55ac083ed9557d5"
-  },
-  {
-    "ref": "9829998d-ac21-49ab-9031-b3230bd84746",
-    "keyword": "8541fec816f1df31ec82fd8377c78712",
-    "answer": "Esos no son mis familiares",
-    "options": {},
-    "from": "5491168738823",
-    "refSerialize": "f9e7ea03609dea8435d005b04e3e4506"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541168738823"
-  },
-  {
-    "ref": "947edccb-dc48-4eff-87fd-631c80c4e050",
-    "keyword": null,
-    "answer": "Lamento el inconveniente. Es posible que haya ocurrido un error. Vamos a verificar nuevamente.\n\nPor favor, confirma nuevamente tu número de afiliado y la información de los integrantes de tu grupo familiar. Si el problema persiste, te recomendaría contactar al (11) 5246-1600 o enviar un mail a info@scis.com.ar para resolver este inconveniente.\n\nMientras tanto, ¿puedes proporcionarme la fecha de la orden médica y la imagen de la orden médica para continuar con la solicitud de autorización?",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541168738823",
-    "refSerialize": "961ce340ac2ba5ea509edf7d193b65a5"
-  },
-  {
-    "ref": "34b97351-c96c-4fbd-b122-732a8c3fdfc8",
-    "keyword": "f9e7ea03609dea8435d005b04e3e4506",
-    "answer": "0800050002300",
-    "options": {},
-    "from": "5491168738823",
-    "refSerialize": "8541fec816f1df31ec82fd8377c78712"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541168738823"
-  },
-  {
-    "ref": "7439d848-fade-4fc2-8eca-a2afbb3819e5",
-    "keyword": null,
-    "answer": "Gracias por confirmar tu número de afiliado. Vamos a proceder con la solicitud de autorización de estudios y prácticas en ambulatorio.\n\nPor favor, proporciona la siguiente información:\n1. Fecha de la orden médica (dd/MM/yyyy).\n2. Imagen de la orden médica (formatos permitidos: jpeg, png, jpg; peso máximo permitido: 10MB).\n\nUna vez que tenga estos datos, podré continuar con la solicitud.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541168738823",
-    "refSerialize": "4dbedf9d08a68066e5ee29b0e49366fd"
-  },
-  {
-    "ref": "03b6857e-c076-48e0-9e47-9e70c33bb4be",
-    "keyword": "8541fec816f1df31ec82fd8377c78712",
-    "answer": "Cuál es mí nombre?",
-    "options": {},
-    "from": "5491168738823",
-    "refSerialize": "643077b08c8fa59b9ed7eacefb8e0597"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541168738823"
-  },
-  {
-    "ref": "f20bca59-ba81-4702-8dad-28aacded7e87",
-    "keyword": null,
-    "answer": "Tu nombre es Javier Andrés Taborda.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541168738823",
-    "refSerialize": "8ea2b6652d2bb64808e675223855a39d"
-  },
-  {
-    "ref": "c5c3ae81-e808-4ec1-92af-dcd436b01a92",
-    "keyword": "643077b08c8fa59b9ed7eacefb8e0597",
-    "answer": "No... Para el número de socio 0800050002300 cuál es el nombre?",
-    "options": {},
-    "from": "5491168738823",
-    "refSerialize": "0e35c7da2d9d2ac67c632b7dd3d9f40a"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541168738823"
-  },
-  {
-    "ref": "2ef32f30-4eb7-4c9a-9c37-065700fa3bd2",
-    "keyword": null,
-    "answer": "Lamento la confusión. Actualmente, no tengo acceso directo para verificar el nombre asociado al número de socio 0800050002300. Te recomendaría contactar al (11) 5246-1600 o enviar un mail a info@scis.com.ar para obtener esta información.\n\nSi necesitas ayuda con otra cosa, por favor, házmelo saber.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541168738823",
-    "refSerialize": "145d43254664ab9180ec026e891c46cd"
-  },
-  {
-    "ref": "90759ca2-0c3c-47ef-9d38-bdf29c7d531a",
-    "keyword": "0e35c7da2d9d2ac67c632b7dd3d9f40a",
-    "answer": "A ver intenta validar mí identidad",
-    "options": {},
-    "from": "5491168738823",
-    "refSerialize": "32de6d15e2c7595515f1291f8bf3b349"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541168738823"
-  },
-  {
-    "ref": "b1b80501-a355-4c4e-a4fb-8b583eb35461",
-    "keyword": null,
-    "answer": "Para validar tu identidad, necesito tu email y contraseña de afiliado para iniciar sesión en SCIS. Por favor, proporcióname estos datos para continuar.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541168738823",
-    "refSerialize": "f266ab6b61f3d38dd7f210f77405ed89"
-  },
-  {
-    "ref": "75c8ca4d-2b9b-4f45-a9b4-cc98f8ab8905",
-    "keyword": "32de6d15e2c7595515f1291f8bf3b349",
-    "answer": "alzugaraina@scis.com.ar",
-    "options": {},
-    "from": "5491168738823",
-    "refSerialize": "e3cb3b093b7514369ee0b86cd9092079"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541168738823"
-  },
-  {
-    "ref": "77571855-3ccc-4551-b88d-f8ae85f2f54e",
-    "keyword": "e3cb3b093b7514369ee0b86cd9092079",
-    "answer": "VZNNv",
-    "options": {},
-    "from": "5491168738823",
-    "refSerialize": "aa24470101bd494608021de6634ec140"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "5491168738823"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541168738823"
-  },
-  {
-    "ref": "9ea7409a-20eb-4a0b-b59c-d6fc8f279f22",
-    "keyword": null,
-    "answer": "",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541168738823",
-    "refSerialize": "4b93ffa6304d50c6b58469c3bad54df7"
-  },
-  {
-    "ref": "7acb9e2a-61d2-4556-802b-71735409ff97",
-    "keyword": null,
-    "answer": "Necesito también tu contraseña de afiliado para poder validar tu identidad. Por favor, proporciónamela para continuar.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541168738823",
-    "refSerialize": "4fa7445d2bd1b9f387d9ad604258d530"
-  },
-  {
-    "ref": "4bd22f6d-82a1-4a13-831a-78108da52a7f",
-    "keyword": "1795a70869e408252a19180fc2d66bb8",
-    "answer": "D",
-    "options": {},
-    "from": "5491131730393",
-    "refSerialize": "823338b49904aa246659c3286f4df539"
-  },
-  {
-    "ref": "ans_d7d03b59-b0ca-4fe3-ac54-68ed2a0f4b63",
-    "keyword": "key_08940091-77b2-4da1-8b55-082a9e6d980c",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "133dc3fd8c282d534169ccbc05a931c2",
-    "from": "541131730393"
-  },
-  {
-    "ref": "08d13171-c67c-41c6-9592-3d3070ffbda3",
-    "keyword": null,
-    "answer": "Para poder asistirte, necesito que me proporciones tu correo electrónico y contraseña para iniciar sesión en SCIS y validar tu identidad.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "541131730393",
-    "refSerialize": "0a5ca5d21f229639ca7a608cc8c788e7"
+    "refSerialize": "204cb420f3d88aec32aed8472bfa9fd6"
   }
 ]

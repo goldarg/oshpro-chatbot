@@ -9,8 +9,8 @@ class AssistantChat {
   chatPool = {};
   assistant_id = "";
   openai = undefined;
-  running = false;
   functions = {};
+  blockedTokens = false;
 
   constructor(_assistant_id, allow_functions) {
     this.assistant_id = _assistant_id;
@@ -23,21 +23,24 @@ class AssistantChat {
   getThread = async (phone) => {
     if (this.chatPool[phone] === undefined) {
       const thread = await this.openai.beta.threads.create();
-      this.chatPool[phone] = thread;
-      return thread;
-    } else {
-      return this.chatPool[phone];
+      console.log("CREANDO THREAD");
+      this.chatPool[phone] = { thread, running: false };
     }
+
+    return this.chatPool[phone];
   };
 
   sendMessage = async (phoneNumber, msg, filename = "") => {
     const isImage = filename == "" ? false : true;
-    if (this.running) return;
-    this.running = true;
-    let thread = undefined;
+    let hasPriority = false;
+    const threadPhone = await this.getThread(phoneNumber);
+    const { thread } = threadPhone;
+    let { running } = threadPhone;
+    if (running)
+      return "Por favor, espere que estamos procesando su mensaje anterior.";
     try {
-      thread = await this.getThread(phoneNumber);
-      //console.log(thread);
+      threadPhone.running = true;
+      running = true;
 
       let message = undefined;
       if (isImage) {
@@ -47,30 +50,62 @@ class AssistantChat {
 
         const urlStr = urlDownloads.toString();
 
-        message = await this.openai.beta.threads.messages.create(thread.id, {
-          role: "user",
-          content: [
-            { type: "image_url", image_url: { url: urlStr, detail: "auto" } },
-          ],
-        });
+        try {
+          message = await this.openai.beta.threads.messages.create(thread.id, {
+            role: "user",
+            content: [
+              { type: "image_url", image_url: { url: urlStr, detail: "auto" } },
+            ],
+          });
+        } catch (error) {
+          console.error(error);
+
+          if (
+            error.message &&
+            error.message.toLowerCase().includes("can't add messages")
+          ) {
+            return "Por favor, espere que estamos procesando su mensaje anterior.";
+          } else {
+            throw error;
+          }
+        }
       } else {
-        message = await this.openai.beta.threads.messages.create(thread.id, {
-          role: "user",
-          content: msg,
-        });
+        try {
+          message = await this.openai.beta.threads.messages.create(thread.id, {
+            role: "user",
+            content: msg,
+          });
+        } catch (error) {
+          console.error(error);
+
+          if (
+            error.message &&
+            error.message.toLowerCase().includes("can't add messages")
+          ) {
+            return "Por favor, espere que estamos procesando su mensaje anterior.";
+          } else {
+            throw error;
+          }
+        }
       }
+
+      const maxRetries = 4;
+      let retryCount = 0;
+
+      await this.#waitForTokens();
 
       let run = await this.openai.beta.threads.runs.create(thread.id, {
         assistant_id: this.assistant_id,
       });
 
-      while (this.running) {
+      while (running) {
         run = await this.openai.beta.threads.runs.retrieve(thread.id, run.id);
 
         console.log(run.status);
         switch (run.status) {
           case "completed":
-            this.running = false;
+            threadPhone.running = false;
+            running = false;
             break;
           case "requires_action":
             let tool_outputs = [];
@@ -95,7 +130,9 @@ class AssistantChat {
               (obj, index) =>
                 (tool_outputs[index].output = JSON.stringify(obj.value))
             );
-            //console.log(JSON.stringify(tool_outputs));
+            console.log("TOOL OUTPUTS:");
+            console.log(JSON.stringify(tool_outputs));
+            await delay(20000);
             await this.openai.beta.threads.runs.submitToolOutputs(
               thread.id,
               run.id,
@@ -104,26 +141,164 @@ class AssistantChat {
 
             break;
           case ("cancelled", "expired"):
-            this.running = false;
+            console.log("CANCELLED OR EXPIRED");
+            threadPhone.running = false;
+            running = false;
             break;
           case "failed":
-            this.running = false;
-            console.debug(run);
+            if (retryCount < maxRetries) {
+              try {
+                const messagedList =
+                  await this.openai.beta.threads.messages.list(thread.id);
+              } catch (error) {
+                console.log("Error en el listado de mensajes");
+                console.log(error);
+              }
+              retryCount++;
+              console.log(`Reintentando run... (${retryCount}/${maxRetries})`);
+              const { code, message } = run.last_error;
+
+              console.log({ code, message });
+
+              let timeToWait = 10000;
+
+              if (code == "rate_limit_exceeded") {
+                let extractedDelay = this.#extractDelayInMilliseconds(message);
+
+                if (extractedDelay) {
+                  timeToWait = extractedDelay;
+                }
+              }
+
+              console.debug(run);
+              this.blockedTokens = true;
+              hasPriority = true;
+              await delay(
+                retryCount < 3
+                  ? timeToWait * 6
+                  : timeToWait * 6 < 60
+                  ? 60
+                  : timeToWait * 6
+              );
+              run = await this.openai.beta.threads.runs.create(thread.id, {
+                assistant_id: this.assistant_id,
+              });
+
+              break;
+            } else {
+              try {
+                await this.openai.beta.threads.runs.submitToolOutputs(
+                  thread.id,
+                  run.id,
+                  { tool_outputs: [] }
+                );
+              } catch (error) {
+                console.log(error);
+              }
+              console.log("Número máximo de intentos alcanzado. Abortando.");
+              threadPhone.running = false;
+              running = false;
+              console.debug(run);
+              console.log("FAILEDDD");
+              return "No pude procesar la respuesta. Inténtalo de nuevo.";
+            }
         }
-        await delay(500);
+        await delay(1000);
       }
       console.log("obteniendo messages");
       const messageList = await this.openai.beta.threads.messages.list(
         thread.id
       );
-      //console.log(messageList);
-      return messageList.data[0].content[0].text.value;
+      let mensajeToRespond = messageList.data[0].content[0].text.value;
+
+      console.log(phoneNumber);
+      console.log(mensajeToRespond);
+      return mensajeToRespond;
     } catch (error) {
       console.log(error);
       console.log("borrando thread");
       await this.openai.beta.threads.del(thread.id);
+      this.chatPool[phoneNumber] = undefined;
+    } finally {
+      if (hasPriority) {
+        this.blockedTokens = false;
+      }
+
+      if (threadPhone) {
+        threadPhone.running = false;
+        running = false;
+      }
     }
   };
+
+  retryOperation = async (operation, retries, delay) => {
+    let attempt = 0;
+
+    while (attempt < retries) {
+      try {
+        return await operation();
+      } catch (error) {
+        attempt++;
+        console.error(`Attempt ${attempt} failed:`, error);
+
+        if (attempt < retries) {
+          console.log(`Retrying in ${delay / 1000} seconds...`);
+          await new Promise((resolve) => setTimeout(resolve, delay));
+        } else {
+          throw new Error(`Operation failed after ${retries} attempts.`);
+        }
+      }
+    }
+  };
+
+  createMessageWithRetries = async (threadId, role, content) => {
+    return await this.retryOperation(
+      () =>
+        this.openai.beta.threads.messages.create(threadId, {
+          role,
+          content,
+        }),
+      3,
+      20000
+    );
+  };
+
+  #waitForTokens() {
+    return new Promise((resolve) => {
+      const checkCondition = () => {
+        if (!this.blockedTokens) {
+          resolve(undefined);
+        } else {
+          setTimeout(checkCondition);
+        }
+      };
+
+      checkCondition();
+    });
+  }
+
+  #extractDelayInMilliseconds(message) {
+    const regex = /try again in (\d+(\.\d+)?)(s|ms)/;
+    const match = message.match(regex);
+
+    if (match && match[1] && match[3]) {
+      const timeValue = parseFloat(match[1]);
+      const unit = match[3];
+
+      let timeInMilliseconds;
+
+      if (unit === "s") {
+        timeInMilliseconds = timeValue * 1000; // Convertir segundos a milisegundos
+      } else if (unit === "ms") {
+        timeInMilliseconds = timeValue; // Ya está en milisegundos
+      }
+
+      return timeInMilliseconds;
+    } else {
+      console.error("No se pudo extraer el tiempo de espera del mensaje.");
+      return null; // Retorna null si no se encuentra el tiempo
+    }
+  }
 }
 
 module.exports = AssistantChat;
